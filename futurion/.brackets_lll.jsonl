@@ -1,0 +1,193 @@
+{
+    "sass.enabled": false,
+    "path": {
+        "main.scss": {
+            "sass.enabled": true,
+            "sass.options": {
+                "includePaths": [],
+                "sourceComments": false,
+                "outputStyle": "nested"
+            },
+            "bracketstoix.prefs": {
+                "version": {
+                    "value": "2.8"
+                },
+                "commands": {
+                    "value": {
+                        "showinmenu": [
+                            "uppercase",
+                            "lowercase",
+                            "capitalize",
+                            "camelcase",
+                            "htmlencode",
+                            "htmldecode",
+                            "urlencode",
+                            "join",
+                            "split",
+                            "number",
+                            "reverse",
+                            "trimleading",
+                            "trimtrailing",
+                            "markdowntrimtrailing",
+                            "sortascending",
+                            "sortdescending",
+                            "removeduplicates",
+                            "removeemptylines",
+                            "unixtowin",
+                            "wintounix",
+                            "singleslashtodouble",
+                            "doubletosingleslash",
+                            "singlequotetodouble",
+                            "doubletosinglequote",
+                            "togglequote",
+                            "tabtospace",
+                            "spacetotab",
+                            "rgb-hex",
+                            "untag",
+                            "tag",
+                            "breaklineat",
+                            "loremipsum",
+                            "functionjsdoc",
+                            "declarejslintglobal",
+                            "extractortoix",
+                            "replacetoix",
+                            "openurl",
+                            "websearch",
+                            "browsefile",
+                            "recentfiles",
+                            "copyfilename",
+                            "copyfullname",
+                            "regnize",
+                            "htmlreport",
+                            "compiler",
+                            "commands",
+                            "commandsmapper",
+                            "options",
+                            "help",
+                            "about"
+                        ],
+                        "showinctxmenu": [],
+                        "hotkeys": {}
+                    }
+                },
+                "splitMarker": {
+                    "value": ","
+                },
+                "historySize": {
+                    "value": 20
+                },
+                "recentSize": {
+                    "value": 20
+                },
+                "showcxtedit": {
+                    "value": true
+                },
+                "recentFiles": {
+                    "files": [
+                        "C:/MyDocs/Asa/workspace/eclipse/OnePage/futurion_landing/index.html",
+                        "C:/MyDocs/Asa/workspace/eclipse/OnePage/futurion_landing/css/main.scss",
+                        "C:/MyDocs/Asa/workspace/eclipse/OnePage/futurion_landing/css/components/_content_feature_components.scss",
+                        "C:/MyDocs/Asa/workspace/eclipse/OnePage/futurion_landing/css/components/_content_feature.scss",
+                        "C:/MyDocs/Asa/workspace/NodeJs/KarokaNode/client/views/components/create/detail.ejs",
+                        "C:/MyDocs/Asa/workspace/NodeJs/KarokaNode/public/css/create/_create.scss",
+                        "C:/MyDocs/Asa/workspace/NodeJs/KarokaNode/client/views/components/create/about.ejs",
+                        "C:/MyDocs/Asa/workspace/NodeJs/KarokaNode/client/views/create.ejs",
+                        "C:/MyDocs/Asa/workspace/NodeJs/KarokaNode/client/views/components/create/menu-right.ejs",
+                        "C:/MyDocs/Asa/workspace/NodeJs/KarokaNode/public/css/menu/_right-nav.scss",
+                        "C:/MyDocs/Asa/workspace/NodeJs/KarokaNode/public/css/_search-result-list.scss",
+                        "C:/MyDocs/Asa/workspace/NodeJs/KarokaNode/app.js",
+                        "C:/MyDocs/Asa/workspace/NodeJs/AfriOne/app.js",
+                        "C:/MyDocs/Asa/workspace/NodeJs/AfriOne/public/css/client.css",
+                        "C:/MyDocs/Asa/workspace/NodeJs/AfriOne/client/views/upload/choose.ejs",
+                        "C:/MyDocs/Asa/workspace/eclipse/OnePage/futurion_landing/css/components/_content_price_list.scss",
+                        "C:/MyDocs/Asa/workspace/eclipse/OnePage/futurion_landing/css/components/_cover.scss",
+                        "C:/MyDocs/Asa/workspace/eclipse/OnePage/futurion_landing/js/main.js",
+                        "C:/MyDocs/Asa/workspace/eclipse/OnePage/futurion_landing/css/components/_init.scss",
+                        "C:/MyDocs/Asa/workspace/eclipse/OnePage/futurion_landing/TSIIZY/desc.html"
+                    ]
+                },
+                "startNum": {
+                    "value": 1
+                },
+                "numSep": {
+                    "value": ".\\$",
+                    "history": []
+                },
+                "tabSize": {
+                    "value": 2
+                },
+                "findre": {
+                    "value": "",
+                    "history": []
+                },
+                "find": {
+                    "value": "",
+                    "history": []
+                },
+                "replace": {
+                    "value": "",
+                    "history": []
+                },
+                "startValue": {
+                    "value": ""
+                },
+                "stepValue": {
+                    "value": ""
+                },
+                "iswordsonly": {
+                    "value": false
+                },
+                "isregexpr": {
+                    "value": true
+                },
+                "isignorecase": {
+                    "value": false
+                },
+                "isimultiline": {
+                    "value": false
+                },
+                "isall": {
+                    "value": true
+                },
+                "isselonly": {
+                    "value": true
+                },
+                "webSearch": {
+                    "value": "https://www.google.com/search?q="
+                },
+                "js6": {
+                    "value": "traceur --out \"{{out}}\" --script \"{{in}}\"",
+                    "fields": {
+                        "autosave": {
+                            "value": false
+                        }
+                    }
+                },
+                "scss": {
+                    "value": "sass --sourcemap \"{{in}}\" \"{{out}}\"",
+                    "fields": {
+                        "autosave": {
+                            "value": false
+                        }
+                    }
+                },
+                "linrparagraphs": {
+                    "value": "1"
+                },
+                "limaxcharsperline": {
+                    "value": "160"
+                },
+                "lihtmlparawrap": {
+                    "value": ""
+                },
+                "maxcharsperline": {
+                    "value": "80"
+                },
+                "tobreakwords": {
+                    "value": false
+                }
+            },
+            "brackets-node-debugger.lastVersion": "0.1.7"
+        }
+    }
+}

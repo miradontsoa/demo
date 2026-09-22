@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": ";;AAMA,8BAA8B;EAC7B,KAAK,EAAE,IAAI;EACX,SAAS,EAAE,KAAK;;AAEjB,qCAAqC;EACpC,OAAO,EAAE,IAAI;;AAEd,sCAAuC;EACtC,OAAO,EAAE,IAAI;;AAEd,yCAAyC;EACxC,KAAK,ECRG,OAAO;EDSf,SAAS,EAAE,IAAI;EACf,yBAAwB;IAHzB,yCAAyC;MAIvC,SAAS,EAAE,IAAI;;AAGjB,mEAAmE;EAClE,UAAU,EAAE,iBAAgB;EAC5B,KAAK,EAAE,IAAI;;AAEZ,+CAA+C;EAC9C,KAAK,ECnBG,OAAO;;ADqBhB,4DAA4D;EAC3D,KAAK,ECtBG,OAAO",
+"sources": ["../sass/style-color2.scss","../sass/_variables.scss"],
+"names": [],
+"file": "style-color2.css"
+}

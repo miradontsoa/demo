@@ -1,0 +1,486 @@
+<!doctype html>
+<!--
+Website By Miradontsoa / MiVFX
+http://twitter.com/miradontsoa
+http://cutekit.net
+-->
+
+<html class="no-js smooth-scroll-off" lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+  <!-- Page Title Here -->
+  <title>Smoothux - Creative portfolio website template</title>
+
+  <!-- Meta -->
+  <!-- Page Description Here -->
+  <meta name="description"
+    content="A beautiful and creative portfolio template. It is mobile friend (responsive) and comes with smooth animations">
+
+  <!-- Disable screen scaling-->
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, user-scalable=0">
+
+  <!-- Twitter Meta -->
+  <meta name="twitter:site" content="@twprofile">
+  <meta name="twitter:creator" content="@twprofile">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Page Title">
+  <meta name="twitter:description" content="Description of the page">
+  <meta name="twitter:image" content="/img/bg-default.jpg">
+
+  <!-- Facebook Meta -->
+  <meta property="og:url" content="your website url here">
+  <meta property="og:title" content="Page Title">
+  <meta property="og:description" content="Description of the page">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="/img/bg-default.jpg">
+  <meta property="og:image:secure_url" content="/img/bg-default.jpg">
+  <meta property="og:image:type" content="image/jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+
+  <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
+  <!-- Web fonts and Web Icons -->
+  <link rel="stylesheet" href="./fonts/sourcesans/stylesheet.css">
+  <link rel="stylesheet" href="./fonts/ptserif/stylesheet.css">
+  <link rel="stylesheet" href="./fonts/jost/stylesheet.css">
+  <link rel="stylesheet" href="./fonts/poppins/stylesheet.css">
+  <link rel="stylesheet" href="./fonts/ionicons.min.css">
+  <link rel="stylesheet" href="./fonts/font-awesome.min.css">
+
+  <!-- Vendor CSS style -->
+  <link rel="stylesheet" href="./css/pageloader.css">
+
+  <!-- Uncomment below to load individualy vendor CSS -->
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="./js/vendor/swiper/swiper.min.css">
+  <link rel="stylesheet" href="./js/vendor/vegas/vegas.min.css">
+  <link rel="stylesheet" href="./js/vendor/fullpage/jquery.fullpage.min.css">
+
+  <!-- Main CSS files -->
+  <link rel="stylesheet" href="./css/main.css">
+
+  <!-- add alternative CSS rules here -->
+  <link rel="stylesheet" href="./css/style-4.css">
+
+</head>
+
+<body id="menu" class="body-page">
+
+  <!-- Page Loader : just comment these lines to remove it -->
+  <div class="page-loader" id="page-loader">
+    <div>
+      <div class="icon ion-spin"></div>
+      <p>loading</p>
+    </div>
+  </div>
+
+  <!-- BEGIN OF page cover -->
+  <div class="page-cover">
+    <!-- Cover Background -->
+    <div class="cover-bg pos-abs size-full bg-img" data-image-src="img/bg-default.jpg"></div>
+    <div class="cover-bg pos-abs size-full bg-cover-gradientradial opacity-9"></div>
+
+  </div>
+  <!--END OF page cover -->
+
+  <!-- BEGIN OF Header navigation of the page -->
+  <header class="page-header loading-anim">
+    <!-- Begin of navbar-top -->
+    <nav id="navbar-menu" class="navbar navbar-top bd-bottom ">
+      <div class="navbar-group">
+        <a class="navbar-brand logo-brand bd-right">
+          <span class="logo">
+            <img class="light-logo " src="./img/logo_white.png" alt="Logo">
+          </span>
+          <span class="text">
+            <span class="line strong t-upper t-spaced">
+              <span>Pro<span class="fw-light">design</span></span>
+            </span>
+          </span>
+        </a>
+        <div class="navbar-collapse d-none d-md-flex">
+          <ul class="navbar-nav nav-menu">
+            <li class="nav-item fs-normal">
+              <a href="./index-style-4.html#about">Home</a>
+            </li>
+            <li class="nav-item fs-normal">
+              <a href="./gallery-style-4.html">Works</a>
+            </li>
+            <li class="nav-item fs-normal">
+              <a href="./item-style-4.html">Detail</a>
+            </li>
+            <li class="nav-item fs-normal">
+              <a href="./demo.html">Demo</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="navbar-group group-right ">
+        <div class="navbar-social">
+          <ul class="icons">
+            <li><a href="//twitter/miradontsoa"><i class="icon fa fa-twitter"></i></a></li>
+            <li><a href="//instagram.com/miradontsoa"><i class="icon fa fa-instagram"></i></a></li>
+          </ul>
+        </div>
+        <div class="navbar-toggler">
+          <a id="menu-icon" class="menu-toggler btn- btn btn-line-b py-3 py-md-0" href="#">
+            <span class="icon icon-menu icon-menu-a">
+              <span class="bars">
+                <span class="bar1"></span>
+                <span class="bar2"></span>
+              </span>
+            </span>
+          </a>
+        </div>
+      </div>
+    </nav>
+    <!-- End of navbar-top -->
+    <!-- Begin of navbar-sidebar -->
+    <nav class="navbar navbar-sidebar ">
+      <div class="navbar-group">
+        <div class="navbar-collapse">
+          <ul id="sidebar-menu" class="navbar-nav nav-menu">
+            <li class="nav-item active" data-menuanchor="gallery">
+              <a href="#gallery">
+                <span class="icon ion-android-image"></span>
+                <span class="text">Gallery</span>
+              </a>
+            </li>
+            <li class="nav-item" data-menuanchor="featured-projects">
+              <a href="#featured-projects">
+                <span class="icon ion-grid"></span>
+                <span class="text">Projects</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End of navbar-sidebar -->
+    <!-- Begin of navfull-menu -->
+    <nav id="navfull-menu" class="navfull navfull-menu navigation menu-behavior">
+      <div class="navbar-group group-bg">
+        <ul class="navbar-nav nav-menu menu-close font-title fw-bold">
+          <li class="nav-item active">
+            <a href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="item.html">Item</a>
+          </li>
+          <li class="nav-item">
+            <a href="gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a href="demo.html">Demo</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- End of navfull-menu -->
+
+  </header>
+  <!-- END OF Header navigation of the page -->
+
+  <!-- BEGIN OF page main content -->
+  <main class="page-main fullpage-scroll anim-slide-scroll " id="mainpage">
+
+    <!-- Begin of gallery -->
+    <section data-id="gallery" class="section section-slide fullsize-slide section-page fp-auto-height-responsive">
+      <div class="slide-size">
+        <div class="section-slides slider-b swiper-container anim">
+          <!-- slider wrapper -->
+          <div class="swiper-wrapper slider-wrapper">
+            <!-- .slide-item -->
+            <div class="swiper-slide slide-item">
+              <div class="slide-b slide-anim fullscreen-slide content-top">
+                <div class="slide-bg fade-1">
+                  <img class="img-block" alt="image" src="./img/samples/img-sample4.jpg">
+                </div>
+                <div class="slide-title title-right">
+                  <h3 class="title">
+                    <span class="text-stroke">01</span>
+                  </h3>
+                </div>
+                <div class="slide-content">
+                  <div class="c-wrapper width-medium flex-col flex-full">
+                    <div class="row no-gutters flex-full">
+                      <div class="col col-12 col-lg-6 content-center">
+                        <div class="slide-text">
+
+                          <div class="s-header anim-1">
+                            <h2 class="s-title font-title">
+                              App Crafter
+                            </h2>
+                          </div>
+                          <div class="s-text anim-2">
+                            <h4 class="s-subtitle font-title">
+                              Website
+                            </h4>
+                            <p>Another type of lorem ipsum dolor awesome project that we launched.
+                            </p>
+                            <a class="btn btn-line-a mt-5" href="#">
+                              <span class="text text-uppercase">Details</span>
+                              <span class="icon icon-menu icon-arrow-a icon-anim">
+                                <span class="arrow-right"></span>
+                              </span>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end of .slide-item -->
+
+            <!-- .slide-item -->
+            <div class="swiper-slide slide-item">
+              <div class="slide-b slide-anim fullscreen-slide content-center">
+                <div class="slide-bg fade-1">
+                  <img class="img-block" alt="image" src="./img/samples/img-sample6.jpg">
+                </div>
+                <div class="slide-title title-right">
+                  <h3 class="title">
+                    <span class="text-stroke">02</span>
+                  </h3>
+                </div>
+                <div class="slide-content">
+                  <div class="c-wrapper width-medium flex-col flex-full">
+                    <div class="row no-gutters flex-full">
+                      <div class="col col-12 col-lg-6 content-bottom">
+                        <div class="slide-text">
+                          <div class="s-header anim-1">
+                            <h2 class="s-title font-title">
+                              Band Tour
+                            </h2>
+                          </div>
+                          <div class="s-text anim-2">
+                            <h4 class="s-subtitle font-title">
+                              Marketing
+                            </h4>
+                            <p>Another type of lorem ipsum dolor awesome project that we launched.
+                            </p>
+                            <a class="btn btn-line-a mt-5" href="#">
+                              <span class="text text-uppercase">Details</span>
+                              <span class="icon icon-menu icon-arrow-a icon-anim">
+                                <span class="arrow-right"></span>
+                              </span>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end of .slide-item -->
+
+            <!-- .slide-item -->
+            <div class="swiper-slide slide-item">
+              <div class="slide-b slide-anim fullscreen-slide content-bottom">
+                <div class="slide-bg fade-1">
+                  <img class="img-block" alt="image" src="./img/samples/img-sample7.jpg">
+                </div>
+                <div class="slide-title title-right">
+                  <h3 class="title">
+                    <span class="text-stroke">03</span>
+                  </h3>
+                </div>
+                <div class="slide-content">
+                  <div class="c-wrapper width-medium flex-col flex-full">
+                    <div class="row no-gutters flex-full">
+                      <div class="col col-12 col-lg-6 content-top">
+                        <div class="slide-text">
+                          <div class="s-header anim-1">
+                            <h2 class="s-title font-title">
+                              Tropika Tour
+                            </h2>
+                          </div>
+                          <div class="s-text anim-2">
+                            <h4 class="s-subtitle font-title">
+                              Promotion
+                            </h4>
+                            <p>Another type of lorem ipsum dolor awesome project that we launched.
+                            </p>
+                            <a class="btn btn-line-a mt-5" href="#">
+                              <span class="text text-uppercase">Details</span>
+                              <span class="icon icon-menu icon-arrow-a icon-anim">
+                                <span class="arrow-right"></span>
+                              </span>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end of .slide-item -->
+
+          </div>
+
+          <!-- slider arrows -->
+          <div class="slider-arrow">
+            <a class="slider-prev btn btn-line-b slider-btn-top" href="#">
+              <span class="icon icon-menu icon-arrow-a icon-anim">
+                <span class="arrow-left"></span>
+              </span>
+              <span class="text">Previous</span>
+            </a>
+            <a class="slider-next btn btn-line-b" href="#">
+              <span class="text">Next</span>
+              <span class="icon icon-menu icon-arrow-a icon-anim">
+                <span class="arrow-right"></span>
+              </span>
+            </a>
+          </div>
+
+          <!--slider pagination -->
+          <div class="slider-pagination swiper-pagination"></div>
+
+        </div>
+      </div>
+
+      <div class="section-footer section-footer-a  d-none d-lg-block ">
+        <div class="footer-right mr-4">
+          <a class="btn btn-line-b scroll down px-0 py-0" href="#">
+            <span class="text">Scroll</span>
+            <span class="icon icon-menu icon-arrow-a icon-anim">
+              <span class="arrow-down"></span>
+            </span>
+          </a>
+        </div>
+      </div>
+
+    </section>
+    <!-- End of gallery -->
+    <!-- Begin of featured-projects -->
+    <section data-id="featured-projects" class="section section-page  fp-auto-height-responsive">
+      <div class="section-title title-right">
+        <h3 class="title title-anim">
+          <span class="text-stroke">Works</span>
+        </h3>
+      </div>
+      <div class="section-margin anim">
+
+        <div class="section-header align-x-center">
+          <div class="h-content width-medium">
+            <h2 class="h-title font-title anim-1">
+              Projects
+            </h2>
+          </div>
+        </div>
+
+        <div class="section-content align-x-center">
+          <div class="c-wrapper width-medium text-wrapper mb-6">
+            <div class="row no-gutters">
+              <div class="col col-12">
+                <div class="content-text anim-2">
+                  <p class="mb-0">
+                    We provide many services lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                    Maecenas
+                    porttitor congue massa.
+                  </p>
+                </div>
+                <div class="btns-group mt-5">
+                  <a class="btn btn-line-a anim-3" href="#products">
+                    <span class="text">Products</span>
+                    <span class="icon icon-menu icon-arrow-a icon-anim">
+                      <span class="arrow-right"></span>
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="c-wrapper width-medium anim-3">
+            <div class="row">
+
+              <!-- item -->
+              <div class="col-12 col-md-6">
+                <div class="item-grid-a">
+                  <div class="item-header">
+                    <h3 class="title">Bookfriend</h3>
+                  </div>
+                  <div class="item-img mt-4 mb-4 rounded-border">
+                    <img class="img" src="./img/samples/img-sample5.jpg" alt="image">
+                  </div>
+                  <div class="item-content">
+                    <h4 class="i-price font-title">UX Design, Mobile App</h4>
+                    <p class="i-text">
+                      A pretty cool project we developed last time.
+                    </p>
+                    <a class="btn btn-line-a" href="">
+                      <span class="text">Learn more</span>
+                      <span class="icon icon-menu icon-arrow-a icon-anim">
+                        <span class="arrow-right"></span>
+                      </span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- item -->
+              <div class="col-12 col-md-6">
+                <div class="item-grid-a">
+                  <div class="item-header">
+                    <h3 class="title">Plantbox</h3>
+                  </div>
+                  <div class="item-img mt-4 mb-4 rounded-border">
+                    <img class="img" src="./img/samples/img-sample8.jpg" alt="image">
+                  </div>
+                  <div class="item-content">
+                    <h4 class="i-price font-title">Product Design</h4>
+                    <p class="i-text">
+                      A pretty cool project we developed last time.
+                    </p>
+                    <a class="btn btn-line-a" href="">
+                      <span class="text">Learn more</span>
+                      <span class="icon icon-menu icon-arrow-a icon-anim">
+                        <span class="arrow-right"></span>
+                      </span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="section-footer"></div>
+    </section>
+    <!-- End of featured-projects -->
+  </main>
+  <!-- END OF page main content -->
+
+  <!-- scripts -->
+  <!-- All Javascript plugins goes here -->
+  <script src="./js/vendor/jquery-1.12.4.min.js"></script>
+
+  <!-- All vendor scripts -->
+  <script src="./js/vendor/vegas/vegas.min.js"></script>
+  <script src="./js/vendor/swiper/swiper.min.js"></script>
+
+  <script src="./js/vendor/fullpage/scrolloverflow.min.js"></script>
+  <script src="./js/vendor/fullpage/jquery.fullpage.min.js"></script>
+
+  <!-- Form script -->
+  <script src="./js/vendor/form/jqueryvalidation.min.js"></script>
+  <script src="./js/vendor/form/form_script.js"></script>
+
+  <!-- Javascript main files -->
+  <script src="./js/main.js"></script>
+
+</body>
+
+</html>

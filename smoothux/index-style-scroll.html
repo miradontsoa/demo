@@ -1,0 +1,1415 @@
+<!doctype html>
+<!--
+Website By Miradontsoa / MiVFX
+http://twitter.com/miradontsoa
+http://cutekit.net
+-->
+
+<html class="no-js smooth-scroll-off" lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+  <!-- Page Title Here -->
+  <title>Smoothux - Creative portfolio website template</title>
+
+  <!-- Meta -->
+  <!-- Page Description Here -->
+  <meta name="description"
+    content="A beautiful and creative portfolio template. It is mobile friend (responsive) and comes with smooth animations">
+
+  <!-- Disable screen scaling-->
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, user-scalable=0">
+
+  <!-- Twitter Meta -->
+  <meta name="twitter:site" content="@twprofile">
+  <meta name="twitter:creator" content="@twprofile">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Page Title">
+  <meta name="twitter:description" content="Description of the page">
+  <meta name="twitter:image" content="/img/bg-default.jpg">
+
+  <!-- Facebook Meta -->
+  <meta property="og:url" content="your website url here">
+  <meta property="og:title" content="Page Title">
+  <meta property="og:description" content="Description of the page">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="/img/bg-default.jpg">
+  <meta property="og:image:secure_url" content="/img/bg-default.jpg">
+  <meta property="og:image:type" content="image/jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+
+  <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
+  <!-- Web fonts and Web Icons -->
+  <link rel="stylesheet" href="./fonts/sourcesans/stylesheet.css">
+  <link rel="stylesheet" href="./fonts/ptserif/stylesheet.css">
+  <link rel="stylesheet" href="./fonts/jost/stylesheet.css">
+  <link rel="stylesheet" href="./fonts/poppins/stylesheet.css">
+  <link rel="stylesheet" href="./fonts/ionicons.min.css">
+  <link rel="stylesheet" href="./fonts/font-awesome.min.css">
+
+  <!-- Vendor CSS style -->
+  <link rel="stylesheet" href="./css/pageloader.css">
+
+  <!-- Uncomment below to load individualy vendor CSS -->
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="./js/vendor/swiper/swiper.min.css">
+  <link rel="stylesheet" href="./js/vendor/vegas/vegas.min.css">
+  <link rel="stylesheet" href="./js/vendor/fullpage/jquery.fullpage.min.css">
+
+  <!-- Main CSS files -->
+  <link rel="stylesheet" href="./css/main.css">
+
+  <!-- add alternative CSS rules here -->
+  <link rel="stylesheet" href="./css/style-default.css">
+
+</head>
+
+<body id="menu" class="body-page">
+
+  <!-- Page Loader : just comment these lines to remove it -->
+  <div class="page-loader" id="page-loader">
+    <div>
+      <div class="icon ion-spin"></div>
+      <p>loading</p>
+    </div>
+  </div>
+
+  <!-- BEGIN OF page cover -->
+  <div class="page-cover">
+    <!-- Cover Background -->
+    <div class="cover-bg pos-abs size-full bg-img" data-image-src="img/bg-default-1.jpg"></div>
+    <div class="cover-bg pos-abs size-full bg-cover-gradientradial opacity-9"></div>
+
+  </div>
+  <!--END OF page cover -->
+
+  <!-- BEGIN OF Header navigation of the page -->
+  <header class="page-header loading-anim">
+    <!-- Begin of navbar-top -->
+    <nav id="navbar-menu" class="navbar navbar-top bd-bottom ">
+      <div class="navbar-group">
+        <a class="navbar-brand logo-brand bd-right">
+          <span class="logo">
+            <img class="light-logo " src="./img/logo_white.png" alt="Logo">
+          </span>
+          <span class="text">
+            <span class="line strong t-upper t-spaced">
+              <span>Pro<span class="fw-light">design</span></span>
+            </span>
+          </span>
+        </a>
+        <div class="navbar-collapse">
+          <ul class="navbar-nav nav-menu">
+            <li class="nav-item fs-normal">
+              <a href="#about">About</a>
+            </li>
+            <li class="nav-item fs-normal">
+              <a href="./gallery.html">Works</a>
+            </li>
+            <li class="nav-item fs-normal">
+              <a href="./item.html">Detail</a>
+            </li>
+            <li class="nav-item fs-normal">
+              <a href="./demo.html">Demo</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="navbar-group group-right ">
+        <div class="navbar-social">
+          <ul class="icons">
+            <li><a href="//twitter/miradontsoa"><i class="icon fa fa-twitter"></i></a></li>
+            <li><a href="//instagram.com/miradontsoa"><i class="icon fa fa-instagram"></i></a></li>
+          </ul>
+        </div>
+        <div class="navbar-toggler">
+          <a id="menu-icon" class="menu-toggler btn- btn btn-line-b py-3 py-md-0" href="#">
+            <span class="icon icon-menu icon-menu-a">
+              <span class="bars">
+                <span class="bar1"></span>
+                <span class="bar2"></span>
+              </span>
+            </span>
+            <span class="bd-left text multiline t-upper fs-normal d-none d-md-flex">
+              <span class="line">Me</span>
+              <span class="line">Nu</span>
+            </span>
+          </a>
+        </div>
+      </div>
+    </nav>
+    <!-- End of navbar-top -->
+    <!-- Begin of navbar-sidebar -->
+    <nav class="navbar navbar-sidebar ">
+      <div class="navbar-group">
+        <div class="navbar-collapse">
+          <ul id="sidebar-menu" class="navbar-nav nav-menu">
+            <li class="nav-item active" data-menuanchor="home">
+              <a href="#home">
+                <span class="icon ion-home"></span>
+                <span class="text">Home</span>
+              </a>
+            </li>
+            <li class="nav-item" data-menuanchor="about">
+              <a href="#about">
+                <span class="icon ion-android-bulb"></span>
+                <span class="text">About</span>
+              </a>
+            </li>
+            <li class="nav-item" data-menuanchor="gallery">
+              <a href="#gallery">
+                <span class="icon ion-grid"></span>
+                <span class="text">Projects</span>
+              </a>
+            </li>
+            <li class="nav-item" data-menuanchor="subscribe">
+              <a href="#subscribe">
+                <span class="icon ion-android-mail"></span>
+                <span class="text">Subscribe</span>
+              </a>
+            </li>
+            <li class="nav-item" data-menuanchor="contact">
+              <a href="#contact">
+                <span class="icon ion-android-call"></span>
+                <span class="text">Contact</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- End of navbar-sidebar -->
+    <!-- Begin of navfull-menu -->
+    <nav id="navfull-menu" class="navfull navfull-menu navigation menu-behavior">
+      <div class="navbar-group group-bg">
+        <ul class="navbar-nav nav-menu menu-close font-title fw-bold">
+          <li class="nav-item active">
+            <a href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="item.html">Item</a>
+          </li>
+          <li class="nav-item">
+            <a href="gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a href="demo.html">Demo</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- End of navfull-menu -->
+
+  </header>
+  <!-- END OF Header navigation of the page -->
+
+  <!-- BEGIN OF page main content -->
+  <main class="page-main normal-scroll fullpage-scroll " id="mainpage">
+
+    <!-- Begin of home -->
+    <section data-id="home" class="section section-home header-home min-h-viewport">
+      <div class="section-title title-right">
+        <h3 class="title">
+          <span>PRO</span><span class="text-stroke">DESIGN</span>
+        </h3>
+      </div>
+      <div class="section-content align-x-center align-y-center anim">
+        <div class="width-medium">
+          <div class="row no-gutters">
+            <div class="col-12 col-lg-6">
+              <div class="home-left content-text">
+                <h2 class="h-title font-title fw-normal anim-3">Special
+                  <br> <span class="text-line">Design</span>
+                </h2>
+                <div class="text mb-5 anim-4">
+                  <p>A beautiful website template, that can be used as a personal website, or any similar
+                    website.</p>
+                </div>
+                <div class="btns-group anim-5">
+                  <a class="btn btn-line-a" href="#about">
+                    <span class="text">About Us</span>
+                    <span class="icon icon-menu icon-arrow-a icon-anim">
+                      <span class="arrow-right"></span>
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="col-12 col-lg-6 d-flex min-h-full">
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="section-footer section-footer-a anim">
+        <!-- begin of home footer -->
+        <div class="home-footer width-medium">
+          <div class="h-left anim-2">
+            <a class="navbar-brand logo-brand" href="#">
+              <span class="text">
+                <span class="line strong t-upper t-spaced">
+                  <span>Pro<span class="fw-light">design</span></span>
+                </span>
+              </span>
+            </a>
+            <div>
+              <p class="copy text-line opacity-5">&copy; 2000 Copyright - Prodesign</p>
+            </div>
+          </div>
+          <div class="h-right anim-3">
+            <p class="text-line">+1 234 56 789</p>
+            <p class="text-line"><a href="mailto:email@company.com">email@company.com</a></p>
+          </div>
+        </div>
+        <!-- end of home footer -->
+
+        <div class="footer-right mr-4">
+          <a class="btn btn-line-b scroll down px-0 py-0" href="#">
+            <span class="text">Scroll</span>
+            <span class="icon icon-menu icon-arrow-a icon-anim">
+              <span class="arrow-down"></span>
+            </span>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- End of home -->
+    <!-- Begin of about -->
+    <section data-id="about" class="section section-page auto-height bg-level-1">
+      <div class="section-cover"></div>
+      <div class="section-title title-right">
+        <h3 class="title title-anim">
+          <span class="text-stroke">About</span>
+        </h3>
+      </div>
+
+      <div class="section-margin anim">
+        <!-- begin of .section-header -->
+        <div class="section-header align-x-center">
+          <div class="h-content width-medium">
+            <h2 class="h-title font-title anim-1">
+              We build things
+            </h2>
+          </div>
+        </div>
+        <!-- end of .section-header -->
+
+        <!-- begin of .section-content -->
+        <div class="section-content align-x-center">
+          <div class="c-wrapper width-medium text-wrapper ">
+            <div class="row gutters">
+              <div class="col-12 col-lg-4">
+                <div class="content-text anim-2">
+                  <p>
+                    Our end product difference is in the detail, and this is one of the main
+                    reason why we take care about every specific details about this project.
+                    Details matter in all of our projects.
+                  </p>
+                </div>
+              </div>
+              <div class="col-12 col-lg-4">
+                <div class="content-text anim-3">
+                  <p>
+                    It is easy to get lost in a crowded street, the same rule apply to design.
+                    It has to be minimal, so that the end user will not fall in something that
+                    they do not want.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="btns-group mt-5">
+              <a class="btn btn-line-a anim-4" href="#services">
+                <span class="text">Services</span>
+                <span class="icon icon-menu icon-arrow-a icon-anim">
+                  <span class="arrow-right"></span>
+                </span>
+              </a>
+            </div>
+
+          </div>
+        </div>
+        <!-- end of .section-content -->
+      </div>
+
+      <div class="section-footer"></div>
+    </section>
+    <!-- End of about -->
+    <!-- Begin of team -->
+    <section data-id="team" class="section section-slide section-page auto-height section section-margin">
+      <div class="section-title title-right">
+        <h3 class="title title-anim">
+          <span class="text-stroke">Team</span>
+        </h3>
+      </div>
+
+      <div class="slide-size-width anim">
+        <div class="section-slides slider-a swiper-container">
+          <!-- slider-wrapper -->
+          <div class="swiper-wrapper slider-wrapper">
+            <!-- .slide-item -->
+            <div class="swiper-slide slide-item">
+              <div class="slide-a slide-anim">
+                <div class="slide-bg"></div>
+                <div class="slide-title"></div>
+                <div class="slide-content">
+                  <div class="c-wrapper width-medium">
+                    <div class="row">
+                      <div class="col col-12 col-md-6 order-md-1">
+                        <header class="slide-image pr-md-3 anim-1">
+                          <img class="img rounded-border" alt="image" src="./img/samples/img-person1.jpg">
+                        </header>
+                      </div>
+
+                      <div class="col col-12 col-md-6 order-md-2">
+                        <div class="slide-text pl-md-3">
+                          <div class="s-header anim-1">
+                            <h3 class="title">Jane Olive</h3>
+                          </div>
+                          <div class="s-content anim-2">
+                            <div class="pr-lg-5">
+                              <p>
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                              </p>
+                            </div>
+                            <a class="btn btn-line-a" href="#works">
+                              <span class="text">Details</span>
+                              <span class="icon icon-menu icon-arrow-a icon-anim">
+                                <span class="arrow-right"></span>
+                              </span>
+                            </a>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end of .slide-item -->
+
+            <!-- .slide-item -->
+            <div class="swiper-slide slide-item">
+              <div class="slide-a slide-anim">
+                <div class="slide-bg"></div>
+                <div class="slide-title"></div>
+                <div class="slide-content">
+                  <div class="c-wrapper width-medium">
+                    <div class="row">
+                      <div class="col col-12 col-md-6 order-md-1">
+                        <header class="slide-image pr-md-3 anim-1">
+                          <img class="img rounded-border" alt="image" src="./img/samples/img-person2.jpg">
+                        </header>
+                      </div>
+
+                      <div class="col col-12 col-md-6 order-md-2">
+                        <div class="slide-text pl-md-3">
+                          <div class="s-header anim-1">
+                            <h3 class="title">Nico Suzy</h3>
+                          </div>
+                          <div class="s-content anim-2">
+                            <div class="pr-lg-5">
+                              <p>
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                              </p>
+                            </div>
+                            <a class="btn btn-line-a" href="#works">
+                              <span class="text">Details</span>
+                              <span class="icon icon-menu icon-arrow-a icon-anim">
+                                <span class="arrow-right"></span>
+                              </span>
+                            </a>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end of .slide-item -->
+
+            <!-- .slide-item -->
+            <div class="swiper-slide slide-item">
+              <div class="slide-a slide-anim">
+                <div class="slide-bg"></div>
+                <div class="slide-title"></div>
+                <div class="slide-content">
+                  <div class="c-wrapper width-medium">
+                    <div class="row">
+                      <div class="col col-12 col-md-6 order-md-1">
+                        <header class="slide-image pr-md-3 anim-1">
+                          <img class="img rounded-border" alt="image" src="./img/samples/img-person3.jpg">
+                        </header>
+                      </div>
+
+                      <div class="col col-12 col-md-6 order-md-2">
+                        <div class="slide-text pl-md-3">
+                          <div class="s-header anim-1">
+                            <h3 class="title">Tina Lize</h3>
+                          </div>
+                          <div class="s-content anim-2">
+                            <div class="pr-lg-5">
+                              <p>
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                              </p>
+                            </div>
+                            <a class="btn btn-line-a" href="#works">
+                              <span class="text">Details</span>
+                              <span class="icon icon-menu icon-arrow-a icon-anim">
+                                <span class="arrow-right"></span>
+                              </span>
+                            </a>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end of .slide-item -->
+
+            <!-- .slide-item -->
+            <div class="swiper-slide slide-item">
+              <div class="slide-a slide-anim">
+                <div class="slide-bg"></div>
+                <div class="slide-title"></div>
+                <div class="slide-content">
+                  <div class="c-wrapper width-medium">
+                    <div class="row">
+                      <div class="col col-12 col-md-6 order-md-1">
+                        <header class="slide-image pr-md-3 anim-1">
+                          <img class="img rounded-border" alt="image" src="./img/samples/img-person4.jpg">
+                        </header>
+                      </div>
+
+                      <div class="col col-12 col-md-6 order-md-2">
+                        <div class="slide-text pl-md-3">
+                          <div class="s-header anim-1">
+                            <h3 class="title">Alex Mark</h3>
+                          </div>
+                          <div class="s-content anim-2">
+                            <div class="pr-lg-5">
+                              <p>
+                                Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                              </p>
+                            </div>
+                            <a class="btn btn-line-a" href="#works">
+                              <span class="text">Details</span>
+                              <span class="icon icon-menu icon-arrow-a icon-anim">
+                                <span class="arrow-right"></span>
+                              </span>
+                            </a>
+                          </div>
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end of .slide-item -->
+
+          </div>
+          <!-- end of .slider-wrapper -->
+
+          <!-- .slider-controls -->
+          <div class="slider-controls">
+            <div class="controls-wrapper width-medium">
+              <div class="row">
+
+                <div class="col-12 col-md-6">
+                  <!-- slider arrows -->
+                  <div class="slider-arrow pr-md-3 anim-3">
+                    <div class="btns btn-arrows">
+                      <a class="slider-prev btn btn-line-a" href="#">
+                        <span class="icon icon-menu icon-arrow-a icon-anim">
+                          <span class="arrow-left"></span>
+                        </span>
+                        <span class="text">Prev</span>
+                      </a>
+                      <a class="slider-next btn btn-line-a" href="#">
+                        <span class="text">Next</span>
+                        <span class="icon icon-menu icon-arrow-a icon-anim">
+                          <span class="arrow-right"></span>
+                        </span>
+                      </a>
+                    </div>
+                  </div>
+
+                  <!-- slider pagination -->
+                  <!-- comment / uncomment bellow to enable it -->
+                  <!-- <div class="slider-pagination swiper-pagination"></div> -->
+                </div>
+
+                <div class="col-12 col-md-6">
+                  <!-- thumbs here -->
+                  <div class="swiper-container slider-thumbs-a pl-md-3 anim-4">
+                    <div class="thumbs-pagination"></div>
+
+                    <div class="swiper-wrapper">
+                      <div class="swiper-slide">
+                        <img class="img" alt="image" src="./img/samples/img-person1.jpg">
+                      </div>
+                      <div class="swiper-slide">
+                        <img class="img" alt="image" src="./img/samples/img-person2.jpg">
+                      </div>
+                      <div class="swiper-slide">
+                        <img class="img" alt="image" src="./img/samples/img-person3.jpg">
+                      </div>
+                      <div class="swiper-slide">
+                        <img class="img" alt="image" src="./img/samples/img-person4.jpg">
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+          <!-- end of .slider-controls -->
+
+        </div>
+
+      </div>
+
+    </section>
+    <!-- End of team -->
+    <!-- Begin of gallery -->
+    <section data-id="gallery" class="section section-slide fullsize-slide section-page ">
+      <div class="slide-size">
+        <div class="section-slides slider-b swiper-container anim">
+          <!-- slider wrapper -->
+          <div class="swiper-wrapper slider-wrapper">
+            <!-- .slide-item -->
+            <div class="swiper-slide slide-item">
+              <div class="slide-b slide-anim fullscreen-slide content-top">
+                <div class="slide-bg fade-1">
+                  <img class="img-block" alt="image" src="./img/samples/img-sample4.jpg">
+                </div>
+                <div class="slide-title title-right">
+                  <h3 class="title">
+                    <span class="text-stroke">01</span>
+                  </h3>
+                </div>
+                <div class="slide-content">
+                  <div class="c-wrapper width-medium flex-col flex-full">
+                    <div class="row no-gutters flex-full">
+                      <div class="col col-12 col-lg-6 content-center">
+                        <div class="slide-text">
+
+                          <div class="s-header anim-1">
+                            <h2 class="s-title font-title">
+                              App Crafter
+                            </h2>
+                          </div>
+                          <div class="s-text anim-2">
+                            <h4 class="s-subtitle font-title">
+                              Website
+                            </h4>
+                            <p>Another type of lorem ipsum dolor awesome project that we launched.
+                            </p>
+                            <a class="btn btn-line-a mt-5" href="#">
+                              <span class="text text-uppercase">Details</span>
+                              <span class="icon icon-menu icon-arrow-a icon-anim">
+                                <span class="arrow-right"></span>
+                              </span>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end of .slide-item -->
+
+            <!-- .slide-item -->
+            <div class="swiper-slide slide-item">
+              <div class="slide-b slide-anim fullscreen-slide content-center">
+                <div class="slide-bg fade-1">
+                  <img class="img-block" alt="image" src="./img/samples/img-sample6.jpg">
+                </div>
+                <div class="slide-title title-right">
+                  <h3 class="title">
+                    <span class="text-stroke">02</span>
+                  </h3>
+                </div>
+                <div class="slide-content">
+                  <div class="c-wrapper width-medium flex-col flex-full">
+                    <div class="row no-gutters flex-full">
+                      <div class="col col-12 col-lg-6 content-bottom">
+                        <div class="slide-text">
+                          <div class="s-header anim-1">
+                            <h2 class="s-title font-title">
+                              Band Tour
+                            </h2>
+                          </div>
+                          <div class="s-text anim-2">
+                            <h4 class="s-subtitle font-title">
+                              Marketing
+                            </h4>
+                            <p>Another type of lorem ipsum dolor awesome project that we launched.
+                            </p>
+                            <a class="btn btn-line-a mt-5" href="#">
+                              <span class="text text-uppercase">Details</span>
+                              <span class="icon icon-menu icon-arrow-a icon-anim">
+                                <span class="arrow-right"></span>
+                              </span>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end of .slide-item -->
+
+            <!-- .slide-item -->
+            <div class="swiper-slide slide-item">
+              <div class="slide-b slide-anim fullscreen-slide content-bottom">
+                <div class="slide-bg fade-1">
+                  <img class="img-block" alt="image" src="./img/samples/img-sample7.jpg">
+                </div>
+                <div class="slide-title title-right">
+                  <h3 class="title">
+                    <span class="text-stroke">03</span>
+                  </h3>
+                </div>
+                <div class="slide-content">
+                  <div class="c-wrapper width-medium flex-col flex-full">
+                    <div class="row no-gutters flex-full">
+                      <div class="col col-12 col-lg-6 content-top">
+                        <div class="slide-text">
+                          <div class="s-header anim-1">
+                            <h2 class="s-title font-title">
+                              Tropika Tour
+                            </h2>
+                          </div>
+                          <div class="s-text anim-2">
+                            <h4 class="s-subtitle font-title">
+                              Promotion
+                            </h4>
+                            <p>Another type of lorem ipsum dolor awesome project that we launched.
+                            </p>
+                            <a class="btn btn-line-a mt-5" href="#">
+                              <span class="text text-uppercase">Details</span>
+                              <span class="icon icon-menu icon-arrow-a icon-anim">
+                                <span class="arrow-right"></span>
+                              </span>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- end of .slide-item -->
+
+          </div>
+
+          <!-- slider arrows -->
+          <div class="slider-arrow">
+            <a class="slider-prev btn btn-line-b slider-btn-top" href="#">
+              <span class="icon icon-menu icon-arrow-a icon-anim">
+                <span class="arrow-left"></span>
+              </span>
+              <span class="text">Previous</span>
+            </a>
+            <a class="slider-next btn btn-line-b" href="#">
+              <span class="text">Next</span>
+              <span class="icon icon-menu icon-arrow-a icon-anim">
+                <span class="arrow-right"></span>
+              </span>
+            </a>
+          </div>
+
+          <!--slider pagination -->
+          <div class="slider-pagination swiper-pagination"></div>
+
+        </div>
+      </div>
+
+      <div class="section-footer section-footer-a  d-none d-lg-block ">
+        <div class="footer-right mr-4">
+          <a class="btn btn-line-b scroll down px-0 py-0" href="#">
+            <span class="text">Scroll</span>
+            <span class="icon icon-menu icon-arrow-a icon-anim">
+              <span class="arrow-down"></span>
+            </span>
+          </a>
+        </div>
+      </div>
+
+    </section>
+    <!-- End of gallery -->
+    <!-- Begin of works -->
+    <section data-id="works" class="section section-page  auto-height">
+      <div class="section-title title-right">
+        <h3 class="title title-anim">
+          <span class="text-stroke">Works</span>
+        </h3>
+      </div>
+      <div class="section-margin anim">
+
+        <div class="section-header align-x-center">
+          <div class="h-content width-medium">
+            <h2 class="h-title font-title anim-1">
+              Projects
+            </h2>
+          </div>
+        </div>
+
+        <div class="section-content align-x-center">
+          <div class="c-wrapper width-medium text-wrapper mb-6">
+            <div class="row no-gutters">
+              <div class="col col-12">
+                <div class="content-text anim-2">
+                  <p class="mb-0">
+                    We provide many services lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                    Maecenas
+                    porttitor congue massa.
+                  </p>
+                </div>
+                <div class="btns-group mt-5">
+                  <a class="btn btn-line-a anim-3" href="#products">
+                    <span class="text">Products</span>
+                    <span class="icon icon-menu icon-arrow-a icon-anim">
+                      <span class="arrow-right"></span>
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="c-wrapper width-medium anim-3">
+            <div class="row">
+
+              <!-- item -->
+              <div class="col-12 col-md-6">
+                <div class="item-grid-a">
+                  <div class="item-header">
+                    <h3 class="title">Bookfriend</h3>
+                  </div>
+                  <div class="item-img mt-4 mb-4 rounded-border">
+                    <img class="img" src="./img/samples/img-sample5.jpg" alt="image">
+                  </div>
+                  <div class="item-content">
+                    <h4 class="i-price font-title">UX Design, Mobile App</h4>
+                    <p class="i-text">
+                      A pretty cool project we developed last time.
+                    </p>
+                    <a class="btn btn-line-a" href="">
+                      <span class="text">Learn more</span>
+                      <span class="icon icon-menu icon-arrow-a icon-anim">
+                        <span class="arrow-right"></span>
+                      </span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- item -->
+              <div class="col-12 col-md-6">
+                <div class="item-grid-a">
+                  <div class="item-header">
+                    <h3 class="title">Plantbox</h3>
+                  </div>
+                  <div class="item-img mt-4 mb-4 rounded-border">
+                    <img class="img" src="./img/samples/img-sample8.jpg" alt="image">
+                  </div>
+                  <div class="item-content">
+                    <h4 class="i-price font-title">Product Design</h4>
+                    <p class="i-text">
+                      A pretty cool project we developed last time.
+                    </p>
+                    <a class="btn btn-line-a" href="">
+                      <span class="text">Learn more</span>
+                      <span class="icon icon-menu icon-arrow-a icon-anim">
+                        <span class="arrow-right"></span>
+                      </span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="section-footer"></div>
+    </section>
+    <!-- End of works -->
+    <!-- Begin of services -->
+    <section data-id="services" class="section section-page  auto-height bg-level-1">
+      <div class="section-title title-right">
+        <h3 class="title title-anim">
+          <span class="text-stroke">Services</span>
+        </h3>
+      </div>
+      <div class="section-margin anim">
+
+        <div class="section-header align-x-center">
+          <div class="h-content width-medium">
+            <h2 class="h-title font-title anim-1">
+              Services
+            </h2>
+          </div>
+        </div>
+
+        <div class="section-content align-x-center">
+          <div class="c-wrapper width-medium text-wrapper mb-6">
+            <div class="row no-gutters">
+              <div class="col col-12">
+                <div class="content-text anim-2">
+                  <p class="mb-0">
+                    We provide many services lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                    Maecenas
+                    porttitor congue massa.
+                  </p>
+                </div>
+                <div class="btns-group mt-5">
+                  <a class="btn btn-line-a anim-3" href="#products">
+                    <span class="text">Products</span>
+                    <span class="icon icon-menu icon-arrow-a icon-anim">
+                      <span class="arrow-right"></span>
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="c-wrapper width-medium anim-3">
+            <div class="row">
+
+              <!-- item -->
+              <div class="col-12 col-md-6">
+                <div class="item-service-a">
+                  <div class="item-header">
+                    <div class="icon">1</div>
+                    <h3 class="title">Marketing</h3>
+                  </div>
+                  <div class="item-content item-grid-c">
+                    <div class="item-img mt-4 rounded-border">
+                      <img class="img" src="./img/samples/img-sample2.jpg" alt="image">
+                      <div class="img-header mask-gradient-black-inv">
+                        <div class="item-icon">
+                          <i class="ion ion-ios-color-filter"></i>
+                        </div>
+                      </div>
+                      <div class="img-footer mask-gradient-black text-left">
+                        <p class="i-text">
+                          Lorem ipsum dolor description here.
+                        </p>
+                        <a class="btn btn-line-a" href="">
+                          <span class="text">Learn more</span>
+                          <span class="icon icon-menu icon-arrow-a icon-anim">
+                            <span class="arrow-right"></span>
+                          </span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- item -->
+              <div class="col-12 col-md-6">
+                <div class="item-service-a">
+                  <div class="item-header">
+                    <div class="icon">2</div>
+                    <h3 class="title">UX Design</h3>
+                  </div>
+                  <div class="item-content item-grid-c">
+                    <div class="item-img mt-4 rounded-border">
+                      <img class="img" src="./img/samples/img-sample1.jpg" alt="image">
+                      <div class="img-header mask-gradient-black-inv">
+                        <div class="item-icon">
+                          <i class="ion ion-ios-flask-outline"></i>
+                        </div>
+                      </div>
+                      <div class="img-footer mask-gradient-black text-left">
+                        <p class="i-text">
+                          Lorem ipsum dolor description here.
+                        </p>
+                        <a class="btn btn-line-a" href="">
+                          <span class="text">Learn more</span>
+                          <span class="icon icon-menu icon-arrow-a icon-anim">
+                            <span class="arrow-right"></span>
+                          </span>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="section-footer"></div>
+    </section>
+    <!-- End of services -->
+    <!-- Begin of products -->
+    <section data-id="products" class="section section-page auto-height">
+      <div class="section-cover"></div>
+      <div class="section-title title-right">
+        <h3 class="title title-anim">
+          <span class="text-stroke">Artworks</span>
+        </h3>
+      </div>
+
+      <div class="section-margin anim">
+        <div class="section-header align-x-center">
+          <div class="h-content width-medium">
+            <h2 class="h-title font-title anim-1">
+              Products
+            </h2>
+          </div>
+        </div>
+
+        <div class="section-content align-x-center">
+          <div class="c-wrapper width-medium text-wrapper mb-5 mb-lg-6">
+            <div class="row no-gutters">
+              <div class="col col-12">
+                <div class="content-text anim-2">
+                  <p class="mb-0">
+                    We have many products lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas
+                    porttitor congue massa.
+                  </p>
+                </div>
+                <div class="btns-group mt-5">
+                  <a class="btn btn-line-a anim-3" href="#products">
+                    <span class="text">Products</span>
+                    <span class="icon icon-menu icon-arrow-a icon-anim">
+                      <span class="arrow-right"></span>
+                    </span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="c-wrapper width-medium anim-3">
+            <div class="row grid-list-c sr-grid">
+
+              <!-- item -->
+              <div class="item item-grid-c col col-12 col-md-6 col-lg-4">
+                <a class="hover-shadow" href="item.html">
+                  <div class="item-img rounded-border">
+                    <img class="img" src="./img/samples/img-portrait1.jpg" alt="image">
+                    <div class="img-header mask-gradient-black-inv">
+                      <div>
+                        <h3 class="item-title font-title">Candle
+                          <br>Light</h3>
+                      </div>
+                    </div>
+                    <div class="img-footer mask-gradient-black text-left">
+                      <h4 class="i-price font-title">$149</h4>
+                      <p class="i-text">
+                        A pretty cool item that you may need.
+                      </p>
+                      <span class="btn btn-line-a">
+                        <span class="text text-uppercase">Buy it</span>
+                        <span class="icon icon-menu icon-arrow-a icon-anim">
+                          <span class="arrow-right"></span>
+                        </span>
+                      </span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <!-- item -->
+              <div class="item item-grid-c col col-12 col-md-6 col-lg-4">
+                <a class="hover-shadow" href="item.html">
+                  <div class="item-img rounded-border">
+                    <img class="img" src="./img/samples/img-portrait3.jpg" alt="image">
+                    <div class="img-header mask-gradient-black-inv">
+                      <div>
+                        <h3 class="item-title font-title">Modern
+                          <br>Kit</h3>
+                      </div>
+                    </div>
+                    <div class="img-footer mask-gradient-black text-left">
+                      <h4 class="i-price font-title">$59</h4>
+                      <p class="i-text">
+                        A pretty cool item that you may need.
+                      </p>
+                      <span class="btn btn-line-a">
+                        <span class="text text-uppercase">Buy it</span>
+                        <span class="icon icon-menu icon-arrow-a icon-anim">
+                          <span class="arrow-right"></span>
+                        </span>
+                      </span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <!-- item -->
+              <div class="item item-grid-c col col-12 col-md-6 col-lg-4">
+                <a class="hover-shadow" href="item.html">
+                  <div class="item-img rounded-border">
+                    <img class="img" src="./img/samples/img-portrait5.jpg" alt="image">
+                    <div class="img-header mask-gradient-black-inv">
+                      <div>
+                        <h3 class="item-title font-title">Klasic
+                          <br>Luminat</h3>
+                      </div>
+                    </div>
+                    <div class="img-footer mask-gradient-black text-left">
+                      <h4 class="i-price font-title">$499</h4>
+                      <p class="i-text">
+                        A pretty cool item that you may need.
+                      </p>
+                      <span class="btn btn-line-a">
+                        <span class="text text-uppercase">Buy it</span>
+                        <span class="icon icon-menu icon-arrow-a icon-anim">
+                          <span class="arrow-right"></span>
+                        </span>
+                      </span>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="section-footer"></div>
+    </section>
+    <!-- End of products -->
+    <!-- Begin of subscribe -->
+    <section data-id="subscribe" class="section section-page auto-height bg-level-1">
+      <div class="section-cover"></div>
+      <div class="section-title title-right">
+        <h3 class="title title-anim">
+          <span class="text-stroke">News</span>
+        </h3>
+      </div>
+
+      <div class="section-margin anim">
+
+        <!-- begin of .section-header -->
+        <div class="section-header align-x-center">
+          <div class="h-content width-medium">
+            <h2 class="h-title font-title anim-1">
+              Subscribe
+            </h2>
+          </div>
+        </div>
+        <!-- end of .section-header -->
+
+        <div class="section-content align-x-center">
+          <div class="c-wrapper width-medium">
+            <div class="row no-gutters">
+              <div class="col-12 col-lg-8">
+
+                <div class="form-container-signup mt-btn">
+                  <!-- BEGIN send_email_form -->
+                  <form class="send_email_form form-container" method="post" action="ajaxserver/serverfile.php"
+                    novalidate="novalidate">
+                    <div class="form-success-gone text-wrapper anim-2">
+                      <p>Do not miss any update, register you email address to our newsletter to receive
+                        our
+                        latest news :</p>
+                    </div>
+                    <div class="form-input mt-3 mt-lg-5 anim-3">
+                      <div class="row form-success-gone">
+                        <div class="col-12 col-md-8 col-lg-8 form-group-line">
+                          <div class="form-group">
+                            <!-- <label for="reg-email">Email Address</label> -->
+                            <input id="reg-email" name="email"
+                              class="form-control-line form-control-white form-success-clean" type="email" required=""
+                              placeholder="your@email.address" data-validation-type="email" aria-required="true">
+                          </div>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-4">
+                          <div class="form-group mt-0 mb-md-0">
+                            <button id="submit-email" name="submit_email" class="btn btn-line-a ">
+                              <span class="text text-uppercase">Subscribe</span>
+                              <span class="icon icon-menu icon-arrow-a icon-anim">
+                                <span class="arrow-right"></span>
+                              </span>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-group mb-0">
+                        <p class="gone form-text-feedback form-success-visible">
+                          Your email has been registred, thank you.
+                        </p>
+                      </div>
+                    </div>
+                  </form> <!-- END send_email_form -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section-footer"></div>
+    </section>
+    <!-- End of subscribe -->
+    <!-- Begin of pricing -->
+    <section data-id="pricing" class="section section-page auto-height">
+      <div class="section-title title-right">
+        <h3 class="title title-anim">
+          <span class="text-stroke">Price</span>
+        </h3>
+      </div>
+      <div class="section-margin anim">
+
+        <div class="section-header align-x-center">
+          <div class="h-content width-medium">
+            <h2 class="h-title font-title anim-1">
+              Pricing
+            </h2>
+          </div>
+        </div>
+
+        <div class="section-content align-x-center">
+          <div class="c-wrapper width-medium text-wrapper mb-5 mb-lg-6">
+            <div class="row no-gutters">
+              <div class="col col-12">
+                <div class="content-text anim-2">
+                  <p class="mb-0">
+                    We have many offers so choose the right plan for you. Feel free to contact us if you
+                    have
+                    any question about our product pricing.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="c-wrapper width-medium">
+            <div class="row">
+              <div class="col col-12 col-md-4 col-lg-4">
+                <!-- item -->
+                <div class="item-pricing-a anim-3">
+                  <div class="item-header">
+                    <h3 class="title font-title">Free plan</h3>
+                  </div>
+                  <div class="item-body">
+                    <div class="item-price font-title">
+                      <h4>$0<span class="sub">Per month</span></h4>
+                    </div>
+                    <ul class="item-features">
+                      <li class=""><i class="icon ion-checkmark-circled"></i>All features</li>
+                      <li class=""><i class="icon ion-checkmark-circled"></i>Free support</li>
+                      <li class=""><i class="icon ion-checkmark-circled"></i>Future updates</li>
+                      <li class="disabled"><i class="icon ion-close-circled"></i>Exclusive item</li>
+                      <li class="disabled"><i class="icon ion-close-circled"></i>10+ teams</li>
+                    </ul>
+                  </div>
+                  <div class="item-footer">
+                    <a class="btn btn-line-a my-2" href="#works">
+                      <span class="text text-uppercase">Start Free</span>
+                      <span class="icon icon-menu icon-arrow-a icon-anim">
+                        <span class="arrow-right"></span>
+                      </span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col col-12 col-md-4 col-lg-4">
+                <!-- item -->
+                <div class="item-pricing-a featured anim-4">
+                  <div class="item-header">
+                    <h3 class="title font-title">Standard</h3>
+                  </div>
+                  <div class="item-body">
+                    <div class="item-price font-title">
+                      <h4>$19<span class="sub">Per month</span></h4>
+                    </div>
+                    <ul class="item-features">
+                      <li class=""><i class="icon ion-checkmark-circled"></i>All features</li>
+                      <li class=""><i class="icon ion-checkmark-circled"></i>Free support</li>
+                      <li class=""><i class="icon ion-checkmark-circled"></i>Future updates</li>
+                      <li class=""><i class="icon ion-checkmark-circled"></i>Exclusive item</li>
+                      <li class="disabled"><i class="icon ion-close-circled"></i>10+ teams</li>
+                    </ul>
+                  </div>
+                  <div class="item-footer">
+                    <a class="btn btn-line-a my-2" href="#works">
+                      <span class="text text-uppercase">Choose plan</span>
+                      <span class="icon icon-menu icon-arrow-a icon-anim">
+                        <span class="arrow-right"></span>
+                      </span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col col-12 col-md-4 col-lg-4">
+                <!-- item -->
+                <div class="item-pricing-a anim-5">
+                  <div class="item-header">
+                    <h3 class="title font-title">Enterprise</h3>
+                  </div>
+                  <div class="item-body">
+                    <div class="item-price font-title">
+                      <h4>$49<span class="sub">Per month</span></h4>
+                    </div>
+                    <ul class="item-features">
+                      <li class=""><i class="icon ion-checkmark-circled"></i>All features</li>
+                      <li class=""><i class="icon ion-checkmark-circled"></i>Free support</li>
+                      <li class=""><i class="icon ion-checkmark-circled"></i>Future updates</li>
+                      <li class=""><i class="icon ion-checkmark-circled"></i>Exclusive item</li>
+                      <li class=""><i class="icon ion-checkmark-circled"></i>10+ teams</li>
+                    </ul>
+                  </div>
+                  <div class="item-footer">
+                    <a class="btn btn-line-a my-2" href="#works">
+                      <span class="text text-uppercase">Contact us</span>
+                      <span class="icon icon-menu icon-arrow-a icon-anim">
+                        <span class="arrow-right"></span>
+                      </span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="section-footer"></div>
+    </section>
+    <!-- End of pricing -->
+    <!-- Begin of contact -->
+    <section data-id="contact" class="section section-page section-contact auto-height bg-level-1">
+      <div class="section-cover"></div>
+      <div class="section-title title-right">
+        <h3 class="title title-anim">
+          <!-- <span class="text-stroke">Contact</span> -->
+        </h3>
+      </div>
+
+      <div class="section-margin anim">
+        <div class="section-header align-x-center">
+          <div class="h-content width-medium">
+            <h2 class="h-title font-title anim-1">
+              Contact
+            </h2>
+          </div>
+        </div>
+        <div class="section-content align-x-center">
+          <div class="c-wrapper width-medium">
+            <div class="row">
+              <div class="col col-12 col-lg-6">
+                <div class="content-text anim-2 mb-5">
+                  <p>
+                    If you have any questions about us, or want to reach us, please
+                    do not hesitate to contact us or send us an email lorem ipsum dolor.
+                  </p>
+                  <p>
+                    <a class="contact-email" href="mailto://hello@email.com">hello@email.com</a>
+                  </p>
+                  <p>
+                    <span class="contact-phone">+0 12 345 6789</span>
+                  </p>
+                  <p>
+                    <span class="contact-address">
+                      12 Street Center Square <br>
+                      South East, Antartica
+                    </span>
+                  </p>
+                </div>
+              </div>
+              <div class="col col-12 col-lg-6">
+                <!-- Message form-container -->
+                <div class="form-container form-container-contact anim-4">
+                  <form class="send_message_form message form" method="post" action="ajaxserver/server.php"
+                    id="message_form" novalidate="novalidate">
+                    <div class="row">
+                      <div class="col-12">
+                        <div class="form-group name">
+                          <input id="mes-name" name="name" type="text" placeholder="Name"
+                            class="form-control form-control-outline input-full thick form-success-clean" required
+                            aria-required="true">
+                        </div>
+                        <div class="form-group email">
+                          <input id="mes-email" type="email" placeholder="Email address" name="email"
+                            class="form-control form-control-outline input-full thick form-success-clean" required
+                            aria-required="true">
+                        </div>
+                        <div class="form-group no-border">
+                          <textarea id="mes-text" placeholder="Your message ..." name="message"
+                            class="form-control form-control-outline thick form-success-clean" required
+                            aria-required="true"></textarea>
+
+                        </div>
+                      </div>
+                      <div class="col-12">
+                        <button id="submit-message" class="btn btn-line-b email_b" name="submit_message">
+                          <span class="text text-uppercase">Send Now</span>
+                          <span class="icon icon-menu icon-arrow-a icon-anim">
+                            <span class="arrow-right"></span>
+                          </span>
+                        </button>
+                      </div>
+                      <div>
+                        <p class="form-text-feedback col-12 form-success-visible gone">
+                          Your message has been sent, thank you.
+                        </p>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+                <!-- End of Message form-container -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section-footer"></div>
+    </section>
+    <!-- End of contact -->
+  </main>
+  <!-- END OF page main content -->
+
+  <!-- scripts -->
+  <!-- All Javascript plugins goes here -->
+  <script src="./js/vendor/jquery-1.12.4.min.js"></script>
+
+  <!-- All vendor scripts -->
+  <script src="./js/vendor/vegas/vegas.min.js"></script>
+  <script src="./js/vendor/swiper/swiper.min.js"></script>
+
+  <script src="./js/vendor/fullpage/scrolloverflow.min.js"></script>
+  <script src="./js/vendor/fullpage/jquery.fullpage.min.js"></script>
+
+  <!-- Form script -->
+  <script src="./js/vendor/form/jqueryvalidation.min.js"></script>
+  <script src="./js/vendor/form/form_script.js"></script>
+
+  <!-- Javascript main files -->
+  <script src="./js/main.js"></script>
+
+</body>
+
+</html>

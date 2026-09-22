@@ -1,0 +1,134 @@
+/*-------------------
+Sample CSS overwriting main.css rules and changing title font, and
+section design
+
+[Table of contents]
+    1 Typography
+    2 Section design
+    3 Page cover scroll animation
+[Colors]
+    White transluscent : rgba(white, 0.1)
+    Black : #0d0d0d
+[Typography]
+    Title : "Times New Roman", serif;
+*/
+/* 1 Typography */
+.font-title {
+  font-family: "PT Serif", "Times New Roman", serif; }
+
+.h-title, .i-title, .s-title, .item-title {
+  font-weight: bold; }
+
+.section-page .section-header p,
+.section-page .section-content p {
+  font-family: "Source Sans Pro", "Proxima Nova", "Noto Sans", "Segoe UI", "Opensans", "Roboto", "Helvetica", -apple-system, system-ui, BlinkMacSystemFont, sans-serif;
+  max-width: 40rem; }
+
+/* 2 Section design */
+/* Section header and section title */
+@media screen and (min-width: 992px) {
+  .slide-b .slide-title,
+  .section-title {
+    margin-right: 32px; }
+  .section-header .h-content {
+    padding-left: 0rem; }
+    .section-header .h-content:before {
+      display: none; }
+    .section-header .h-content h2 {
+      font-size: 5rem; } }
+
+/* Section background */
+.bg-level-1 {
+  position: relative; }
+  .bg-level-1::before, .bg-level-1::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 60rem;
+    background: rgba(255, 255, 255, 0.1); }
+  .bg-level-1::before {
+    top: 0;
+    bottom: auto; }
+  .bg-level-1::after {
+    top: auto;
+    bottom: 0; }
+
+/* Section content size */
+.width-medium {
+  max-width: 60rem;
+  width: 100%; }
+
+@media screen and (min-width: 992px) {
+  .section-header .mt-btn {
+    margin-top: 1rem; } }
+
+/* Slider */
+.slider-b .slider-arrow,
+.slider-b .slider-pagination {
+  left: 96px; }
+
+/* 3 Page cover scroll animation */
+/* 4 Menu */
+/* Menu icon */
+.navbar-top .menu-toggler .text.multiline {
+  min-width: 64px; }
+
+/* Sidebar */
+@media screen and (min-width: 992px) {
+  .navbar-sidebar {
+    border-left: none;
+    left: 0;
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+    top: 64px;
+    bottom: 0;
+    -webkit-transform: none;
+            transform: none; } }
+
+.navbar-sidebar .nav-menu li,
+.navbar-sidebar .nav-menu .nav-item {
+  min-width: 64px; }
+  .navbar-sidebar .nav-menu li .text,
+  .navbar-sidebar .nav-menu .nav-item .text {
+    padding-left: 16px; }
+
+/* fp nav */
+#fp-nav.right {
+  bottom: 0;
+  top: 64px;
+  width: 0px;
+  right: 64px;
+  border-left: 1px solid rgba(255, 255, 255, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+#fp-nav ul {
+  margin-left: 64px;
+  margin-top: 24px; }
+
+#fp-nav ul li {
+  height: 16px;
+  width: 8px; }
+  #fp-nav ul li a span {
+    background: rgba(255, 255, 255, 0.1);
+    opacity: 1; }
+
+#fp-nav ul li a span,
+#fp-nav ul li a:hover span,
+#fp-nav ul li a.active span,
+#fp-nav ul li:hover a.active span {
+  height: 16px;
+  width: 8px; }
+
+#fp-nav ul li a span, .fp-slidesNav ul li a span {
+  left: 0;
+  top: 0; }
+
+/* 5. Footer */
+.section-footer-a .footer-right {
+  right: 64px; }

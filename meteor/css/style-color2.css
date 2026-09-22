@@ -1,0 +1,47 @@
+/* Alternative colors */
+/* Alternative colors */
+/* menu */
+.main-menu,
+.top-menu-links {
+  background: rgba(0, 0, 0, 0.9); }
+  @media (min-width: 601px) {
+    .main-menu,
+    .top-menu-links {
+      background: none; } }
+
+.top-menu-links .links li.cta a:hover {
+  color: #E7012A; }
+
+.main-menu ul li.active .icon,
+.main-menu ul li a:hover {
+  color: #E7012A; }
+
+/* main page */
+.section .content .title-desc h2 {
+  color: #E7012A; }
+
+.section .content .c-columns .item-desc a {
+  color: #E7012A; }
+.section .content .c-columns .circ-btn:hover:before {
+  border-color: #E7012A;
+  border-top-color: transparent; }
+
+/* footer */
+/* Buttons */
+.circ-btn {
+  color: #fff; }
+
+@media (min-width: 601px) {
+  .circ-btn {
+    color: #fff; } }
+.btn-normal,
+.section .social-grid li .s-icon:hover {
+  color: #E7012A; }
+
+.btn-normal:focus,
+.btn-normal:hover {
+  border-color: #E7012A; }
+
+/* Fonts */
+
+/*# sourceMappingURL=style-color2.css.map */

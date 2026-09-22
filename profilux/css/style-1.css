@@ -1,0 +1,81 @@
+/*-------------------
+Sample CSS overwriting main.css rules and changing title font, and
+section design
+
+[Table of contents]
+    1 Typography
+    2 Section design
+    3 Page cover scroll animation
+[Colors]
+    White transluscent : rgba(white, 0.1)
+    Black : #0d0d0d
+[Typography]
+    Title : "Times New Roman", serif;
+*/
+/* 1 Typography */
+.font-title {
+  font-family: "Times New Roman", serif; }
+
+.h-title, .i-title, .s-title, .item-title {
+  font-weight: bold; }
+
+.section-page .section-header p,
+.section-page .section-content p {
+  font-family: "Proxima Nova", "Noto Sans", "Segoe UI", "Opensans", "Roboto", "Helvetica", -apple-system, system-ui, BlinkMacSystemFont, sans-serif;
+  max-width: 40rem; }
+
+/* 2 Section design */
+/* Section header */
+@media screen and (min-width: 992px) {
+  .section-header .h-content {
+    padding-left: 0rem; }
+    .section-header .h-content:before {
+      display: none; }
+    .section-header .h-content h2 {
+      font-size: 5rem; } }
+
+/* Section background */
+.bg-level-1 {
+  position: relative; }
+  .bg-level-1::before, .bg-level-1::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 60rem;
+    background: rgba(255, 255, 255, 0.1); }
+  .bg-level-1::before {
+    top: 0;
+    bottom: auto; }
+  .bg-level-1::after {
+    top: auto;
+    bottom: 0; }
+
+/* Section content size */
+.width-medium {
+  max-width: 60rem;
+  width: 100%; }
+
+@media screen and (min-width: 992px) {
+  .section-header .mt-btn {
+    margin-top: 1rem; } }
+
+/* 3 Page cover scroll animation */
+.page-cover::before {
+  position: absolute;
+  z-index: 1;
+  content: "";
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.5;
+  background: #0d0d0d;
+  transition: 0.6s; }
+
+.page-cover.scrolled::before {
+  opacity: 0.95; }

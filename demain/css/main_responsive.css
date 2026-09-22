@@ -1,0 +1,159 @@
+/*-----------------------------------------------------------------
+[Legal Notice]
+
+Copyright (c) HighHay/Mivfx
+Before using this template, you should agree with themeforest licenses terms.
+http://themeforest.net/licenses
+-------------------------------------------------------------------*/
+
+
+/** CSS-AddOn for Large screen First responsiveness approch */
+
+
+
+/* Screen small than 1024px */
+@media (max-width : 1024px){
+	 .medium-block-grid-2 > li:nth-of-type(2n+1) {
+		clear: none;
+	}
+}
+/* Screen Small than 720px */
+@media (max-width : 720px){
+	
+	 
+    
+}
+/* Screen small than 480 */
+@media (max-width : 480px){
+	
+	.header-top .logo img {
+		padding-left: 16px;
+	}
+	.page-footer {
+		right: 16px;
+	}
+    .panel-container{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+	.show-for-large-up{
+		display: none;	
+	}
+}
+/* Screen small than 360px */
+@media (max-width : 360px){
+    .panel-container{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+/* Screen small than 320px */
+@media (max-width : 320px){
+	.page-cent .p-title h2 {
+		font-size: 24px;
+	}
+	.p-footer {
+		display: none;
+	}
+	.header-top {
+		height: 32px;
+	}
+	.header-top .logo img {
+		height: 32px;
+		padding: 0px 10px;
+	}
+	.header-top .menu a {
+		height: 32px;
+		padding-top: 5px;
+	}
+	
+	.page-home .logo-container{
+		top: 40px;
+	}
+	.page-home .logo-container img.h-logo{
+		height: 80px;
+	}
+	.page .form label ,
+	.page .form input ,
+	.page .form button ,
+	.page .form textarea ,
+	.page h4 ,
+	.page-footer ,
+	.header-top .menu a ,
+	.page p{
+		font-size: 12px;
+	}
+	.page-cent .p-title h3{
+		font-size: 20px;
+		border-bottom-width: 5px;
+	}
+	.page-cent .p-title h2{
+		font-size: 20px;
+	}
+	.header-top .menu a {
+		padding-top: 6px;
+	}
+	
+}
+
+
+ 
+/* Responsive height */
+@media (max-height : 420px){
+	
+	.page .content .clock {
+		-webkit-transform: scale(0.4) translateX(-125%) translateY(-125%);
+		transform: scale(0.4) translateX(-125%) translateY(-125%);
+		position: absolute;
+		top: 50%;
+		left: 50%;
+	} 
+	.quick-link {
+		top: auto;
+		bottom: 0;
+	}
+	.header-top {
+		height: 32px;
+	}
+	.header-top .logo img {
+		height: 32px;
+		padding: 0px 10px;
+	}
+	.header-top .menu a {
+		height: 32px;
+		padding-top: 5px;
+	}
+	.columns.left{
+		width: 50%;
+	}
+	.columns.right{
+		width: 50%;
+	}
+	.page-home .logo-container{
+		top: 40px;
+	}
+	.page-home .logo-container img.h-logo{
+		height: 80px;
+	}
+	.page-contact .fields:first-child ,
+	.page-contact .contact .columns li:first-child {
+		margin-top: 0;
+	}
+	.page-contact .form .fields,
+	.page-contact .contact .columns li{
+		margin-top: 5px;
+	}
+	.page .form textarea {
+		min-height: 64px;
+	}
+	
+	.p-footer .arrow-d {
+		bottom: 10px;
+		display: none;
+	}
+	.page-footer{
+		display: none;
+	}
+}
+
+    

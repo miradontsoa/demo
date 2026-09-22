@@ -1,0 +1,156 @@
+/* Alternative colors */
+/* Background mask */
+.cover-bg-mask.bg-color {
+  background: rgba(25, 29, 59, 0.75) !important; }
+
+/* fonts */
+.menu-links .links li a,
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Roboto", "Helvetica", sans-serif; }
+
+.section .content .title-desc h2,
+.section .content .title-desc .title h2 {
+  font-family: "Montserrat"; }
+
+@media (min-width: 601px) {
+  .section .content .title-desc .title h2 {
+    font-size: 64px; } }
+
+/* menu */
+.menu-links {
+  background: #FFF; }
+  @media (min-width: 601px) {
+    .menu-links {
+      background: transparent; } }
+
+.menu-links .links li.cta a {
+  border-color: #FFF; }
+
+.menu-links .links li.cta a:hover {
+  border-color: #FFF;
+  background: rgba(255, 255, 255, 0.1); }
+
+.menu-links .links li a:hover,
+.menu-links .links li a.menu-visible,
+.menu-links .links li a:active {
+  color: #FFF; }
+
+/* clock */
+.clock:before {
+  border-top-color: #FFF; }
+
+.clock:after {
+  border-color: #FFF; }
+
+.clock .clock-wrapper .tile .days,
+.clock .clock-wrapper .tile .hours,
+.clock .clock-wrapper .tile .minutes,
+.clock .clock-wrapper .tile .seconds {
+  border-bottom-color: #FFF; }
+
+/* main page */
+.section .content .title-desc h2,
+.section .content .title-desc .title h2 {
+  color: #FFF; }
+
+.section .content .title-desc h3,
+.section .content .item-desc h3,
+.section .content .c-features-list li h3 {
+  color: #FFF; }
+
+.section-home .content .title-desc h3 {
+  color: #fff; }
+
+.section-contact .content .item-desc a,
+.section-contact .content .c-form .form .fields label.error {
+  color: #FFF; }
+
+.section .content .c-features-list li:before {
+  background: #FFF; }
+
+.section .content .c-features-list li:after {
+  border-color: #FFF; }
+
+/* footer */
+@media (min-width: 601px) {
+  .site-footer {
+    background: rgba(255, 255, 255, 0.1); } }
+.site-footer .note .marked,
+.site-footer .note a {
+  color: #FFF;
+  text-decoration: underline; }
+
+.scrolldown a:after {
+  background: #FFF; }
+
+.site-footer .subscription .form .input {
+  border-color: #FFF; }
+
+@media (min-width: 601px) {
+  .site-footer .note:before,
+  .site-footer .contact .socials li:after {
+    background: #fff; }
+
+  .site-footer .note,
+  .site-footer .subscription .form label,
+  .site-footer .subscription .form .input,
+  .site-footer .subscription .title {
+    color: #fff; } }
+/* Buttons */
+.circ-btn {
+  color: #fff; }
+
+@media (min-width: 601px) {
+  .circ-btn {
+    color: #fff; } }
+.magic-btn {
+  color: #FFF; }
+
+.rect-btn:focus,
+.rect-btn:hover {
+  border-color: #FFF; }
+
+.arrow-circ-btn .arrow-icon:after {
+  border-color: #FFF; }
+
+.arrow-circ-btn .arrow-icon:before {
+  border-color: #FFF;
+  border-left-color: transparent; }
+
+.arrow-circ-btn:hover .arrow-icon:after {
+  border-color: #FFF; }
+
+.arrow-circ-btn:focus .arrow-icon:before, .arrow-circ-btn:hover .arrow-icon:before {
+  border-color: #fff;
+  border-left-color: transparent; }
+
+.circ-btn:before {
+  border-color: #FFF;
+  border-top-color: transparent; }
+
+.circ-btn:hover:before {
+  border-color: #fff;
+  border-top-color: transparent; }
+
+.circ-btn:hover {
+  color: #FFF; }
+
+/* Nav dots and Slider indication */
+#fp-nav ul li a.active span,
+#fp-nav ul li a.active:hover span {
+  border-color: #FFF; }
+
+.section .content .wrapper .swiper-pagination-bullet:hover,
+.section .content .wrapper .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background: #FFF; }
+
+.section .content .wrapper .swiper-pagination-bullet:hover:before,
+.section .content .wrapper .swiper-pagination-bullet.swiper-pagination-bullet-active:before {
+  border-color: #FFF; }
+
+.section .content .wrapper .items-nav-container .items-button a:after {
+  background: #FFF; }
+
+/* Fonts */
+
+/*# sourceMappingURL=style-color2_white.css.map */

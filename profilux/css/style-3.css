@@ -1,0 +1,72 @@
+/*-------------------
+Sample CSS overwriting main.css rules
+
+[Table of contents]
+    1 Typography
+    2 Content layout
+    3 Page cover scroll animation
+[Colors]
+    Black : #0d0d0d;
+[Typography]
+    font-family :
+    Geometric : "Glacial Indifference", "Montserrat"
+*/
+/* 1 Typography */
+.font-title {
+  font-family: "Jost*", "Montserrat", "Open Sans", sans-serif; }
+
+.h-title, .i-title, .s-title, .item-title {
+  font-weight: bold; }
+
+.section-page .section-header p,
+.section-page .section-content p {
+  font-family: "Proxima Nova", "Noto Sans", "Segoe UI", "Opensans", "Roboto", "Helvetica", -apple-system, system-ui, BlinkMacSystemFont, sans-serif;
+  max-width: 40rem; }
+
+/* 2 Content layout */
+/* Title style */
+@media screen and (min-width: 992px) {
+  .section-header .h-content {
+    padding-left: 0rem; }
+    .section-header .h-content:before {
+      display: none; }
+    .section-header .h-content h2 {
+      font-size: 5rem; } }
+
+/* content width */
+.width-medium {
+  max-width: 55rem;
+  width: 100%; }
+
+.text-wrapper {
+  position: relative;
+  padding-left: 5rem; }
+  .text-wrapper::before {
+    position: absolute;
+    top: 0.75em;
+    left: 0;
+    content: "";
+    height: 2px;
+    background: currentColor;
+    width: 48px;
+    opacity: 0.25; }
+
+@media screen and (min-width: 992px) {
+  .section-header .mt-btn {
+    margin-top: 1rem; } }
+
+/* 3 Page cover scroll animation / .page-cover */
+.page-cover::before {
+  position: absolute;
+  z-index: 1;
+  content: "";
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.5;
+  background: #0d0d0d;
+  transition: 0.6s; }
+
+.page-cover.scrolled::before {
+  opacity: 0.95; }

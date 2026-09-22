@@ -1,0 +1,1254 @@
+<html>
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+  <!-- Page Title Here -->
+  <title>Buttons - Simple UI</title>
+
+  <!-- Meta -->
+  <!-- Page Description Here -->
+  <meta name="description" content="Sample home page">
+
+  <!-- Responsive screen scaling-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Twitter Meta -->
+  <meta name="twitter:site" content="@twitterprofile">
+  <meta name="twitter:creator" content="@twitterprofile">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Page Title">
+  <meta name="twitter:description" content="Description of the page">
+  <meta name="twitter:image" content="/img/bg-default.jpg">
+
+  <!-- Facebook Meta -->
+  <meta property="og:url" content="your website url here">
+  <meta property="og:title" content="Page Title">
+  <meta property="og:description" content="Description of the page">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="/img/bg-default.jpg">
+  <meta property="og:image:secure_url" content="/img/bg-default.jpg">
+  <meta property="og:image:type" content="image/jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+
+  <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
+  <!-- Web fonts and Web Icons -->
+  <link rel="stylesheet" href="../fonts/ionicons/stylesheet.css">
+  <!-- Vendor CSS -->
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+
+  <!-- Demo  CSS files -->
+  <link rel="stylesheet" href="../css/demopage/main.css">
+
+  <!-- Cutekit UI CSS file -->
+  <link rel="stylesheet" href="../css/cutekit-ui.css">
+</head>
+
+<body class="body body-app">
+  <nav class="sidebar-left collapse" id="sidebar-left">
+    <div class="sidebar-menu-b sidebar-reduced-off">
+      <div class="nav-header">
+        <h3 class="nav-title">
+          <a class="navbar-brand" href="#">
+            <span class="logo">
+              <img class="light-logo" src="../img/logo-purple.svg" alt="Simpleux Template">
+            </span>
+            <span class="text title">
+              <span class="line strong">UI Elements</span>
+            </span>
+          </a>
+        </h3>
+      </div>
+
+      <div class="nav-content">
+
+      </div>
+
+      <div class="nav-body flex-column">
+        <div class="nav-group">
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link " href="../ui-elements/buttons.html">
+                <span class="icon"><i class="ion ion-md-square"></i></span>
+                <span class="text">Buttons</span>
+
+                <span class="action">
+                  <span class="icon-action icon-small"><i class="ion ion-ios-arrow-down"></i></span>
+                </span>
+              </a>
+              <ul class="nav">
+                <li class="nav-item">
+                  <a class="nav-link active" href="../ui-elements/buttons.html">
+                    <span class="text">Solid buttons</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="../ui-elements/buttons-outline.html">
+                    <span class="text">Outline buttons</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="../ui-elements/buttons-line.html">
+                    <span class="text">Line buttons</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="../ui-elements/buttons-ui.html">
+                    <span class="text">App UI buttons</span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../ui-elements/input-group-a.html">
+                <span class="icon"><i class="ion ion-ios-exit"></i></span>
+                <span class="text">Input &amp; Textarea</span>
+
+                <span class="action">
+                  <span class="icon-action icon-small"><i class="ion ion-ios-arrow-down"></i></span>
+                </span>
+              </a>
+              <ul class="nav">
+                <li class="nav-item">
+                  <a class="nav-link " href="../ui-elements/input-group-a.html">
+                    <span class="text">Solid background</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="../ui-elements/input-group-b.html">
+                    <span class="text">Outline Border</span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="nav-footer">
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link-off btn btn-solid-b btn-primary" href="https://buy.paddle.com/product/644914">
+              <span class="icon"><i class="ion ion-ios-cart"></i></span>
+              <span class="text">Buy it now</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="main-page page-app">
+    <header class="page-topbar">
+      <!--search bar -->
+      <div class="navbar-a navbar-top-height">
+        <a class="navbar-brand" href="#">
+          <span class="logo">
+            <img class="light-logo" src="../img/logo-purple.svg" alt="Simpleux Template">
+          </span>
+          <span class="text ">
+            <span class="line strong">UI Elements</span>
+          </span>
+        </a>
+
+        <button class="navbar-toggler text-black" type="button" data-bs-toggle="collapse" data-bs-target="#sidebar-left"
+          aria-controls="sidebar-left" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="icon icon-menu icon-menu-a">
+            <span class="bars">
+              <span class="bar1"></span>
+              <span class="bar2"></span>
+              <span class="bar3"></span>
+            </span>
+          </span>
+        </button>
+      </div>
+    </header>
+
+    <!-- Start of .content Page main content here -->
+    <div class="content page-content doc-content ">
+      <h1 class="hr-btm">Solid buttons</h1>
+
+      <h2 id="overview">Overview</h2>
+      <div class="subheading-">
+        <p>Solid buttons are buttons with background color (or gradient) such as the following examples.
+        </p>
+      </div>
+
+      <div class="preview-wrapper">
+        <div class="btns-list ">
+          <a class="btn btn-solid-a btn-primary" href="#btn-solid-a">
+            Button a
+          </a>
+
+          <a class="btn btn-solid-a btn-primary color-invert" href="#btn-solid-a">
+            Button a
+          </a>
+
+          <a class="btn btn-solid-b btn-primary" href="#btn-solid-b">
+            Button b
+          </a>
+
+          <a class="btn btn-solid-b btn-primary color-invert" href="#btn-solid-b">
+            Button b
+          </a>
+
+          <a class="btn btn-solid-c btn-primary" href="#btn-solid-c">
+            Button c
+          </a>
+
+          <a class="btn btn-solid-c btn-primary color-invert" href="#btn-solid-c">
+            Button c
+          </a>
+
+          <a class="btn btn-solid-d btn-primary rounded-md" href="#btn-solid-d">
+            Button d
+          </a>
+
+          <a class="btn btn-solid-d btn-primary color-invert rounded-md" href="#btn-solid-d">
+            Button d
+          </a>
+
+          <a class="btn btn-solid-e btn-primary rounded-none" href="#btn-solid-e">
+            Button e
+          </a>
+
+          <a class="btn btn-solid-e btn-primary rounded-none color-invert" href="#btn-solid-e">
+            Button e
+          </a>
+
+          <a class="btn btn-solid-f btn-primary" href="#btn-solid-f">
+            Button f
+          </a>
+
+          <a class="btn btn-solid-f btn-primary  color-invert" href="#btn-solid-f">
+            Button f
+          </a>
+
+          <a class="btn btn-solid-g btn-primary" href="#btn-solid-g">
+            Button g
+          </a>
+
+          <a class="btn btn-solid-g btn-primary  color-invert" href="#btn-solid-g">
+            Button g
+          </a>
+
+          <a class="btn btn-solid-h btn-primary" href="#btn-solid-h">
+            Button h
+          </a>
+
+          <a class="btn btn-solid-h btn-primary  color-invert" href="#btn-solid-h">
+            Button h
+          </a>
+
+          <a class="btn btn-solid-i btn-primary" href="#btn-solid-i">
+            Button i
+          </a>
+
+          <a class="btn btn-solid-i btn-primary  color-invert" href="#btn-solid-i">
+            Button i
+          </a>
+
+          <a class="btn btn-solid-j btn-primary " href="#btn-solid-j">
+            <span class="text">Button j</span>
+            <span class="icon"><i class="ion ion-ios-arrow-forward"></i></span>
+          </a>
+
+          <a class="btn btn-solid-j btn-primary  color-invert" href="#btn-solid-j">
+            <span class="text">Button j</span>
+            <span class="icon"><i class="ion ion-ios-arrow-forward"></i></span>
+          </a>
+
+          <a class="btn btn-solid-k btn-primary " href="#btn-solid-k">
+            <span class="text">Button k</span>
+            <span class="icon"><i class="ion ion-ios-arrow-forward"></i></span>
+          </a>
+
+          <a class="btn btn-solid-k btn-primary  color-invert" href="#btn-solid-k">
+            <span class="text">Button k</span>
+            <span class="icon"><i class="ion ion-ios-arrow-forward"></i></span>
+          </a>
+        </div>
+      </div>
+
+      <h2 id="variants">Variants</h2>
+      <!-- ################################################ -->
+      <h3 id="btn-solid-a">.btn-solid-a</h3>
+      <hr>
+
+      <p>Sample use cases :</p>
+      <div class="preview-wrapper">
+        <div class="btns-list ">
+          <!-- Usage and customization -->
+          <a class="btn btn-solid-a btn-primary">Button</a>
+
+          <button class="btn btn-solid-a btn-secondary shadow-outer" type="button">
+            <span class="text">Play</span>
+            <span class="icon"><i class="ion ion-ios-play"></i></span>
+          </button>
+
+          <a class="btn btn-solid-a btn-info bg-gradient-blue-45">Buy it now</a>
+
+          <div class="btn btn-solid-a btn-secondary bg-gradient-orange rounded-pill py-btn">
+            Button
+          </div>
+
+          <a class="btn btn-solid-a btn-danger  color-invert rounded-pill">
+            Features
+          </a>
+
+          <a class="btn btn-solid-a btn-primary  color-invert rounded-pill shadow-sm shadow-outer">
+            Outer Shadow
+          </a>
+
+          <a class="btn btn-solid-a btn-primary bg-gradient-purple-45 rounded-pill ">
+            <span class="icon"><i class="ion ion-ios-chatbubbles"></i></span>
+            <span class="text">Chat</span>
+          </a>
+
+          <a class="btn btn-solid-a btn-dark btn-x-lg">
+            <span class="text text-uppercase text-spaced">Read more</span>
+            <span class="icon"><i class="ion ion-md-arrow-forward"></i></span>
+          </a>
+        </div>
+      </div>
+
+      <p>Color variants :</p>
+      <div class="preview-wrapper">
+        <div class="btns-list ">
+          <!-- Colors -->
+          <a class="btn btn-solid-a">Default</a>
+          <a class="btn btn-solid-a btn-primary">Primary</a>
+          <a class="btn btn-solid-a btn-secondary">Secondary</a>
+          <a class="btn btn-solid-a btn-success">Success</a>
+          <a class="btn btn-solid-a btn-danger">Danger</a>
+          <a class="btn btn-solid-a btn-warning">Warning</a>
+          <a class="btn btn-solid-a btn-info">Info</a>
+          <a class="btn btn-solid-a btn-light">Light</a>
+          <a class="btn btn-solid-a btn-dark">Dark</a>
+        </div>
+      </div>
+      <p>Alternative colors :</p>
+      <div class="preview-wrapper">
+        <div class="btns-list ">
+          <!-- Inverted color -->
+          <a class="btn btn-solid-a btn-primary color-invert">Primary</a>
+          <a class="btn btn-solid-a btn-secondary color-invert color-invert">Secondary</a>
+          <a class="btn btn-solid-a btn-danger color-invert">Danger</a>
+          <a class="btn btn-solid-a btn-success color-invert">Success</a>
+          <a class="btn btn-solid-a btn-warning color-invert">Warning</a>
+          <a class="btn btn-solid-a btn-info color-invert">Info</a>
+          <a class="btn btn-solid-a btn-light color-invert">Light</a>
+          <a class="btn btn-solid-a btn-dark color-invert">Dark</a>
+        </div>
+      </div>
+
+      <!-- ################################################ -->
+      <h3 id="btn-solid-b">.btn-solid-b</h3>
+      <hr>
+
+      <p>Sample use cases :</p>
+      <div class="preview-wrapper">
+        <div class="btns-list ">
+          <!-- Usage and customization -->
+          <a class="btn btn-solid-b btn-primary">Button</a>
+
+          <button class="btn btn-solid-b btn-secondary shadow-md" type="button">
+            <span class="text">Play</span>
+            <span class="icon"><i class="ion ion-ios-play"></i></span>
+          </button>
+
+          <a class="btn btn-solid-b btn-info bg-gradient-blue-45">Buy it now</a>
+
+          <div class="btn btn-solid-b btn-secondary bg-gradient-orange rounded-pill py-btn">
+            Button
+          </div>
+
+          <a class="btn btn-solid-b btn-danger  color-invert rounded-pill shadow-md">
+            Features
+          </a>
+
+          <a class="btn btn-solid-b btn-primary bg-gradient-purple-45 rounded-pill ">
+            <span class="icon"><i class="ion ion-ios-chatbubbles"></i></span>
+            <span class="text">Chat</span>
+          </a>
+
+          <a class="btn btn-solid-b btn-dark btn-x-lg">
+            <span class="text text-uppercase text-spaced">Read more</span>
+            <span class="icon"><i class="ion ion-md-arrow-forward"></i></span>
+          </a>
+        </div>
+      </div>
+
+      <p>Color variants :</p>
+      <div class="preview-wrapper">
+        <div class="btns-list ">
+          <!-- Colors -->
+          <a class="btn btn-solid-b">Default</a>
+          <a class="btn btn-solid-b btn-primary">Primary</a>
+          <a class="btn btn-solid-b btn-secondary">Secondary</a>
+          <a class="btn btn-solid-b btn-success">Success</a>
+          <a class="btn btn-solid-b btn-danger">Danger</a>
+          <a class="btn btn-solid-b btn-warning">Warning</a>
+          <a class="btn btn-solid-b btn-info">Info</a>
+          <a class="btn btn-solid-b btn-light">Light</a>
+          <a class="btn btn-solid-b btn-dark">Dark</a>
+        </div>
+      </div>
+
+      <p>Alternative colors :</p>
+      <div class="preview-wrapper">
+        <div class="btns-list ">
+          <!-- Inverted color -->
+          <a class="btn btn-solid-b btn-primary color-invert">Primary</a>
+          <a class="btn btn-solid-b btn-secondary color-invert color-invert">Secondary</a>
+          <a class="btn btn-solid-b btn-danger color-invert">Danger</a>
+          <a class="btn btn-solid-b btn-success color-invert">Success</a>
+          <a class="btn btn-solid-b btn-warning color-invert">Warning</a>
+          <a class="btn btn-solid-b btn-info color-invert">Info</a>
+          <a class="btn btn-solid-b btn-light color-invert">Light</a>
+          <a class="btn btn-solid-b btn-dark color-invert">Dark</a>
+        </div>
+      </div>
+
+      <!-- ################################################ -->
+      <h3 id="btn-solid-c">.btn-solid-c</h3>
+      <hr>
+
+      <p>Sample use cases :</p>
+      <div class="preview-wrapper">
+        <div class="btns-list ">
+          <!-- Usage and customization -->
+          <a class="btn btn-solid-c btn-primary">Button</a>
+          <a class="btn btn-solid-c btn-primary color-invert">Button</a>
+
+          <button class="btn btn-solid-c btn-secondary shadow-outer" type="button">
+            <span class="text">Play</span>
+            <span class="icon"><i class="ion ion-ios-play"></i></span>
+          </button>
+
+          <a class="btn btn-solid-c btn-info bg-gradient-blue-45">Buy it now</a>
+
+          <div class="btn btn-solid-c btn-secondary bg-gradient-orange rounded-pill py-btn">
+            Button
+          </div>
+
+          <a class="btn btn-solid-c btn-danger  color-invert rounded-pill">
+            Features
+          </a>
+
+          <a class="btn btn-solid-c btn-primary bg-gradient-purple-45 rounded-pill ">
+            <span class="icon"><i class="ion ion-ios-chatbubbles"></i></span>
+            <span class="text">Chat</span>
+          </a>
+
+          <a class="btn btn-solid-c btn-dark btn-x-lg">
+            <span class="text text-uppercase text-spaced">Read more</span>
+            <span class="icon"><i class="ion ion-md-arrow-forward"></i></span>
+          </a>
+        </div>
+      </div>
+
+      <p>Color variants :</p>
+      <div class="preview-wrapper">
+        <div class="btns-list ">
+          <!-- Colors -->
+          <a class="btn btn-solid-c ">Default</a>
+          <a class="btn btn-solid-c btn-primary">Primary</a>
+          <a class="btn btn-solid-c btn-secondary">Secondary</a>
+          <a class="btn btn-solid-c btn-success">Success</a>
+          <a class="btn btn-solid-c btn-danger">Danger</a>
+          <a class="btn btn-solid-c btn-warning">Warning</a>
+          <a class="btn btn-solid-c btn-info">Info</a>
+          <a class="btn btn-solid-c btn-light">Light</a>
+          <a class="btn btn-solid-c btn-dark">Dark</a>
+        </div>
+      </div>
+
+      <p>Alternative colors :</p>
+      <div class="preview-wrapper">
+        <div class="btns-list ">
+          <!-- Inverted color -->
+          <a class="btn btn-solid-c btn-primary color-invert">Primary</a>
+          <a class="btn btn-solid-c btn-secondary color-invert color-invert">Secondary</a>
+          <a class="btn btn-solid-c btn-danger color-invert">Danger</a>
+          <a class="btn btn-solid-c btn-success color-invert">Success</a>
+          <a class="btn btn-solid-c btn-warning color-invert">Warning</a>
+          <a class="btn btn-solid-c btn-info color-invert">Info</a>
+          <a class="btn btn-solid-c btn-light color-invert">Light</a>
+          <a class="btn btn-solid-c btn-dark color-invert">Dark</a>
+        </div>
+      </div>
+
+      <!-- ################################################ -->
+      <h3 id="btn-solid-d">.btn-solid-d</h3>
+      <hr>
+
+      <p>Sample use cases :</p>
+
+      <div class="preview-wrapper">
+        <div class="btns-list ">
+          <!-- Usage and customization -->
+          <a class="btn btn-solid-d btn-primary">Button</a>
+          <a class="btn btn-solid-d btn-primary color-invert">Button</a>
+
+          <button class="btn btn-solid-d btn-secondary shadow-outer" type="button">
+            <span class="text">Play</span>
+            <span class="icon"><i class="ion ion-ios-play"></i></span>
+          </button>
+
+          <a class="btn btn-solid-d btn-info bg-gradient-blue-45">Buy it now</a>
+
+          <div class="btn btn-solid-d btn-secondary bg-gradient-orange rounded-pill py-btn">
+            Button
+          </div>
+
+          <a class="btn btn-solid-d btn-danger  color-invert rounded-pill">
+            Features
+          </a>
+
+          <a class="btn btn-solid-d btn-primary bg-gradient-purple-45 rounded-pill ">
+            <span class="icon"><i class="ion ion-ios-chatbubbles"></i></span>
+            <span class="text">Chat</span>
+          </a>
+
+          <a class="btn btn-solid-d btn-dark btn-x-lg">
+            <span class="text text-uppercase text-spaced">Read more</span>
+            <span class="icon"><i class="ion ion-md-arrow-forward"></i></span>
+          </a>
+        </div>
+      </div>
+
+      <p>Color variants :</p>
+      <div class="preview-wrapper">
+        <div class="btns-list ">
+          <!-- Colors -->
+          <a class="btn btn-solid-d ">Default</a>
+          <a class="btn btn-solid-d btn-primary">Primary</a>
+          <a class="btn btn-solid-d btn-secondary">Secondary</a>
+          <a class="btn btn-solid-d btn-success">Success</a>
+          <a class="btn btn-solid-d btn-danger">Danger</a>
+          <a class="btn btn-solid-d btn-warning">Warning</a>
+          <a class="btn btn-solid-d btn-info">Info</a>
+          <a class="btn btn-solid-d btn-light">Light</a>
+          <a class="btn btn-solid-d btn-dark">Dark</a>
+        </div>
+      </div>
+
+      <p>Alternative colors :</p>
+      <div class="preview-wrapper">
+        <div class="btns-list ">
+          <!-- Inverted color -->
+          <a class="btn btn-solid-d btn-primary color-invert">Primary</a>
+          <a class="btn btn-solid-d btn-secondary color-invert color-invert">Secondary</a>
+          <a class="btn btn-solid-d btn-danger color-invert">Danger</a>
+          <a class="btn btn-solid-d btn-success color-invert">Success</a>
+          <a class="btn btn-solid-d btn-warning color-invert">Warning</a>
+          <a class="btn btn-solid-d btn-info color-invert">Info</a>
+          <a class="btn btn-solid-d btn-light color-invert">Light</a>
+          <a class="btn btn-solid-d btn-dark color-invert">Dark</a>
+        </div>
+      </div>
+
+      <!-- ################################################ -->
+      <h3 id="btn-solid-e">.btn-solid-e</h3>
+      <hr>
+
+      <p>Sample use cases :</p>
+
+      <div class="preview-wrapper">
+        <div class="btns-list ">
+          <!-- Usage and customization -->
+          <a class="btn btn-solid-e btn-primary">Button</a>
+          <a class="btn btn-solid-e btn-primary color-invert">Button</a>
+
+          <button class="btn btn-solid-e btn-secondary shadow-outer" type="button">
+            <span class="text">Play</span>
+            <span class="icon"><i class="ion ion-ios-play"></i></span>
+          </button>
+
+          <a class="btn btn-solid-e btn-info bg-gradient-blue-45">Buy it now</a>
+
+          <div class="btn btn-solid-e btn-secondary bg-gradient-orange rounded-pill py-btn">
+            Button
+          </div>
+
+          <a class="btn btn-solid-e btn-danger  color-invert rounded-pill">
+            Features
+          </a>
+
+          <a class="btn btn-solid-e btn-primary bg-gradient-purple-45 rounded-pill ">
+            <span class="icon"><i class="ion ion-ios-chatbubbles"></i></span>
+            <span class="text">Chat</span>
+          </a>
+
+          <a class="btn btn-solid-e btn-dark btn-x-lg">
+            <span class="text text-uppercase text-spaced">Read more</span>
+            <span class="icon"><i class="ion ion-md-arrow-forward"></i></span>
+          </a>
+        </div>
+      </div>
+
+      <p>Color variants :</p>
+      <div class="preview-wrapper">
+        <div class="btns-list ">
+          <!-- Colors -->
+          <a class="btn btn-solid-e ">Default</a>
+          <a class="btn btn-solid-e btn-primary">Primary</a>
+          <a class="btn btn-solid-e btn-secondary">Secondary</a>
+          <a class="btn btn-solid-e btn-success">Success</a>
+          <a class="btn btn-solid-e btn-danger">Danger</a>
+          <a class="btn btn-solid-e btn-warning">Warning</a>
+          <a class="btn btn-solid-e btn-info">Info</a>
+          <a class="btn btn-solid-e btn-light">Light</a>
+          <a class="btn btn-solid-e btn-dark">Dark</a>
+        </div>
+      </div>
+
+      <p>Alternative colors :</p>
+      <div class="preview-wrapper">
+        <div class="btns-list ">
+          <!-- Inverted color -->
+          <a class="btn btn-solid-e btn-primary color-invert">Primary</a>
+          <a class="btn btn-solid-e btn-secondary color-invert color-invert">Secondary</a>
+          <a class="btn btn-solid-e btn-danger color-invert">Danger</a>
+          <a class="btn btn-solid-e btn-success color-invert">Success</a>
+          <a class="btn btn-solid-e btn-warning color-invert">Warning</a>
+          <a class="btn btn-solid-e btn-info color-invert">Info</a>
+          <a class="btn btn-solid-e btn-light color-invert">Light</a>
+          <a class="btn btn-solid-e btn-dark color-invert">Dark</a>
+        </div>
+      </div>
+
+      <!-- ################################################ -->
+      <h3 id="btn-solid-f">.btn-solid-f</h3>
+      <hr>
+
+      <p>Color variants :</p>
+
+      <div class="preview-wrapper">
+        <div class="btns-list ">
+          <!-- Colors -->
+          <a class="btn btn-solid-f btn-primary">Primary</a>
+          <a class="btn btn-solid-f btn-secondary">Secondary</a>
+          <a class="btn btn-solid-f btn-success">Success</a>
+          <a class="btn btn-solid-f btn-danger">Danger</a>
+          <a class="btn btn-solid-f btn-warning">Warning</a>
+          <a class="btn btn-solid-f btn-info">Info</a>
+          <a class="btn btn-solid-f btn-light">Light</a>
+          <a class="btn btn-solid-f btn-dark">Dark</a>
+        </div>
+      </div>
+
+      <p>Alternative colors :</p>
+      <div class="preview-wrapper">
+        <div class="btns-list ">
+          <!-- Inverted color -->
+          <a class="btn btn-solid-f btn-primary color-invert">Primary</a>
+          <a class="btn btn-solid-f btn-secondary color-invert color-invert">Secondary</a>
+          <a class="btn btn-solid-f btn-danger color-invert">Danger</a>
+          <a class="btn btn-solid-f btn-success color-invert">Success</a>
+          <a class="btn btn-solid-f btn-warning color-invert">Warning</a>
+          <a class="btn btn-solid-f btn-info color-invert">Info</a>
+          <a class="btn btn-solid-f btn-light color-invert">Light</a>
+          <a class="btn btn-solid-f btn-dark color-invert">Dark</a>
+        </div>
+      </div>
+
+      <!-- ################################################ -->
+      <h3 id="btn-solid-g">.btn-solid-g</h3>
+      <hr>
+
+      <p>Sample use cases :</p>
+
+      <div class="preview-wrapper">
+        <div class="btns-list ">
+          <!-- Usage and customization -->
+          <a class="btn btn-solid-g btn-primary">Button</a>
+          <a class="btn btn-solid-g btn-primary color-invert">Button</a>
+
+          <button class="btn btn-solid-g btn-secondary shadow-outer rounded" type="button">
+            <span class="text">Play</span>
+            <span class="icon"><i class="ion ion-ios-play"></i></span>
+          </button>
+
+          <a class="btn btn-solid-g btn-info bg-gradient-blue-45 rounded-none">Buy it now</a>
+
+          <div class="btn btn-solid-g btn-secondary bg-gradient-orange-45 rounded-md py-btn">
+            One Button
+          </div>
+
+          <a class="btn btn-solid-g btn-danger  color-invert rounded-pill">
+            Features
+          </a>
+
+          <a class="btn btn-solid-g btn-primary bg-gradient-purple-45 rounded-pill ">
+            <span class="icon"><i class="ion ion-ios-chatbubbles"></i></span>
+            <span class="text">Chat</span>
+          </a>
+
+          <a class="btn btn-solid-g btn-dark btn-x-lg rounded-md">
+            <span class="text text-uppercase text-spaced">Read more</span>
+            <span class="icon"><i class="ion ion-md-arrow-forward"></i></span>
+          </a>
+        </div>
+      </div>
+
+      <p>Color variants :</p>
+      <div class="preview-wrapper">
+        <div class="btns-list ">
+          <!-- Colors -->
+          <a class="btn btn-solid-g btn-primary">Primary</a>
+          <a class="btn btn-solid-g btn-secondary">Secondary</a>
+          <a class="btn btn-solid-g btn-success">Success</a>
+          <a class="btn btn-solid-g btn-danger">Danger</a>
+          <a class="btn btn-solid-g btn-warning">Warning</a>
+          <a class="btn btn-solid-g btn-info">Info</a>
+          <a class="btn btn-solid-g btn-light">Light</a>
+          <a class="btn btn-solid-g btn-dark">Dark</a>
+        </div>
+      </div>
+
+      <p>Alternative colors :</p>
+      <div class="preview-wrapper">
+        <div class="btns-list ">
+          <!-- Inverted color -->
+          <a class="btn btn-solid-g btn-primary color-invert">Primary</a>
+          <a class="btn btn-solid-g btn-secondary color-invert color-invert">Secondary</a>
+          <a class="btn btn-solid-g btn-danger color-invert">Danger</a>
+          <a class="btn btn-solid-g btn-success color-invert">Success</a>
+          <a class="btn btn-solid-g btn-warning color-invert">Warning</a>
+          <a class="btn btn-solid-g btn-info color-invert">Info</a>
+          <a class="btn btn-solid-g btn-light color-invert">Light</a>
+          <a class="btn btn-solid-g btn-dark color-invert">Dark</a>
+        </div>
+      </div>
+
+      <!-- ################################################ -->
+      <h3 id="btn-solid-h">.btn-solid-h</h3>
+      <hr>
+
+      <p>Sample use cases :</p>
+
+      <div class="preview-wrapper">
+        <div class="btns-list ">
+          <!-- Usage and customization -->
+          <a class="btn btn-solid-h btn-primary">Button</a>
+          <a class="btn btn-solid-h btn-primary color-invert">Button</a>
+
+          <button class="btn btn-solid-h btn-secondary shadow-outer rounded" type="button">
+            <span class="text">Play</span>
+            <span class="icon"><i class="ion ion-ios-play"></i></span>
+          </button>
+
+          <a class="btn btn-solid-h btn-info bg-gradient-orange-45 rounded-none">Buy it now</a>
+
+          <div class="btn btn-solid-h btn-secondary bg-gradient-orange-45 rounded-md py-btn">
+            One Button
+          </div>
+
+          <a class="btn btn-solid-h btn-danger  color-invert rounded-pill">
+            Features
+          </a>
+
+          <a class="btn btn-solid-h btn-primary bg-gradient-purple-45 rounded-pill ">
+            <span class="icon"><i class="ion ion-ios-chatbubbles"></i></span>
+            <span class="text">Chat</span>
+          </a>
+
+          <a class="btn btn-solid-h btn-dark btn-x-lg rounded-md">
+            <span class="text text-uppercase text-spaced">Read more</span>
+            <span class="icon"><i class="ion ion-md-arrow-forward"></i></span>
+          </a>
+        </div>
+      </div>
+
+      <p>Color variants :</p>
+      <div class="preview-wrapper">
+        <div class="btns-list ">
+          <!-- Colors -->
+          <a class="btn btn-solid-h btn-primary">Primary</a>
+          <a class="btn btn-solid-h btn-secondary">Secondary</a>
+          <a class="btn btn-solid-h btn-success">Success</a>
+          <a class="btn btn-solid-h btn-danger">Danger</a>
+          <a class="btn btn-solid-h btn-warning">Warning</a>
+          <a class="btn btn-solid-h btn-info">Info</a>
+          <a class="btn btn-solid-h btn-light">Light</a>
+          <a class="btn btn-solid-h btn-dark">Dark</a>
+        </div>
+      </div>
+
+      <p>Alternative colors :</p>
+      <div class="preview-wrapper">
+        <div class="btns-list ">
+          <!-- Inverted color -->
+          <a class="btn btn-solid-h btn-primary color-invert">Primary</a>
+          <a class="btn btn-solid-h btn-secondary color-invert color-invert">Secondary</a>
+          <a class="btn btn-solid-h btn-danger color-invert">Danger</a>
+          <a class="btn btn-solid-h btn-success color-invert">Success</a>
+          <a class="btn btn-solid-h btn-warning color-invert">Warning</a>
+          <a class="btn btn-solid-h btn-info color-invert">Info</a>
+          <a class="btn btn-solid-h btn-light color-invert">Light</a>
+          <a class="btn btn-solid-h btn-dark color-invert">Dark</a>
+        </div>
+      </div>
+
+      <!-- ################################################ -->
+      <h3 id="btn-solid-i">.btn-solid-i</h3>
+      <hr>
+
+      <p>Sample use cases :</p>
+
+      <div class="preview-wrapper">
+        <div class="btns-list ">
+          <!-- Usage and customization -->
+          <a class="btn btn-solid-i btn-primary">
+            <span class="btn-bg"></span>
+            <span class="text">Button</span>
+          </a>
+          <a class="btn btn-solid-i btn-primary color-invert">Button</a>
+
+          <button class="btn btn-solid-i btn-secondary shadow-outer rounded" type="button">
+            <span class="text">Play</span>
+            <span class="icon"><i class="ion ion-ios-play"></i></span>
+          </button>
+
+          <a class="btn btn-solid-i btn-secondary rounded-none">
+            <span class="btn-bg bg-gradient-orange-45"></span>
+            Buy it now
+          </a>
+
+          <div class="btn btn-solid-i btn-secondary rounded-md py-btn">
+            <span class="btn-bg bg-gradient-orange-45"></span>
+            One Button
+          </div>
+
+          <a class="btn btn-solid-i btn-danger  color-invert rounded-pill">
+            Features
+          </a>
+
+          <a class="btn btn-solid-i btn-primary rounded-pill ">
+            <span class="btn-bg bg-gradient-purple-45"></span>
+            <span class="icon"><i class="ion ion-ios-chatbubbles"></i></span>
+            <span class="text">Chat</span>
+          </a>
+
+          <a class="btn btn-solid-i btn-dark btn-x-lg rounded-md">
+            <span class="text text-uppercase text-spaced">Read more</span>
+            <span class="icon"><i class="ion ion-md-arrow-forward"></i></span>
+          </a>
+        </div>
+      </div>
+
+      <p>Color variants :</p>
+      <div class="preview-wrapper">
+        <div class="btns-list ">
+          <!-- Colors -->
+          <a class="btn btn-solid-i btn-primary">Primary</a>
+          <a class="btn btn-solid-i btn-secondary">Secondary</a>
+          <a class="btn btn-solid-i btn-success">Success</a>
+          <a class="btn btn-solid-i btn-danger">Danger</a>
+          <a class="btn btn-solid-i btn-warning">Warning</a>
+          <a class="btn btn-solid-i btn-info">Info</a>
+          <a class="btn btn-solid-i btn-light">Light</a>
+          <a class="btn btn-solid-i btn-dark">Dark</a>
+        </div>
+      </div>
+
+      <p>Alternative colors :</p>
+      <div class="preview-wrapper">
+        <div class="btns-list ">
+          <!-- Inverted color -->
+          <a class="btn btn-solid-i btn-primary color-invert">Primary</a>
+          <a class="btn btn-solid-i btn-secondary color-invert color-invert">Secondary</a>
+          <a class="btn btn-solid-i btn-danger color-invert">Danger</a>
+          <a class="btn btn-solid-i btn-success color-invert">Success</a>
+          <a class="btn btn-solid-i btn-warning color-invert">Warning</a>
+          <a class="btn btn-solid-i btn-info color-invert">Info</a>
+          <a class="btn btn-solid-i btn-light color-invert">Light</a>
+          <a class="btn btn-solid-i btn-dark color-invert">Dark</a>
+        </div>
+      </div>
+
+      <!-- ################################################ -->
+      <h3 id="btn-solid-j">.btn-solid-j</h3>
+      <hr>
+
+      <p>Sample use cases :</p>
+
+      <div class="preview-wrapper">
+        <div class="btns-list ">
+          <!-- Usage and customization -->
+          <a class="btn btn-solid-j btn-primary">
+            <span class="text">Button</span>
+            <span class="icon"><i class="ion ion-ios-arrow-forward"></i></span>
+          </a>
+          <a class="btn btn-solid-j btn-primary color-invert">
+            <span class="text">Button</span>
+            <span class="icon"><i class="ion ion-ios-arrow-forward"></i></span>
+          </a>
+
+          <button class="btn btn-solid-j btn-secondary shadow-outer rounded-pill" type="button">
+            <span class="text">Play</span>
+            <span class="icon icon-border"><i class="ion ion-ios-play"></i></span>
+          </button>
+
+          <a class="btn btn-solid-j btn-secondary bg-gradient-orange-45 rounded-none">
+            <span class="text">Buy it now</span>
+            <span class="icon"><i class="ion ion-ios-cart"></i></span>
+          </a>
+
+          <div class="btn btn-solid-j btn-secondary bg-gradient-orange rounded-md">
+            <span class="text">Icon Border</span>
+            <span class="icon icon-border"><i class="ion ion-ios-arrow-forward"></i></span>
+          </div>
+
+          <a class="btn btn-solid-j btn-danger  color-invert ">
+            <span class="text text-border">Text border</span>
+            <span class="icon"><i class="ion ion-ios-arrow-forward"></i></span>
+          </a>
+
+          <a class="btn btn-solid-j btn-primary bg-gradient-purple-45 rounded-pill ">
+            <span class="icon"><i class="ion ion-ios-chatbubbles"></i></span>
+            <span class="text">Chat</span>
+          </a>
+
+          <a class="btn btn-solid-j btn-dark btn-x-lg rounded-md">
+            <span class="text text-uppercase text-spaced">Read more</span>
+            <span class="icon"><i class="ion ion-md-arrow-forward"></i></span>
+          </a>
+        </div>
+      </div>
+
+      <p>Color variants :</p>
+      <div class="preview-wrapper">
+        <div class="btns-list ">
+          <!-- Colors -->
+          <a class="btn btn-solid-j btn-primary">
+            <span class="text">Primary</span>
+            <span class="icon"><i class="ion ion-ios-arrow-forward"></i></span>
+          </a>
+          <a class="btn btn-solid-j btn-secondary">
+            <span class="text">Secondary</span>
+            <span class="icon"><i class="ion ion-ios-arrow-forward"></i></span>
+          </a>
+          <a class="btn btn-solid-j btn-success">
+            <span class="text">Success</span>
+            <span class="icon"><i class="ion ion-ios-arrow-forward"></i></span>
+          </a>
+          <a class="btn btn-solid-j btn-danger">
+            <span class="text">Danger</span>
+            <span class="icon"><i class="ion ion-ios-arrow-forward"></i></span>
+          </a>
+          <a class="btn btn-solid-j btn-warning">
+            <span class="text">Warning</span>
+            <span class="icon"><i class="ion ion-ios-arrow-forward"></i></span>
+          </a>
+          <a class="btn btn-solid-j btn-info">
+            <span class="text">Info</span>
+            <span class="icon"><i class="ion ion-ios-arrow-forward"></i></span>
+          </a>
+          <a class="btn btn-solid-j btn-light">
+            <span class="text">Light</span>
+            <span class="icon"><i class="ion ion-ios-arrow-forward"></i></span>
+          </a>
+          <a class="btn btn-solid-j btn-dark">
+            <span class="text">Dark</span>
+            <span class="icon"><i class="ion ion-ios-arrow-forward"></i></span>
+          </a>
+        </div>
+      </div>
+
+      <p>Alternative colors :</p>
+      <div class="preview-wrapper">
+        <div class="btns-list ">
+          <!-- Colors -->
+          <a class="btn btn-solid-j btn-primary color-invert">
+            <span class="text">Primary</span>
+            <span class="icon"><i class="ion ion-md-arrow-forward"></i></span>
+          </a>
+          <a class="btn btn-solid-j btn-secondary color-invert">
+            <span class="text">Secondary</span>
+            <span class="icon"><i class="ion ion-md-arrow-forward"></i></span>
+          </a>
+          <a class="btn btn-solid-j btn-success color-invert">
+            <span class="text">Success</span>
+            <span class="icon"><i class="ion ion-md-arrow-forward"></i></span>
+          </a>
+          <a class="btn btn-solid-j btn-danger color-invert">
+            <span class="text">Danger</span>
+            <span class="icon"><i class="ion ion-md-arrow-forward"></i></span>
+          </a>
+          <a class="btn btn-solid-j btn-warning color-invert">
+            <span class="text">Warning</span>
+            <span class="icon"><i class="ion ion-md-arrow-forward"></i></span>
+          </a>
+          <a class="btn btn-solid-j btn-info color-invert">
+            <span class="text">Info</span>
+            <span class="icon"><i class="ion ion-md-arrow-forward"></i></span>
+          </a>
+          <a class="btn btn-solid-j btn-light color-invert">
+            <span class="text">Light</span>
+            <span class="icon"><i class="ion ion-md-arrow-forward"></i></span>
+          </a>
+          <a class="btn btn-solid-j btn-dark color-invert">
+            <span class="text">Dark</span>
+            <span class="icon"><i class="ion ion-md-arrow-forward"></i></span>
+          </a>
+        </div>
+      </div>
+
+      <!-- ################################################ -->
+      <h3 id="btn-solid-k">.btn-solid-k</h3>
+      <hr>
+
+      <p>Sample use cases :</p>
+
+      <div class="preview-wrapper">
+        <div class="btns-list ">
+          <!-- Usage and customization -->
+          <a class="btn btn-solid-k btn-primary">
+            <span class="text">Button</span>
+            <span class="icon"><i class="ion ion-ios-arrow-forward"></i></span>
+          </a>
+          <a class="btn btn-solid-k btn-primary color-invert">
+            <span class="text">Button</span>
+            <span class="icon"><i class="ion ion-ios-arrow-forward"></i></span>
+          </a>
+
+          <button class="btn btn-solid-k btn-secondary shadow-outer rounded-pill" type="button">
+            <span class="text">Play</span>
+            <span class="icon icon-border"><i class="ion ion-ios-play"></i></span>
+          </button>
+
+          <a class="btn btn-solid-k btn-secondary bg-gradient-orange-45 rounded-none">
+            <span class="text">Buy it now</span>
+            <span class="icon"><i class="ion ion-ios-cart"></i></span>
+          </a>
+
+          <div class="btn btn-solid-k btn-secondary bg-gradient-orange rounded-md">
+            <span class="text">One Button</span>
+            <span class="icon icon-border"><i class="ion ion-ios-arrow-forward"></i></span>
+          </div>
+
+          <a class="btn btn-solid-k btn-danger  color-invert ">
+            <span class="text text-border">Another one</span>
+            <span class="icon"><i class="ion ion-ios-arrow-forward"></i></span>
+          </a>
+
+          <a class="btn btn-solid-k btn-primary bg-gradient-purple-45 rounded-pill ">
+            <span class="icon"><i class="ion ion-ios-chatbubbles"></i></span>
+            <span class="text">Chat</span>
+          </a>
+
+          <a class="btn btn-solid-k btn-dark btn-x-lg rounded-none">
+            <span class="text text-uppercase text-spaced">Read more</span>
+            <span class="icon"><i class="ion ion-md-arrow-forward"></i></span>
+          </a>
+        </div>
+      </div>
+
+      <p>Color variants :</p>
+      <div class="preview-wrapper">
+        <div class="btns-list ">
+          <!-- Colors -->
+          <a class="btn btn-solid-k btn-primary">
+            <span class="text">Primary</span>
+            <span class="icon"><i class="ion ion-ios-arrow-forward"></i></span>
+          </a>
+          <a class="btn btn-solid-k btn-secondary">
+            <span class="text">Secondary</span>
+            <span class="icon"><i class="ion ion-ios-arrow-forward"></i></span>
+          </a>
+          <a class="btn btn-solid-k btn-success">
+            <span class="text">Success</span>
+            <span class="icon"><i class="ion ion-ios-arrow-forward"></i></span>
+          </a>
+          <a class="btn btn-solid-k btn-danger">
+            <span class="text">Danger</span>
+            <span class="icon"><i class="ion ion-ios-arrow-forward"></i></span>
+          </a>
+          <a class="btn btn-solid-k btn-warning">
+            <span class="text">Warning</span>
+            <span class="icon"><i class="ion ion-ios-arrow-forward"></i></span>
+          </a>
+          <a class="btn btn-solid-k btn-info">
+            <span class="text">Info</span>
+            <span class="icon"><i class="ion ion-ios-arrow-forward"></i></span>
+          </a>
+          <a class="btn btn-solid-k btn-light">
+            <span class="text">Light</span>
+            <span class="icon"><i class="ion ion-ios-arrow-forward"></i></span>
+          </a>
+          <a class="btn btn-solid-k btn-dark">
+            <span class="text">Dark</span>
+            <span class="icon"><i class="ion ion-ios-arrow-forward"></i></span>
+          </a>
+        </div>
+      </div>
+
+      <p>Alternative colors :</p>
+      <div class="preview-wrapper">
+        <div class="btns-list ">
+          <!-- Colors -->
+          <a class="btn btn-solid-k btn-primary color-invert">
+            <span class="text">Primary</span>
+            <span class="icon"><i class="ion ion-md-arrow-forward"></i></span>
+          </a>
+          <a class="btn btn-solid-k btn-secondary color-invert">
+            <span class="text">Secondary</span>
+            <span class="icon"><i class="ion ion-md-arrow-forward"></i></span>
+          </a>
+          <a class="btn btn-solid-k btn-success color-invert">
+            <span class="text">Success</span>
+            <span class="icon"><i class="ion ion-md-arrow-forward"></i></span>
+          </a>
+          <a class="btn btn-solid-k btn-danger color-invert">
+            <span class="text">Danger</span>
+            <span class="icon"><i class="ion ion-md-arrow-forward"></i></span>
+          </a>
+          <a class="btn btn-solid-k btn-warning color-invert">
+            <span class="text">Warning</span>
+            <span class="icon"><i class="ion ion-md-arrow-forward"></i></span>
+          </a>
+          <a class="btn btn-solid-k btn-info color-invert">
+            <span class="text">Info</span>
+            <span class="icon"><i class="ion ion-md-arrow-forward"></i></span>
+          </a>
+          <a class="btn btn-solid-k btn-light color-invert">
+            <span class="text">Light</span>
+            <span class="icon"><i class="ion ion-md-arrow-forward"></i></span>
+          </a>
+          <a class="btn btn-solid-k btn-dark color-invert">
+            <span class="text">Dark</span>
+            <span class="icon"><i class="ion ion-md-arrow-forward"></i></span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <nav class="sidebar-right">
+    <div class="sidebar-menu-b sidebar-reduced-off">
+      <div class="nav-header">
+        <h3 class="nav-title">
+          <span class="title">Buttons</span>
+        </h3>
+      </div>
+
+      <div class="nav-content">
+
+      </div>
+
+      <div class="nav-body flex-column">
+        <div class="nav-group">
+          <ul class="nav">
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <span class="text">Solid buttons</span>
+
+                <span class="action">
+                  <span class="icon-action icon-small"><i class="ion ion-ios-arrow-down"></i></span>
+                </span>
+              </a>
+              <ul class="nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#overview">
+                    <span class="text">Overview</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#usage">
+                    <span class="text">Usage</span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#variants">
+                <span class="text">Variants</span>
+
+                <span class="action">
+                  <span class="icon-action icon-small"><i class="ion ion-ios-arrow-down"></i></span>
+                </span>
+              </a>
+              <ul class="nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#btn-solid-a">
+                    <span class="text">btn-solid-a</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#btn-solid-b">
+                    <span class="text">btn-solid-b</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#btn-solid-c">
+                    <span class="text">btn-solid-c</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#btn-solid-d">
+                    <span class="text">btn-solid-d</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#btn-solid-e">
+                    <span class="text">btn-solid-e</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#btn-solid-f">
+                    <span class="text">btn-solid-f</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#btn-solid-g">
+                    <span class="text">btn-solid-g</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#btn-solid-h">
+                    <span class="text">btn-solid-h</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#btn-solid-i">
+                    <span class="text">btn-solid-i</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#btn-solid-j">
+                    <span class="text">btn-solid-j</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#btn-solid-k">
+                    <span class="text">btn-solid-k</span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+
+          </ul>
+        </div>
+
+      </div>
+
+    </div>
+  </nav>
+
+</body>
+
+<!-- All Javascript plugins goes here -->
+<script src="../js/clipboard.min.js"></script>
+<script src="../js/prism.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+
+<!-- Javascript main files -->
+<script src="../js/main.js"></script>
+
+</html>

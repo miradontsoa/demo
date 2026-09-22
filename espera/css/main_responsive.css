@@ -1,0 +1,249 @@
+/*-----------------------------------------------------------------
+[Legal Notice]
+
+Copyright (c) HighHay/Mivfx
+Before using this template, you should agree with themeforest licenses terms.
+http://themeforest.net/licenses
+-------------------------------------------------------------------*/
+
+/** CSS-AddOn for Large screen First responsiveness approch */
+
+/*hide menu for debug;*/
+
+.menu-left {
+/*	display: none;*/
+}
+
+/* Screen wide than 320px */
+@media (min-width: 321px) {
+	.page-contact .page-block .map-content {
+		display: block;
+		min-height: 90px;
+	}
+}
+
+/* Screen wide than 640px */
+@media (min-width: 641px) {
+	/* 1 Menu at left */
+	.menu-left {
+		left: 0;
+		outline: 1px solid rgba(0, 0, 0, 0.15);
+	}
+	.menu-btn{
+		display: none;
+	}
+	.main-content-container {
+		position: relative;
+		width: 100%;
+		height: 100%;
+		z-index: 2;
+	}
+	.main-content {
+		padding-left: 96px;
+	}
+	/* 2 Page cover */
+	.page-cover {
+    	left: 96px;
+		position: fixed;
+	}
+	.page-cover .title h2 {
+		font-size: 6em;
+	}
+	.page-cover .title h3 {
+		font-size: 1.2rem;
+		padding-bottom: 1rem;
+	}
+	/* 3 Main content */
+	.tile-container {
+		overflow: inherit;
+	}
+	
+	.tile-container .section .caption {
+		position: relative;
+		height: 0px;
+		padding-bottom: 50%;
+		font-family: serif;
+		z-index: 10;
+	}
+	.tile-container .section .caption .wrapper {
+		position: absolute;
+		border: 1px solid currentColor;		
+		border-top: 1px solid currentColor;
+		border-bottom: 1px solid currentColor;
+		top: 1.4rem;
+		left: 1.4rem;
+		right: 1.4rem;
+		bottom: 1.4rem;
+		padding: 1.4rem;
+	}
+	.tile-container .section .caption p {
+		font-size: 1.2rem;
+	}
+	.tile-container .section.color2 .caption .wrapper {
+		border: 1px solid currentColor;
+		border-top: 1px solid currentColor;
+		border-bottom: 1px solid currentColor;
+	}
+	.tile-container .section .images .visuals {
+		-ms-transform: scale(1.1);
+		-webkit-transform: scale(1.1);
+		transform: scale(1.1);
+	}
+	.tile-container .section .images .img-caption {
+		position: absolute;
+		bottom: 2.8rem;
+		left: -2.8rem;
+	}
+	.paper .wrapper .header:hover h2:after {
+		left: 0;
+		right: -2.8rem;
+	}
+	.paper .wrapper .content {
+		padding: 0 2.8rem 0 5.6rem;
+	}
+	.paper .wrapper .content.right {
+		padding: 0 5.6rem 0 2.8rem;
+	}
+	.paper .wrapper .content .social a:last-child {
+		margin-right: -5.6rem;
+	}
+	.paper.transparent .wrapper:after,
+	.paper.transparent .wrapper:before{
+		display: block;
+	}
+	.paper.page .wrapper .content {
+	  padding: 0 5.6rem;
+	}
+	.paper.page .wrapper .content .visual{
+		width: 40%;
+		top: 0;
+		left: -2.8rem;
+		z-index: 0;
+		float: left;
+		margin-bottom: 1.4rem;
+	}
+	.paper.post-list .list ul {
+		margin-left: 1.4rem;
+		margin-right: 1.4rem;
+	}
+	.contact.paper .wrapper .content {
+		padding: 0 5.6rem;
+	}
+	.blog.tile-container{
+		padding: 4.8rem 0px 0px;
+	}
+	.blog-nav{
+		position: fixed;
+		top:0;
+		width: 100%;
+		margin: 0;
+		margin-left: 0px;
+		padding: 0;
+	}
+	.blog-nav .container{
+		padding: 0 2.8rem;
+	}
+	.blog-nav.small-hide{
+		display: block;
+	}
+	.fullheight-margin{
+	  top: 100%;
+	}
+	.paper.fullheight-margin{
+	  top: 100%;
+	}
+	/* 4 Page footer */
+	.cover-footer {
+	padding: 1.4rem 2rem;
+		position: fixed;
+	  margin-left: 96px;
+	bottom: 0;
+	}
+	.cover-footer .scroll-d {
+		display: block;
+		right: 96px;
+		font-size: 1rem;
+	}
+	.cover-footer .social .text {
+		font-size: 0.9rem;
+		padding-left: 0.7rem;
+		display: inline-block;
+		position: relative;
+		float: none;
+		width: auto;
+		bottom: auto;
+	}
+	.cover-footer .icon {
+		font-size: 1.4rem;
+		padding-left: 0.7rem;
+		padding-right: 0.7rem;
+		padding-top: 0.7rem;
+		display: inline-block;
+		vertical-align: baseline;
+		margin-bottom: 0;
+	}
+}
+
+/* Screen wide than 1000px */
+@media (min-width: 1000px) {}
+/* Screen wide than 1024px */
+
+@media (min-width: 1025px) {
+	/* page cover */
+	.page-cover .title h3 {
+		font-size: 1.2rem;
+		padding-bottom: 4rem;
+	}
+	/* page content */
+	.tile-container .section .caption .wrapper {
+		position: absolute;
+		border: 1px solid currentColor;		
+		border-top: 1px solid currentColor;
+		border-bottom: 1px solid currentColor;
+		top: 1.4rem;
+		left: 1.4rem;
+		right: 1.4rem;
+		bottom: 1.4rem;
+		padding: 2.8rem;
+	}
+	.tile-container .line-through{
+		position: relative;		
+	}
+	.tile-container .line-through:before{
+		position: absolute;		
+		width: 100%;
+		height: 1px;
+		background: rgba(255, 255, 255, 0.67);
+		top:25%;
+		left: 0;
+	}
+	.blog-nav{
+		position: fixed;
+		top:0;
+		width: 100%;
+		margin: 0;
+		margin-left: -48px;
+		padding: 0;
+	}
+}
+/* Screen wide than 1400px */
+
+@media (min-width: 1400px) {
+	/* page cover */
+	
+}
+@media (min-width: 1600px) {}@media (min-width: 1800px) {}
+
+/* height responsiveness*/
+@media (min-height: 000px) {
+	 
+}
+@media (min-height: 300px) {
+	 
+}
+@media (min-height: 500px) {
+	 
+}
+@media (min-height: 660px) {
+	 
+}

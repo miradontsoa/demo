@@ -1,0 +1,55 @@
+.img-set-a {
+  position: relative;
+  min-height: 360px;
+  min-height: 90vw; }
+  @media screen and (min-width: 768px) {
+    .img-set-a {
+      min-height: 400px; } }
+  @media screen and (min-width: 992px) {
+    .img-set-a {
+      min-height: 512px; } }
+  .img-set-a .img-1 {
+    position: absolute;
+    top: 64px;
+    left: 0;
+    width: 80%; }
+    @media screen and (min-width: 768px) {
+      .img-set-a .img-1 {
+        top: 96px; } }
+  .img-set-a .img-2 {
+    position: absolute;
+    bottom: 32px;
+    right: 32px;
+    width: 30%; }
+
+.img-set-b {
+  position: relative;
+  min-height: 360px;
+  min-height: 90vw; }
+  @media screen and (min-width: 768px) {
+    .img-set-b {
+      min-height: 400px; } }
+  @media screen and (min-width: 992px) {
+    .img-set-b {
+      min-height: 512px; } }
+  .img-set-b .img-1 {
+    position: absolute;
+    top: 64px;
+    right: 0;
+    width: 80%; }
+    @media screen and (min-width: 768px) {
+      .img-set-b .img-1 {
+        top: 96px; } }
+  .img-set-b .img-2 {
+    position: absolute;
+    bottom: 32px;
+    left: 96px;
+    width: 50%; }
+  .img-set-b .img-3 {
+    position: absolute;
+    top: 96px;
+    left: 32px;
+    width: 50%; }
+    @media screen and (min-width: 768px) {
+      .img-set-b .img-3 {
+        top: 128px; } }

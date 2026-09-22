@@ -1,0 +1,224 @@
+/** Color customization **/
+.bg-mask-custom:after{	
+	  background: #465368;
+}
+.menu-left {
+	border-right: 1px solid #f1f1ee;
+}
+/*
+.menu-left {
+	background: #222;
+}
+.menu-left .logo-container {
+    background: #fff;
+}
+.menu-nav li a {
+	color: #fff;
+}
+.menu-nav li a:before, 
+.menu-nav li a:after {
+	background: #5c5c5c;
+}
+.menu-footer li a {
+	color: #fff;
+}
+*/
+
+.main-content {
+	background: #f1f1ee;
+}
+
+
+.paper.transparent {
+	background: #fff;
+}
+.paper.transparent .wrapper {
+	border-color: #222;
+	border-color: #465368 !important;
+	border-color: #f1f1ee !important;
+	border: 1px solid;
+	border-top: none;
+	border-bottom: none;
+}
+.paper.transparent .wrapper .title h2{
+	color: #465368;
+}
+.paper.transparent .wrapper .title h4{
+	color: #555;
+}
+.paper.transparent .wrapper .illustr .icon{
+	color: #fff;
+}
+.paper.transparent .wrapper .illustr .icon-cont:before{
+	background: #465368;
+	background: #202030;
+}
+.paper.transparent .wrapper:after ,
+.paper.transparent .wrapper:before {
+	background: #5C5C5C;
+	background: #465368;
+	background: #f1f1ee;
+/*	background: none;*/
+}
+.paper.transparent .grid .desc{
+	color: #202030;
+}
+
+.paper.grey .wrapper {
+	border-color: #917959;
+/*	border-color: #6E574F;*/
+}
+
+.paper.transparent .wrapper .form input {
+	border-color: #465368;
+	color: #465368;
+}
+ .form .button.classic {
+    position: relative;
+    z-index: 10;
+    color: #465368;
+}
+/* service / team*/
+.tile-container .line-through:before{
+	position: absolute;		
+	width: 100%;
+	height: 1px;
+	background: rgba(34, 34, 34, 0.67);
+	top:25%;
+	left: 0;
+}
+@media (max-width: 1023px) {
+	.tile-container .line-through:before{
+		display: none;
+	}
+}
+.tile-container .circlelist .content p a{
+	color: #7D7461;
+}
+.tile-container .circlelist .header h3 {
+	color: #222;
+}
+.tile-container .circlelist .header h3::after {
+    background: #222;
+}
+.tile-container .circlelist .content p {
+	color: #222;
+}
+.tile-container .circlelist .button.classic {
+	color: #222;
+}
+.tile-container .circlelist .header .circle {
+	background: #222;
+}
+.tile-container .circlelist .header .circle h2{
+	color: #fff;
+}
+.tile-container .circlelist .header .circle.bg-img:after {
+background: #222;
+	border: none;
+}
+.tile-container .circlelist .header .circle.color-2 {
+	background: #465368;
+}
+.tile-container .circlelist .header .circle.color-2.bg-img:after {
+	background: #465368;
+	border: none;
+}
+.tile-container .circlelist .header:hover .circle.color-2.bg-img:after {
+	background: rgba(0,0,0,0.2);
+	border: 5px solid #222;
+}
+/* circle color-3 */
+.tile-container .circlelist .header .circle.color-3 {
+	background: #fff;
+}
+.tile-container .circlelist .header .circle.color-3 h2{
+	color: #222;
+}
+.tile-container .circlelist .header .circle.color-3.bg-img:after {
+	background: #fff;
+	border: none;
+}
+.tile-container .circlelist .header:hover .circle.color-3.bg-img:after {
+	background: rgba(0,0,0,0.2);
+	border: 5px solid #222;
+}
+
+/* Contact */
+.paper.contact{
+	background: #373736;
+}
+.paper.contact .wrapper{
+	background: transparent;
+}
+.paper.contact .wrapper .header h2 {
+	color: #fff;
+}
+.paper.contact .wrapper .header h2::after ,
+.paper.contact .wrapper .header::after {
+	background: #b9b9b9;
+}
+.paper.contact .wrapper .content h3 {
+	color: #909090;
+}
+.paper.contact .wrapper .content p {
+	color: #fff;
+}
+.paper.contact .wrapper .content a {
+	color: #d1d1d1;
+}
+.paper.contact .wrapper .content .social a {
+	background: #fff;
+	color: #222;
+}
+.cover-footer.fade-scroll.transluscent, .cover-footer.transluscent {
+	background: transparent;
+}
+
+/** Font customization **/
+.page-cover .title h2 {
+    font-family: 'Montserrat-Bold';
+	font-weight: normal;
+	font-size: 3em;
+	letter-spacing: -0.02em;
+}
+@media (min-width: 641px) {
+	.page-cover .title h2 {
+		font-size: 5em;
+	}
+}
+.paper.transparent .wrapper .title h2{
+	font-family: 'Montserrat-Bold';
+	font-weight: normal;
+	letter-spacing: -0.02em;
+}
+.paper .wrapper .header h2 {
+	font-family: 'Montserrat-Bold';
+	font-weight: normal;
+	letter-spacing: -0.02em;
+}
+.paper.grey .wrapper .title h2 {
+	font-family: 'Montserrat-Bold';
+	font-weight: normal;
+	letter-spacing: -0.02em;
+}
+.tile-container .section .caption h2 {
+	font-family: 'Montserrat-Bold';
+	font-weight: normal;
+	letter-spacing: -0.02em;
+}
+.tile-container .circlelist .header h2 {
+    font-family: 'Montserrat-Bold';
+    font-weight: normal;
+	letter-spacing: -0.02em;
+    color: #222;
+    font-size: 2.4rem;
+}
+.paper.contact .wrapper .content a {
+	font-family: 'Montserrat';
+	font-weight: 100;
+}
+.paper.contact .wrapper .content h3 {
+	font-family: 'Montserrat';
+	font-weight: 100;
+}

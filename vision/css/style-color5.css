@@ -1,0 +1,34 @@
+
+.page h2,
+.page h3,
+.page h4{
+    color: #FF9800;
+/*    color: #f49c36;*/
+/*    color: #8d8d8d;*/
+}
+
+.page .s-title {
+	color: rgba(255, 255, 255, 0.21);
+	
+    color: #FF9800;
+}
+
+.page-home .content, .page-home.page-cent .content {
+/*    width: 42%;*/
+}
+
+.page .content .subhead {
+	 color: #FF9800;
+}
+
+.page-cover:before{
+	position: absolute;
+	content: "";
+	top: 8px;
+	left: 8px;
+	bottom: 8px;
+	right: 8px;
+	z-index: 2;
+	border: 2px solid rgba(255, 255, 255, 0.21);
+}
+

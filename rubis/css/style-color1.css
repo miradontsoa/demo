@@ -1,0 +1,128 @@
+/* Alternative colors */
+/* Header */
+.header-top .logo-wrapper .logo {
+  color: #ec9954; }
+
+/* menu */
+.menu-icon .bars .bar1,
+.menu-icon .bars .bar2,
+.menu-icon .bars .bar3 {
+  background: #ec9954; }
+
+/* main page */
+/* home section */
+.section-home .content .c-text .header h2 {
+  color: #ec9954; }
+.section-home .content .c-text .home-btns .btn:before {
+  color: #ec9954; }
+.section-home .content .c-text .home-btns .btn:after {
+  background: #ec9954; }
+.section-home .content .c-text .h-img .img:hover:before {
+  background: rgba(236, 153, 84, 0.5); }
+
+/* main section */
+.section .page-title,
+.section .c-header h2,
+.feature-list .item-box .item-info h2,
+.feature-text-list h3,
+.slider-items .item-list li h3, .slider-items .item-list li .title,
+.c-itemlist li h3, .c-itemlist li .title,
+.c-itemlist li h3.price, .c-itemlist li .price,
+.c-itemlist li h3.btn, .c-itemlist li .btn {
+  color: #ec9954; }
+
+.section-footer .content .f-logo h2,
+.section-footer .content h3 {
+  color: #ec9954; }
+
+.section-header .c-header h2 {
+  color: #ffffff; }
+
+.feature-list .item-box:before,
+.section-contact .contact-footer .social-cont .socials li:after,
+.slider-items .swiper-pagination-bullet:hover,
+.slider-items .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background: #ec9954; }
+
+.section-footer .content .contact-registration,
+.c-itemlist li .title:after,
+.slider-items .swiper-pagination-bullet:hover:before,
+.slider-items .swiper-pagination-bullet.swiper-pagination-bullet-active:before {
+  border-color: #ec9954; }
+
+a,
+a:hover,
+a:focus {
+  color: #ec9954; }
+
+/* footer */
+.s-footer a {
+  color: #ec9954; }
+  .s-footer a .icon:after {
+    border-color: #ec9954; }
+  .s-footer a .icon:before {
+    background: #ec9954; }
+
+/* Buttons */
+.normal-btn .icon {
+  background: #ec9954; }
+
+.section.section-white .normal-btn {
+  color: #ec9954; }
+
+.normal-btn:active,
+.normal-btn:focus,
+.normal-btn:hover {
+  color: #ec9954; }
+  .normal-btn:active .icon:before,
+  .normal-btn:focus .icon:before,
+  .normal-btn:hover .icon:before {
+    background: #ec9954; }
+  .normal-btn:active .icon:after,
+  .normal-btn:focus .icon:after,
+  .normal-btn:hover .icon:after {
+    border-color: #ec9954; }
+
+.magic-btn,
+.magic-btn:hover {
+  color: #ec9954; }
+
+/* Nav dots */
+#fp-nav ul li a span.title {
+  color: #ec9954; }
+
+body.left-light #fp-nav ul li a.active span,
+body.left-light #fp-nav ul li a.active:hover span,
+#fp-nav ul li a.active span,
+#fp-nav ul li a.active:hover span {
+  background: #ec9954; }
+
+/* Alternative Fonts */
+.page-menu .menu-wrapper li a {
+  font-family: "Montserrat", "Proxima Nova", "Raleway", "Glacial Indifference", "Futura LT", "Roboto", "Helvetica", sans-serif; }
+  @media (min-width: 601px) {
+    .page-menu .menu-wrapper li a {
+      font-size: 16px; } }
+
+.section-home .content .c-text .header h2,
+.section .c-header h2,
+.section .page-title,
+.feature-list .item-box .item-info h2,
+.feature-text-list h3,
+.slider-items .item-list li h3,
+.slider-items .item-list li .title,
+.c-itemlist li h3,
+.c-itemlist li .title {
+  font-family: "Montserrat", "Proxima Nova", "Raleway", "Glacial Indifference", "Futura LT", "Roboto", "Helvetica", sans-serif; }
+
+.section .c-header h2 {
+  font-weight: bold; }
+
+.section-home .content .c-text .header h2 {
+  font-weight: bold; }
+
+.section .page-title {
+  font-weight: bold;
+  font-size: 48px; }
+
+/*# sourceMappingURL=style-color1.css.map */

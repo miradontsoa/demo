@@ -1,0 +1,154 @@
+/* Alternative colors */
+/* menu */
+.top-menu-links {
+  background: #1c7ad9; }
+  @media (min-width: 601px) {
+    .top-menu-links {
+      background: none; } }
+
+.top-menu-links .links li.cta a:hover {
+  color: #d4097e; }
+
+.main-menu {
+  background: #d4097e; }
+  .main-menu ul li {
+    background: none; }
+  @media (min-width: 601px) {
+    .main-menu ul {
+      /* 1 / 4 menu */
+      /* 2 / 4 menu */
+      /* 3 / 4 menu */
+      /* 4 / 4 menu */ }
+      .main-menu ul li:nth-child(1) {
+        background: #d4097e; }
+        .main-menu ul li:nth-child(1) a:hover {
+          color: #d4097e; }
+      .main-menu ul li:nth-child(2) {
+        background: #962e9c; }
+        .main-menu ul li:nth-child(2) a:hover {
+          color: #962e9c; }
+      .main-menu ul li:nth-child(3) {
+        background: #5854ba; }
+        .main-menu ul li:nth-child(3) a:hover {
+          color: #5854ba; }
+      .main-menu ul li:nth-child(4) {
+        background: #1c7ad9; }
+        .main-menu ul li:nth-child(4) a:hover {
+          color: #1c7ad9; } }
+  .main-menu ul li a:hover {
+    color: #1c7ad9; }
+
+/* clock */
+/* main page */
+.section .content .c-columns.c-pos-1-4 .c-logo,
+.section .content .c-columns.c-pos-2-4 .c-logo,
+.section .content .c-columns.c-pos-3-4 .c-logo,
+.section .content .c-columns.c-pos-4-4 .c-logo {
+  background: #d4097e; }
+
+.section .anim .anim-wrapper {
+  text-align: center; }
+  @media (min-width: 601px) {
+    .section .anim .anim-wrapper {
+      text-align: left; } }
+
+.section .c-centered .anim-wrapper {
+  text-align: center; }
+  @media (min-width: 601px) {
+    .section .c-centered .anim-wrapper {
+      text-align: center; } }
+
+.section .content .title-desc .title h2 {
+  color: #1d1d1d; }
+
+.section .content .title-desc h2 {
+  background: #fff;
+  color: #1d1d1d;
+  display: inline-block;
+  padding-left: 0.2em;
+  padding-right: 0.2em;
+  padding-bottom: 0.075em; }
+
+.section .content .title-desc h3,
+.section .content .item-desc h3,
+.section .content .c-features-list li h3 {
+  color: #d4097e; }
+
+.section-home .content .title-desc h3 {
+  color: #fff; }
+
+.section-contact .content .item-desc a,
+.section-contact .content .c-form .form .fields label.error {
+  color: #d4097e; }
+
+.section .content .c-features-list li:before {
+  background: #d4097e; }
+
+.section .content .c-features-list li:after {
+  border-color: #d4097e; }
+
+/* footer */
+.site-footer .note .marked,
+.site-footer .note a {
+  color: #d4097e;
+  text-decoration: underline; }
+
+.scrolldown a:after {
+  background: #d4097e; }
+
+.site-footer .subscription .form .input {
+  border-color: #d4097e; }
+
+/* Buttons */
+.magic-btn {
+  color: #d4097e; }
+
+.arrow-circ-btn .arrow-icon:after {
+  border-color: #d4097e; }
+
+.arrow-circ-btn .arrow-icon:before {
+  border-color: #d4097e;
+  border-left-color: transparent; }
+
+.arrow-circ-btn:hover .arrow-icon:after {
+  border-color: #d4097e; }
+
+.arrow-circ-btn:focus .arrow-icon:before, .arrow-circ-btn:hover .arrow-icon:before {
+  border-color: #fff;
+  border-left-color: transparent; }
+
+.circ-btn:before {
+  border-color: #d4097e;
+  border-top-color: transparent; }
+
+.circ-btn:hover:before {
+  border-color: #fff;
+  border-top-color: transparent; }
+
+.circ-btn:hover {
+  color: #d4097e; }
+
+.rect-btn:hover,
+.arrow-circ-btn:hover {
+  color: #d4097e;
+  border-color: currentColor; }
+
+/* Nav dots and Slider indication */
+#fp-nav ul li a.active span,
+#fp-nav ul li a.active:hover span {
+  border-color: #d4097e; }
+
+.section .content .wrapper .swiper-pagination-bullet:hover,
+.section .content .wrapper .swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background: #d4097e; }
+
+.section .content .wrapper .swiper-pagination-bullet:hover:before,
+.section .content .wrapper .swiper-pagination-bullet.swiper-pagination-bullet-active:before {
+  border-color: #d4097e; }
+
+.section .content .wrapper .items-nav-container .items-button a:after {
+  background: #d4097e; }
+
+/* Fonts */
+
+/*# sourceMappingURL=style-color4.css.map */

@@ -1,0 +1,401 @@
+<html>
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+  <!-- Page Title Here -->
+  <title>Input group - Simple UI</title>
+
+  <!-- Meta -->
+  <!-- Page Description Here -->
+  <meta name="description" content="Sample home page">
+
+  <!-- Responsive screen scaling-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Twitter Meta -->
+  <meta name="twitter:site" content="@twitterprofile">
+  <meta name="twitter:creator" content="@twitterprofile">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Page Title">
+  <meta name="twitter:description" content="Description of the page">
+  <meta name="twitter:image" content="/img/bg-default.jpg">
+
+  <!-- Facebook Meta -->
+  <meta property="og:url" content="your website url here">
+  <meta property="og:title" content="Page Title">
+  <meta property="og:description" content="Description of the page">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="/img/bg-default.jpg">
+  <meta property="og:image:secure_url" content="/img/bg-default.jpg">
+  <meta property="og:image:type" content="image/jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+
+  <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
+  <!-- Web fonts and Web Icons -->
+  <link rel="stylesheet" href="../fonts/ionicons/stylesheet.css">
+  <!-- Vendor CSS -->
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+
+  <!-- Demo  CSS files -->
+  <link rel="stylesheet" href="../css/demopage/main.css">
+
+  <!-- Cutekit UI CSS file -->
+  <link rel="stylesheet" href="../css/cutekit-ui.css">
+</head>
+
+<body class="body body-app">
+  <nav class="sidebar-left collapse" id="sidebar-left">
+    <div class="sidebar-menu-b sidebar-reduced-off">
+      <div class="nav-header">
+        <h3 class="nav-title">
+          <a class="navbar-brand" href="#">
+            <span class="logo">
+              <img class="light-logo" src="../img/logo-purple.svg" alt="Simpleux Template">
+            </span>
+            <span class="text title">
+              <span class="line strong">UI Elements</span>
+            </span>
+          </a>
+        </h3>
+      </div>
+
+      <div class="nav-content">
+
+      </div>
+
+      <div class="nav-body flex-column">
+        <div class="nav-group">
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link " href="../ui-elements/buttons.html">
+                <span class="icon"><i class="ion ion-md-square"></i></span>
+                <span class="text">Buttons</span>
+
+                <span class="action">
+                  <span class="icon-action icon-small"><i class="ion ion-ios-arrow-down"></i></span>
+                </span>
+              </a>
+              <ul class="nav">
+                <li class="nav-item">
+                  <a class="nav-link " href="../ui-elements/buttons.html">
+                    <span class="text">Solid buttons</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="../ui-elements/buttons-outline.html">
+                    <span class="text">Outline buttons</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="../ui-elements/buttons-line.html">
+                    <span class="text">Line buttons</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="../ui-elements/buttons-ui.html">
+                    <span class="text">App UI buttons</span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../ui-elements/input-group-a.html">
+                <span class="icon"><i class="ion ion-ios-exit"></i></span>
+                <span class="text">Input &amp; Textarea</span>
+
+                <span class="action">
+                  <span class="icon-action icon-small"><i class="ion ion-ios-arrow-down"></i></span>
+                </span>
+              </a>
+              <ul class="nav">
+                <li class="nav-item">
+                  <a class="nav-link active" href="../ui-elements/input-group-a.html">
+                    <span class="text">Solid background</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="../ui-elements/input-group-b.html">
+                    <span class="text">Outline Border</span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="nav-footer">
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link-off btn btn-solid-b btn-primary" href="https://buy.paddle.com/product/644914">
+              <span class="icon"><i class="ion ion-ios-cart"></i></span>
+              <span class="text">Buy it now</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="main-page page-app">
+    <header class="page-topbar">
+      <!--search bar -->
+      <div class="navbar-a navbar-top-height">
+        <a class="navbar-brand" href="#">
+          <span class="logo">
+            <img class="light-logo" src="../img/logo-purple.svg" alt="Simpleux Template">
+          </span>
+          <span class="text ">
+            <span class="line strong">UI Elements</span>
+          </span>
+        </a>
+
+        <button class="navbar-toggler text-black" type="button" data-bs-toggle="collapse" data-bs-target="#sidebar-left"
+          aria-controls="sidebar-left" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="icon icon-menu icon-menu-a">
+            <span class="bars">
+              <span class="bar1"></span>
+              <span class="bar2"></span>
+              <span class="bar3"></span>
+            </span>
+          </span>
+        </button>
+      </div>
+    </header>
+
+    <!-- Start of .content Page main content here -->
+    <div class="content page-content doc-content ">
+      <h1 class="hr-btm">Input Group</h1>
+
+      <h2 id="overview">Solid background</h2>
+      <h3 id="combination">Combination</h3>
+      <p>The following samples show how inputs, labels and buttons are associated inside an <code>input-group</code> to
+        get complex form input layouts.</p>
+
+      <div class="preview-wrapper">
+        <div class="forms-list ">
+          <div class="input-group input-group-a">
+            <input type="text" class="input form-control" placeholder="Input ...">
+          </div>
+
+          <div class="input-group input-group-a rounded-md bd-shadow-inner no-overflow">
+            <input type="text" class="input form-control" placeholder="Search ...">
+            <span class="input-group-btn">
+              <button class="btn btn-ui-e btn-primary" type="button">
+                <span class="icon ion ion-md-search"></span>
+              </button>
+            </span>
+          </div>
+
+          <div class="input-group input-group-a ">
+            <label class="input-group-text">Name :</label>
+            <input type="text" class="input form-control" placeholder="Dave Peter ...">
+            <div class="input-group-btn">
+              <button class="btn btn-ui-a btn-primary" type="button">
+                <span class="icon ion ion-md-arrow-forward"></span>
+              </button>
+            </div>
+          </div>
+
+          <div class="input-group input-group-a rounded-sm bd-shadow-md">
+            <label class="input-group-text bg-white-primary ">Color</label>
+            <select class="form-select pl-2">
+              <option selected>Choose...</option>
+              <option value="R">Red</option>
+              <option value="G">Green</option>
+              <option value="B">Blue</option>
+            </select>
+          </div>
+
+          <div class="input-group input-group-a input-group-sm">
+            <label class="input-group-text">Label :</label>
+            <input type="text" class="input form-control" placeholder="Small ...">
+            <span class="input-group-btn">
+              <button class="btn btn-ui-e btn-primary" type="button">
+                <span class="icon ion ion-md-search"></span>
+              </button>
+            </span>
+          </div>
+
+          <div class="input-group input-group-a input-group-lg bd-shadow-flat">
+            <label class="input-group-text">Label :</label>
+            <input type="text" class="input form-control" placeholder="Large ...">
+            <span class="input-group-btn">
+              <button class="btn btn-ui-e btn-primary" type="button">
+                <span class="icon ion ion-md-search"></span>
+              </button>
+            </span>
+          </div>
+
+          <div class="input-group input-group-a bd-rounded-2 no-overflow">
+            <textarea type="textarea" class="form-control" placeholder="Hello ..."></textarea>
+            <span class="input-group-btn">
+              <button class="btn btn-icon-a btn-primary" type="button">
+                <span class="icon ion ion-md-send"></span>
+              </button>
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <h3 id="customization">Customization</h3>
+      <p>Here are all the possible changes in appearance by varying the <code>input-group</code> class parameters.</p>
+
+      <div class="preview-wrapper">
+        <div class="forms-list ">
+          <div class="input-group input-group-a">
+            <input type="text" class="input form-control" placeholder="Input ...">
+          </div>
+
+          <div class="input-group input-group-a bg-transparent">
+            <input type="text" class="input form-control" placeholder="Input ...">
+          </div>
+
+          <div class="input-group input-group-a ig-flat">
+            <input type="text" class="input form-control" placeholder="Input ...">
+          </div>
+
+          <div class="input-group input-group-a bg-transparent ig-flat">
+            <input type="text" class="input form-control" placeholder="Input ...">
+          </div>
+
+          <div class="input-group input-group-a bd-shadow-inner">
+            <input type="text" class="input form-control" placeholder="Input ...">
+          </div>
+
+          <div class="input-group input-group-a bg-transparent bd-shadow-inner">
+            <input type="text" class="input form-control" placeholder="Input ...">
+          </div>
+
+          <div class="input-group input-group-a bd-shadow-sm">
+            <input type="text" class="input form-control" placeholder="Input ...">
+          </div>
+
+          <div class="input-group input-group-a input-group-primary bg-transparent bd-shadow-sm">
+            <input type="text" class="input form-control" placeholder="Input ...">
+          </div>
+
+          <div class="input-group input-group-a bd-shadow-md">
+            <input type="text" class="input form-control" placeholder="Input ...">
+          </div>
+
+          <div class="input-group input-group-a input-group-primary bg-transparent bd-shadow-md">
+            <input type="text" class="input form-control" placeholder="Input ...">
+          </div>
+
+          <div class="input-group input-group-a bd-shadow-lg">
+            <input type="text" class="input form-control" placeholder="Input ...">
+          </div>
+
+          <div class="input-group input-group-a input-group-primary bg-transparent bd-shadow-lg">
+            <input type="text" class="input form-control" placeholder="Input ...">
+          </div>
+
+          <div class="input-group input-group-a bd-shadow-flat">
+            <input type="text" class="input form-control" placeholder="Input ...">
+          </div>
+
+          <div class="input-group input-group-a input-group-primary bg-transparent bd-shadow-flat">
+            <input type="text" class="input form-control" placeholder="Input ...">
+          </div>
+        </div>
+      </div>
+
+      <h3 id="input-type">Input type</h3>
+      <p>The following samples show how it looks with various input type (textarea, select and input).</p>
+      <div class="preview-wrapper">
+        <div class="forms-list ">
+          <div class="input-group input-group-a">
+            <input type="text" class="input form-control" placeholder="Input ...">
+          </div>
+
+          <div class="input-group input-group-a">
+            <select class="form-select">
+              <option selected>Choose...</option>
+              <option value="Option 1">Option 1</option>
+              <option value="Option 2">Option 2</option>
+              <option value="Option 3">Option 3</option>
+            </select>
+          </div>
+
+          <div class="input-group input-group-a">
+            <textarea type="textarea" class="input form-control" placeholder="Textarea ..."></textarea>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <nav class="sidebar-right">
+    <div class="sidebar-menu-b sidebar-reduced-off">
+      <div class="nav-header">
+        <h3 class="nav-title">
+          <span class="title">Forms</span>
+        </h3>
+      </div>
+
+      <div class="nav-content">
+
+      </div>
+
+      <div class="nav-body flex-column">
+        <div class="nav-group">
+          <ul class="nav">
+
+            <li class="nav-item">
+              <a class="nav-link" href="#overview">
+                <span class="text">Input group</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#appearance">
+                <span class="text">Appearance</span>
+
+                <span class="action">
+                  <span class="icon-action icon-small"><i class="ion ion-ios-arrow-down"></i></span>
+                </span>
+              </a>
+              <ul class="nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#combination">
+                    <span class="text">Combination</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#customization">
+                    <span class="text">Customization</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#input-type">
+                    <span class="text">Input type</span>
+                  </a>
+                </li>
+
+              </ul>
+            </li>
+
+          </ul>
+        </div>
+
+      </div>
+
+    </div>
+  </nav>
+
+</body>
+
+<!-- All Javascript plugins goes here -->
+<script src="../js/clipboard.min.js"></script>
+<script src="../js/prism.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+
+<!-- Javascript main files -->
+<script src="../js/main.js"></script>
+
+</html>

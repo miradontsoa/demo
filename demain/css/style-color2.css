@@ -1,0 +1,185 @@
+/* Font customization */
+
+.header-top .menu a,
+.page-footer,
+.quick-link .title,
+.p-footer .text,
+.p-footer .arrow-d,
+.page-footer a,
+.page-cent .content,
+.page-cent .p-title h3,
+.page-cent .p-title h2,
+.page-cent .text,
+.page h2,
+.page h3,
+.page h4,
+.page p,
+.page .content .clock .header,
+.page .clock .text,
+.page .clock .elem-center .digit,
+.page .clock .elem-right .digit,
+.page .clock .elem-left .digit,
+.page .form input,
+.page .form label,
+.page .form button,
+.page .form textarea,
+.page-contact a ,
+.page-contact .socialnet a{
+	font-family: 'Opensans';
+	letter-spacing: -0.01em;
+	color: #222222;
+}
+
+.page .form button{
+	color: #fff;
+}
+.page .clock .elem-center .digit,
+.page .clock .elem-right .digit,
+.page .clock .elem-left .digit
+{
+	letter-spacing: -0.05em;
+}
+.header-top .menu a:hover,
+.quick-link a {
+	color: #222222;
+}
+.quick-link a:hover {
+	color: #ffffff;
+}
+#fp-nav span:after, .fp-slidesNav span:after{
+	background: rgba(55, 58, 80, 0.15);
+}
+#fp-nav ul li a span,
+#fp-nav li .active span, .fp-slidesNav .active span{
+	background: #222222;
+}
+#fp-nav span, .fp-slidesNav span{
+	border-color: #222222;
+}
+.quick-link a ,
+.header-top .menu a:hover,
+.page-contact .p-title .buttons,
+.p-footer .arrow-d {
+	background: rgba(55, 58, 80, 0.15);
+}
+.header-top .menu a:first-child:after ,
+.p-footer .arrow-d .circle {
+	background: #222222;
+}
+.page-home .content h2 {
+	color: #727272;
+}
+.page-home .content h2 strong {
+/*	color: #727272;*/
+/*	color: #006870;*/
+/*	color: #B0ABC2;*/
+}
+
+.page-home .content .subhead {
+/*	color: #A3D0D3;*/
+	color: #ABABAB;
+}
+.page-home .content .subhead:hover {
+	color:  #727272;
+}
+
+/* Color */
+.title.bg-blue,
+.bg-blue,
+.mask-blue:before,
+.quick-link a:hover:after,
+.quick-link a.marked,
+.header-top.material .menu a:hover,
+.p-footer .arrow-d:hover,
+.page .form button{
+	background: #727272;
+}
+.page .form .fields,
+.page-cent .p-title h3{
+	border-bottom-color: #727272;
+}
+.header-top.material .menu a,
+.header-top .menu a,
+.page .form button:hover{
+	color: #222222;
+}
+
+/* Cover BG Color */
+.cover-bg-mask{
+	background: #F5F5F5;
+}
+
+/* Panel content color*/
+/* clickable button */
+.page-click .p-button .icon a {
+	color: #222222;
+}
+.page-click:after{
+	background: #222222;
+}
+.page-click.line-right:after{
+	background: #222222;
+}
+.page-click.line-left:after{
+	background: #222222;
+}
+.page-click .p-button{
+	background: rgba(34, 34, 34, 0.1);
+	border-color: #222222;
+}
+.page-click .p-button:hover{
+	background: rgba(34, 34, 34, 0.15);
+}
+.page-click .p-button:after{
+	border-color: #222222;
+}
+/* Home */
+.page .clock .second {
+	box-shadow:  0px 0px 0px 2px #222 ,0px 0px 0px 7px #222222 inset;
+}
+
+/* social network */
+.page-social .icon-list li:after{
+	border: 0px solid #222222;
+}
+.page-social .icon-list a{
+	color: #222222;
+	background: rgba(34, 34, 34,0.15);
+}
+
+
+/* Panel Background */
+/* Contact panelq */
+#p-contact{
+	background: #fff;
+}
+#p-message{
+	background: #fff;
+}
+#p-contact-to-home{
+	background: #fff;
+}
+
+/* Home panels */
+#p-home-to-contact{
+	background: #E9E9E9;
+}
+#p-home{
+	background: #fff;
+}
+#p-home-to-register{
+	background: #E9E9E9;
+}
+
+/* register panels */
+#p-register-to-home{
+	background: #fff;
+}
+#p-register{
+	background: rgba(0, 0, 0, 0.8);
+	background: #fff;
+}
+#p-social{
+	background: rgba(0, 0, 0, 0.5);
+	background: #fff;
+}

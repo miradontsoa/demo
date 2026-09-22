@@ -1,0 +1,89 @@
+/* Alternative colors */
+/* menu */
+.main-menu,
+.top-menu-links {
+  background: rgba(0, 0, 0, 0.9); }
+  @media (min-width: 601px) {
+    .main-menu,
+    .top-menu-links {
+      background: none; } }
+
+.top-menu-links .links li.cta a:hover {
+  color: #06D64B; }
+
+.main-menu ul li.active .icon,
+.main-menu ul li a:hover {
+  color: #06D64B; }
+
+/* main page */
+/* asssign different background for each section */
+/* text color */
+.section .content .c-columns {
+  /* feature list */ }
+  .section .content .c-columns .c-logo {
+    background: rgba(0, 0, 0, 0.5); }
+    .section .content .c-columns .c-logo:after {
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: -32px;
+      background: rgba(0, 0, 0, 0.5);
+      z-index: -1;
+      border: none; }
+    @media (min-width: 601px) {
+      .section .content .c-columns .c-logo {
+        background: none; } }
+    @media (min-width: 801px) {
+      .section .content .c-columns .c-logo .arrow-circ-btn {
+        color: #fff;
+        border-color: #fff; }
+        .section .content .c-columns .c-logo .arrow-circ-btn:before {
+          background: #fff; }
+        .section .content .c-columns .c-logo .arrow-circ-btn:focus, .section .content .c-columns .c-logo .arrow-circ-btn:hover {
+          color: #06D64B; } }
+  .section .content .c-columns .wrapper .arrow-circ-btn:focus,
+  .section .content .c-columns .wrapper .arrow-circ-btn:hover {
+    color: #06D64B; }
+  .section .content .c-columns .item-desc a {
+    color: #06D64B; }
+  .section .content .c-columns .circ-btn:hover:before {
+    border-color: #06D64B;
+    border-top-color: transparent; }
+  .section .content .c-columns .c-features-list li h3 {
+    color: #06D64B; }
+  .section .content .c-columns .c-features-list li:before {
+    background: #06D64B; }
+  .section .content .c-columns .swiper-pagination-bullet:hover,
+  .section .content .c-columns .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background: #06D64B; }
+  .section .content .c-columns .swiper-pagination-bullet:hover:before,
+  .section .content .c-columns .swiper-pagination-bullet.swiper-pagination-bullet-active:before {
+    border-color: #06D64B; }
+  .section .content .c-columns .wrapper .items-nav-container .items-button a:after {
+    background: #06D64B; }
+
+/* footer */
+/* Buttons */
+.circ-btn {
+  color: #fff; }
+
+@media (min-width: 601px) {
+  .circ-btn {
+    color: #fff; } }
+.arrow-circ-btn .arrow-icon:after {
+  border-color: #06D64B; }
+
+.arrow-circ-btn .arrow-icon:before {
+  border-color: #06D64B;
+  border-left-color: transparent; }
+
+.arrow-circ-btn:hover .arrow-icon:after {
+  border-color: #06D64B; }
+
+.arrow-circ-btn:focus .arrow-icon:before, .arrow-circ-btn:hover .arrow-icon:before {
+  border-color: #fff;
+  border-left-color: transparent; }
+
+/* Fonts */
+
+/*# sourceMappingURL=style-color5.css.map */

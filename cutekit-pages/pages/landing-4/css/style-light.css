@@ -1,0 +1,16 @@
+:root {
+  --black: #252627;
+  --white: #FFFFFF; }
+
+body {
+  --backgroundColor: var(--white, #FFFFFF);
+  --foregroundColor: var(--black, #252627);
+  color: var(--foregroundColor);
+  background: var(--backgroundColor); }
+
+.navbar-top .navbar-nav .btn-primary {
+  color: #FFFFFF; }
+
+@media screen and (min-width: 992px) {
+  body.scrolled .navbar-top {
+    background: rgba(255, 255, 255, 0.2); } }

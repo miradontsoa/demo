@@ -1,0 +1,60 @@
+/* Alternative colors */
+/* menu */
+.menu-icon .bars .bar1,
+.menu-icon .bars .bar2,
+.menu-icon .bars .bar3 {
+  background: #1585cf; }
+
+/* main page */
+.section .content .c-wrapper .slide-nav-container .items-button a,
+.section .content .c-wrapper .items-nav-container .items-button a,
+.section .content .c-left .c-wrapper .h-icon,
+.section-contact .content .c-form .form .fields label,
+.site-footer .note .marked {
+  color: #1585cf; }
+
+.section .content .items-slide .swiper-wrapper .swiper-slide .desc:before,
+.section .content .items-slide .swiper-wrapper .swiper-slide .desc:after,
+.section .content .c-wrapper .slide-nav-container .items-button:after, .section .content .c-wrapper .items-nav-container .items-button:after,
+.section-contact .contact-footer .social-cont .socials li:after {
+  background: #1585cf; }
+
+.section-contact .content .c-form .form .fields input {
+  border-bottom-color: #1585cf; }
+
+a,
+a:hover,
+a:focus {
+  color: #1585cf; }
+
+/* Buttons */
+.magic-btn {
+  color: #1585cf; }
+
+/* Nav dots */
+#fp-nav ul li a span.title {
+  color: #1585cf; }
+
+body.left-light #fp-nav ul li a.active span,
+body.left-light #fp-nav ul li a.active:hover span,
+#fp-nav ul li a.active span,
+#fp-nav ul li a.active:hover span {
+  background: #1585cf; }
+
+/* Fonts */
+.section-home .content .c-text .header h2,
+.section .content .c-left .c-wrapper h2,
+.section .content .c-right .c-wrapper .c-header h2,
+.section .content .c-features-list li h3,
+.section .content .c-features-list li .title,
+.section .content .gallery-slides .c-gallery li h3,
+.section .content .gallery-slides .c-gallery li .title,
+.section-contact .content .c-form .form .form-header h3 {
+  font-family: "GeosansLight","Futura LT", "Proxima Nova", "Montserrat", "Open Sans", "Roboto", "Helvetica", sans-serif;
+  font-weight: 100; }
+
+@media screen and (min-width: 32em) {
+  h2 {
+    font-size: 3rem; } }
+
+/*# sourceMappingURL=style-color1.css.map */

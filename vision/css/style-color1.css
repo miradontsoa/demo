@@ -1,0 +1,120 @@
+@media (min-width : 600px){
+	.page h2,
+	.page h3,
+	.page h4{
+	/*    color: #F44336;*/
+	/*    color: #f49c36;*/
+		color: #8d8d8d;
+	}
+
+	.page .s-title {
+		color: rgba(255, 255, 255, 0.21);
+	}
+
+	.page .content .subhead {
+		color: #1d1d1d;
+	}
+	.page p {
+		color: #8d8d8d;
+	}
+	.pane-when {
+		color: #fff;
+	}
+	.pane-when .header {
+		border-bottom-color: #fff;
+	}
+
+	.p-footer .btn:after,
+	.p-footer .btn:before,
+	.p-footer .btn div:after,
+	.p-footer .btn div:before{
+		background: #fff;
+	}
+
+	.header-top .menu-icon .bars .bar1, 
+	.header-top .menu-icon .bars .bar2, 
+	.header-top .menu-icon .bars .bar3 {
+		background: #1d1d1d;
+	}
+	.header-top .menu a ,
+	.header-top .menu-icon .txt {
+		color: #1d1d1d;
+	}
+	.header-top .menu a::after {
+		border-bottom-color: #1d1d1d;
+	}
+
+	.page .form label,
+	.page .form input {
+		color: #1d1d1d;
+	}
+
+	.page .form .fields {
+		border-bottom-color: #A9A9A9;
+		border-left-color: #A9A9A9;
+	}
+	.page .form textarea{
+		color: #1d1d1d;
+		border-color: #A9A9A9;
+	}
+	.page .form button {
+		background: #A9A9A9;
+		color: #fff;
+	}
+
+	.page-contact a {
+		color: #A9A9A9;
+	}
+	.page-contact .socialnet a {
+		color: #fff;
+	}
+
+	.page-cover:before{
+		position: absolute;
+		content: "";
+		background: #fff;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		width: 42%;
+		z-index: 1;
+	}
+	.page-home .content, .page-home.page-cent .content {
+		width: 42%;
+	}
+	.page .content{
+		position: absolute;
+		z-index: 3;
+	}
+
+	/*.page.transition:before{
+		-webkit-visibility: visible;
+		visibility: visible;
+		-webkit-transform: none;
+		transform: none;
+	}
+	.page-home.transition .logo-container{
+		-webkit-transform: translateY(20px) scale(0.1);
+		transform: translateY(20px) scale(0.1);
+		opacity: 0;
+	}
+	.page.transition .content{
+		-webkit-transform: none;
+		transform: none;
+	}
+	.slide.transition{
+		-webkit-transform: none;
+		transform: none;
+		background: rgba(255, 255, 255, 0.15);
+	}*/
+}
+@media (max-width : 1024px){
+	.page-cover:before{
+		width: 50%;
+	}
+}
+@media (max-width : 800px){
+	.page-cover:before{
+		display: none;
+	}
+}

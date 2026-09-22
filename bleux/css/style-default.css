@@ -1,0 +1,26 @@
+@media (min-width: 768px) {
+  .page-header-alpha.scrolled .navbar-topmenu .navbar-nav-menu .nav-item.active a {
+    color: #ffffff; } }
+
+/* 
+.landing-home{
+    // background: rgba($secondary, 0.2);
+    background: url('../img/bg-wave.png');
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: contain;
+}
+
+.landing-highhlight-features{
+    background: url('../img/bg-wave-sym.png'), $gradient-primary;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: contain;
+}
+
+.landing-cta{
+    background: url('../img/bg-wave-sym.png'), $gradient-secondary;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: contain;
+} */

@@ -1,0 +1,52 @@
+:root {
+  --light-color: #FFFFFF;
+  --light-color-rgb: 255, 255, 255;
+  --dark-color: #0C0C0D;
+  --dark-color-rgb: 12, 12, 13;
+  --bg-color: var(--dark-color);
+  --bg-color-rgb: var(--dark-color-rgb);
+  --fg-color: var(--light-color);
+  --fg-color-rgb: var(--light-color-rgb); }
+
+body {
+  background-color: var(--bg-color);
+  color: var(--fg-color); }
+
+.text-light {
+  color: var(--light-color) !important; }
+
+.text-dark {
+  color: var(--dark-color) !important; }
+
+.text-muted {
+  color: currentColor !important;
+  opacity: 0.7; }
+
+.text-muted-2 {
+  color: currentColor !important;
+  opacity: 0.5; }
+
+.navbar-top .navbar-brand {
+  color: var(--fg-color); }
+
+.navbar-top.navbar-light .navbar-toggler {
+  color: var(--fg-color); }
+
+@media screen and (min-width: 992px) {
+  .nav-fullscreen {
+    background: rgba(var(--bg-color-rgb), 0.75); } }
+
+.card-a {
+  background-color: rgba(var(--fg-color-rgb), 0.05); }
+
+.btn-solid {
+  color: var(--dark-color);
+  background-color: var(--light-color); }
+  .btn-solid:hover, .btn-solid:focus {
+    color: var(--dark-color);
+    background-color: rgba(var(--fg-color-rgb), 0.5); }
+
+.form-control-line,
+textarea.form-control-line {
+  background-color: rgba(var(--fg-color-rgb), 0.05);
+  color: var(--fg-color); }

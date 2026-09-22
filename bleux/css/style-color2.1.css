@@ -1,0 +1,143 @@
+/* page bg */
+.page-bg {
+  background: -webkit-gradient(linear, right top, left top, from(#037FD5), to(#03c5d5));
+  background: linear-gradient(to left, #037FD5, #03c5d5); }
+
+/* sections bg */
+.section-cover-full.mask-primary:before {
+  background: rgba(130, 184, 246, 0.75); }
+
+.bg-primary {
+  background: #82B8F6 !important; }
+
+.bg-primary-light {
+  background: #46BDDF !important; }
+
+.bg-primary-dark {
+  background: #181D4C !important; }
+
+/* page header */
+.page-header-alpha {
+  background: #82B8F6;
+  -webkit-transition: 0.3s;
+  transition: 0.3s; }
+  .page-header-alpha.scrolled {
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); }
+
+.page-header-alpha .all-menu-wrapper {
+  background: #82B8F6; }
+
+/* typo */
+.text-primary {
+  color: #82B8F6 !important; }
+
+.text-secondary {
+  color: #2F3885 !important; }
+  .text-secondary:before {
+    border-color: #2F3885 !important; }
+
+.text-gradient-primary {
+  background: -webkit-gradient(linear, right top, left top, from(#46BDDF), to(#2F3885));
+  background: linear-gradient(to left, #46BDDF, #2F3885);
+  background-size: cover;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent; }
+
+.text-gradient-secondary {
+  background: -webkit-gradient(linear, right top, left top, from(#181D4C), to(#2F3885));
+  background: linear-gradient(to left, #181D4C, #2F3885);
+  background-size: cover;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent; }
+
+a {
+  color: #2F3885; }
+  a:hover {
+    color: #432f85; }
+
+/* buttons */
+.btn-primary {
+  background: #46BDDF; }
+  .btn-primary:hover {
+    background: #468adf;
+    border-color: #468adf; }
+
+.btn-secondary {
+  background: #2F3885; }
+  .btn-secondary:hover {
+    background: #432f85;
+    border-color: #432f85; }
+
+.bg-gradient-primary {
+  background: -webkit-gradient(linear, right top, left top, from(#46BDDF), to(#2F3885));
+  background: linear-gradient(to left, #46BDDF, #2F3885); }
+  .bg-gradient-primary.btn:hover {
+    background: -webkit-gradient(linear, right top, left top, from(#46BDDF), to(#2F3885));
+    background: linear-gradient(to left, #46BDDF, #2F3885);
+    opacity: 0.8; }
+
+.bg-gradient-secondary {
+  background: -webkit-gradient(linear, right top, left top, from(#181D4C), to(#2F3885));
+  background: linear-gradient(to left, #181D4C, #2F3885); }
+
+/* page content */
+.section-home .section-content .title-desc .light {
+  color: white; }
+
+.media .media-body:before {
+  border-color: #2F3885; }
+
+.section.bg-bright .section-title h2 {
+  color: #82B8F6; }
+
+.form-container-subscribe {
+  border-color: #9a9a9a; }
+
+.section .material-wrapper {
+  color: #82B8F6; }
+
+.section-content ul.list-secondary > li:before {
+  color: #2F3885; }
+
+/* slider */
+.carousel-swiper-hash .items-pagination .swiper-pagination-bullet-active {
+  background: -webkit-gradient(linear, right top, left top, from(#46BDDF), to(#2F3885));
+  background: linear-gradient(to left, #46BDDF, #2F3885); }
+
+.carousel-swiper-review .items-pagination .swiper-pagination-bullet-active {
+  background: #82B8F6; }
+
+/* price list */
+/* primary */
+.price-item-alpha.price-item-primary .item-price {
+  background: #82B8F6; }
+
+.price-item-beta.price-item-primary .item-name,
+.price-item-beta.price-item-primary .item-features li.ok .icon,
+.price-item-alpha.price-item-primary .item-features li.ok .icon,
+.price-item-alpha.price-item-primary .item-name {
+  color: #82B8F6; }
+
+/* secondary */
+.price-item-alpha.price-item-secondary .item-price {
+  background: #2F3885; }
+
+.price-item-beta.price-item-secondary .item-name,
+.price-item-beta.price-item-secondary .item-features li.ok .icon,
+.price-item-alpha.price-item-secondary .item-features li.ok .icon,
+.price-item-alpha.price-item-secondary .item-name {
+  color: #2F3885; }
+
+/* featured */
+.price-item-beta.price-item-primary.featured,
+.price-item-alpha.price-item-primary.featured {
+  background: #82B8F6; }
+
+.price-item-beta.price-item-primary.featured .item-price,
+.price-item-alpha.price-item-primary.featured .item-price {
+  color: #82B8F6; }

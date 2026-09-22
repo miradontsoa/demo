@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="420" height="420" viewBox="0 0 420 420">
+  <defs>
+    <linearGradient id="linear-gradient" y1="1" x2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#6a6dff"/>
+      <stop offset="1" stop-color="#d07afe"/>
+    </linearGradient>
+    <filter id="Rectangle_5" x="24" y="21" width="374" height="284" filterUnits="userSpaceOnUse">
+      <feOffset dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Rectangle_6" x="254" y="135" width="166" height="284" filterUnits="userSpaceOnUse">
+      <feOffset dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="8" result="blur-2"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="illustr-1" transform="translate(-202 -888)">
+    <circle id="Ellipse_3" data-name="Ellipse 3" cx="210" cy="210" r="210" transform="translate(202 888)" fill="url(#linear-gradient)"/>
+    <g transform="matrix(1, 0, 0, 1, 202, 888)" filter="url(#Rectangle_5)">
+      <rect id="Rectangle_5-2" data-name="Rectangle 5" width="326" height="236" rx="16" transform="translate(48 39)" fill="#fff"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 202, 888)" filter="url(#Rectangle_6)">
+      <rect id="Rectangle_6-2" data-name="Rectangle 6" width="118" height="236" rx="16" transform="translate(278 153)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,68 @@
+/*-------------------
+Sample CSS overwriting main.css rules and changing title font, and
+section design
+
+[Table of contents]
+    1 Page cover background scroll animation
+[Colors]
+    White transluscent : rgba(white, 0.0625)
+    Black : #0d0d0d
+[Typography]
+    Title : "Jost*" , "Montserrat", "Open Sans" ,sans-serif;
+*/
+/* 1 Typography */
+/* Section background color */
+/* 1 Page cover background scroll animation */
+.page-cover .bg-color {
+  background-color: #132b7a;
+  transition: 0.6s; }
+
+.page-cover .bg-gradient {
+  background-image: linear-gradient(to right, #f44, #4ff);
+  opacity: 0.25; }
+
+.page-cover[data-color="color-0"] .bg-color {
+  background-color: #ff44ab; }
+
+.page-cover[data-color="color-1"] .bg-color {
+  background-color: #c444ff; }
+
+.page-cover[data-color="color-2"] .bg-color {
+  background-color: #5744ff; }
+
+.page-cover[data-color="color-3"] .bg-color {
+  background-color: #4460ff; }
+
+.page-cover[data-color="color-4"] .bg-color {
+  background-color: #4495ff; }
+
+.page-cover[data-color="color-5"] .bg-color {
+  background-color: #11e9c5; }
+
+.page-cover[data-color="color-6"] .bg-color {
+  background-color: #35e911; }
+
+.page-cover[data-color="color-7"] .bg-color {
+  background-color: #b3c003; }
+
+.page-cover[data-color="color-8"] .bg-color {
+  background-color: #e26f04; }
+
+.page-cover[data-color="color-9"] .bg-color {
+  background-color: #ff4444; }
+
+/* 2. Sections */
+.section-home .section-cover .bg-cover-img {
+  background-image: url("../img/bg-vector-1.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: 0.6s;
+  opacity: 0;
+  -webkit-transform: translateY(-25%);
+          transform: translateY(-25%); }
+
+.section-home.active .bg-cover-img {
+  opacity: 1;
+  -webkit-transform: none;
+          transform: none; }

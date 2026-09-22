@@ -1,0 +1,889 @@
+<html>
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+  <!-- Page Title Here -->
+  <title>Buttons - Simple UI</title>
+
+  <!-- Meta -->
+  <!-- Page Description Here -->
+  <meta name="description" content="Sample home page">
+
+  <!-- Responsive screen scaling-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Twitter Meta -->
+  <meta name="twitter:site" content="@twitterprofile">
+  <meta name="twitter:creator" content="@twitterprofile">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Page Title">
+  <meta name="twitter:description" content="Description of the page">
+  <meta name="twitter:image" content="/img/bg-default.jpg">
+
+  <!-- Facebook Meta -->
+  <meta property="og:url" content="your website url here">
+  <meta property="og:title" content="Page Title">
+  <meta property="og:description" content="Description of the page">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="/img/bg-default.jpg">
+  <meta property="og:image:secure_url" content="/img/bg-default.jpg">
+  <meta property="og:image:type" content="image/jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+
+  <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
+  <!-- Web fonts and Web Icons -->
+  <link rel="stylesheet" href="../fonts/ionicons/stylesheet.css">
+  <!-- Vendor CSS -->
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+
+  <!-- Demo  CSS files -->
+  <link rel="stylesheet" href="../css/demopage/main.css">
+
+  <!-- Cutekit UI CSS file -->
+  <link rel="stylesheet" href="../css/cutekit-ui.css">
+</head>
+
+<body class="body body-app">
+  <nav class="sidebar-left collapse" id="sidebar-left">
+    <div class="sidebar-menu-b sidebar-reduced-off">
+      <div class="nav-header">
+        <h3 class="nav-title">
+          <a class="navbar-brand" href="#">
+            <span class="logo">
+              <img class="light-logo" src="../img/logo-purple.svg" alt="Simpleux Template">
+            </span>
+            <span class="text title">
+              <span class="line strong">UI Elements</span>
+            </span>
+          </a>
+        </h3>
+      </div>
+
+      <div class="nav-content">
+
+      </div>
+
+      <div class="nav-body flex-column">
+        <div class="nav-group">
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link " href="../ui-elements/buttons.html">
+                <span class="icon"><i class="ion ion-md-square"></i></span>
+                <span class="text">Buttons</span>
+
+                <span class="action">
+                  <span class="icon-action icon-small"><i class="ion ion-ios-arrow-down"></i></span>
+                </span>
+              </a>
+              <ul class="nav">
+                <li class="nav-item">
+                  <a class="nav-link " href="../ui-elements/buttons.html">
+                    <span class="text">Solid buttons</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="../ui-elements/buttons-outline.html">
+                    <span class="text">Outline buttons</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="../ui-elements/buttons-line.html">
+                    <span class="text">Line buttons</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="../ui-elements/buttons-ui.html">
+                    <span class="text">App UI buttons</span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../ui-elements/input-group-a.html">
+                <span class="icon"><i class="ion ion-ios-exit"></i></span>
+                <span class="text">Input &amp; Textarea</span>
+
+                <span class="action">
+                  <span class="icon-action icon-small"><i class="ion ion-ios-arrow-down"></i></span>
+                </span>
+              </a>
+              <ul class="nav">
+                <li class="nav-item">
+                  <a class="nav-link " href="../ui-elements/input-group-a.html">
+                    <span class="text">Solid background</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="../ui-elements/input-group-b.html">
+                    <span class="text">Outline Border</span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="nav-footer">
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link-off btn btn-solid-b btn-primary" href="https://buy.paddle.com/product/644914">
+              <span class="icon"><i class="ion ion-ios-cart"></i></span>
+              <span class="text">Buy it now</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="main-page page-app">
+    <header class="page-topbar">
+      <!--search bar -->
+      <div class="navbar-a navbar-top-height">
+        <a class="navbar-brand" href="#">
+          <span class="logo">
+            <img class="light-logo" src="../img/logo-purple.svg" alt="Simpleux Template">
+          </span>
+          <span class="text ">
+            <span class="line strong">UI Elements</span>
+          </span>
+        </a>
+
+        <button class="navbar-toggler text-black" type="button" data-bs-toggle="collapse" data-bs-target="#sidebar-left"
+          aria-controls="sidebar-left" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="icon icon-menu icon-menu-a">
+            <span class="bars">
+              <span class="bar1"></span>
+              <span class="bar2"></span>
+              <span class="bar3"></span>
+            </span>
+          </span>
+        </button>
+      </div>
+    </header>
+
+    <!-- Start of .content Page main content here -->
+    <div class="content page-content doc-content ">
+      <h1 class="hr-btm">Line button</h1>
+
+      <h2 id="overview">Overview</h2>
+      <div class="subheading-">
+        <p>Line buttons are buttons with line as border or with decoration line such as the following examples.
+        </p>
+      </div>
+      <div class="preview-wrapper">
+        <div class="btns-list ">
+          <a class="btn btn-line-a btn-primary" href="#btn-line-a">
+            Button line a
+          </a>
+
+          <a class="btn btn-line-b btn-primary" href="#btn-line-b">
+            Button line b
+          </a>
+
+          <a class="btn btn-line-c btn-primary" href="#btn-line-c">
+            Button line c
+          </a>
+
+          <a class="btn btn-line-d btn-primary" href="#btn-line-d">
+            Button line d
+          </a>
+
+          <a class="btn btn-line-e btn-primary" href="#btn-line-e">
+            Button line e
+          </a>
+
+          <a class="btn btn-line-f btn-primary" href="#btn-line-f">
+            Button line f
+          </a>
+
+          <a class="btn btn-line-g btn-primary" href="#btn-line-g">
+            Button line g
+          </a>
+
+          <a class="btn btn-line-h btn-primary" href="#btn-line-h">
+            Button line h
+          </a>
+
+          <a class="btn btn-line-i btn-primary" href="#btn-line-i">
+            Button line i
+          </a>
+
+          <a class="btn btn-line-j btn-primary" href="#btn-line-j">
+            Button line j
+          </a>
+
+          <a class="btn btn-line-k btn-primary" href="#btn-line-k">
+            <span class="text">Button line k</span>
+          </a>
+        </div>
+      </div>
+
+      <h2 id="variants">Variants</h2>
+      <!-- ################################################ -->
+      <h3 id="btn-line-a">.btn-line-a</h3>
+      <hr>
+
+      <p>Sample use cases :</p>
+      <div class="preview-wrapper">
+        <div class="btns-list ">
+          <!-- Usage and customization -->
+          <a class="btn btn-line-a btn-primary">Button</a>
+
+          <button class="btn btn-line-a btn-secondary " type="button">
+            <span class="text">Play</span>
+            <span class="icon"><i class="ion ion-ios-play"></i></span>
+          </button>
+
+          <a class="btn btn-line-a btn-danger bdw-thin">
+            Thin border
+          </a>
+
+          <a class="btn btn-line-a btn-primary bdw-thick">
+            Thick border
+          </a>
+
+          <a class="btn btn-line-a btn-primary">
+            <span class="icon"><i class="ion ion-ios-chatbubbles"></i></span>
+            <span class="text">Chat</span>
+          </a>
+
+          <a class="btn btn-line-a btn-dark btn-x-lg">
+            <span class="text text-uppercase text-spaced">Read more</span>
+            <span class="icon"><i class="ion ion-md-arrow-forward"></i></span>
+          </a>
+        </div>
+      </div>
+
+      <p>Color variants :</p>
+      <div class="preview-wrapper">
+        <div class="btns-list ">
+          <!-- Colors -->
+          <a class="btn btn-line-a btn-primary">Primary</a>
+          <a class="btn btn-line-a btn-secondary">Secondary</a>
+          <a class="btn btn-line-a btn-success">Success</a>
+          <a class="btn btn-line-a btn-danger">Danger</a>
+          <a class="btn btn-line-a btn-warning">Warning</a>
+          <a class="btn btn-line-a btn-info">Info</a>
+          <a class="btn btn-line-a btn-light">Light</a>
+          <a class="btn btn-line-a btn-dark">Dark</a>
+        </div>
+      </div>
+
+      <!-- ################################################ -->
+      <h3 id="btn-line-b">.btn-line-b</h3>
+      <hr>
+
+      <p>Sample use cases :</p>
+      <div class="preview-wrapper">
+        <div class="btns-list ">
+          <!-- Usage and customization -->
+          <a class="btn btn-line-b btn-primary">Button</a>
+
+          <button class="btn btn-line-b btn-secondary " type="button">
+            <span class="text">Play</span>
+            <span class="icon"><i class="ion ion-ios-play"></i></span>
+          </button>
+
+          <a class="btn btn-line-b btn-danger bdw-thin">
+            Thin border
+          </a>
+
+          <a class="btn btn-line-b btn-primary bdw-thick">
+            Thick border
+          </a>
+
+          <a class="btn btn-line-b btn-primary">
+            <span class="icon"><i class="ion ion-ios-chatbubbles"></i></span>
+            <span class="text">Chat</span>
+          </a>
+
+          <a class="btn btn-line-b btn-dark btn-x-lg">
+            <span class="text text-uppercase text-spaced">Read more</span>
+            <span class="icon"><i class="ion ion-md-arrow-forward"></i></span>
+          </a>
+        </div>
+      </div>
+
+      <p>Color variants :</p>
+      <div class="preview-wrapper">
+        <div class="btns-list ">
+          <!-- Colors -->
+          <a class="btn btn-line-b btn-primary">Primary</a>
+          <a class="btn btn-line-b btn-secondary">Secondary</a>
+          <a class="btn btn-line-b btn-success">Success</a>
+          <a class="btn btn-line-b btn-danger">Danger</a>
+          <a class="btn btn-line-b btn-warning">Warning</a>
+          <a class="btn btn-line-b btn-info">Info</a>
+          <a class="btn btn-line-b btn-light">Light</a>
+          <a class="btn btn-line-b btn-dark">Dark</a>
+        </div>
+      </div>
+
+      <!-- ################################################ -->
+      <h3 id="btn-line-c">.btn-line-c</h3>
+      <hr>
+
+      <p>Sample use cases :</p>
+      <div class="preview-wrapper">
+        <div class="btns-list ">
+          <!-- Usage and customization -->
+          <a class="btn btn-line-c btn-primary">Button</a>
+
+          <button class="btn btn-line-c btn-secondary " type="button">
+            <span class="text">Play</span>
+            <span class="icon"><i class="ion ion-ios-play"></i></span>
+          </button>
+
+          <a class="btn btn-line-c btn-danger bdw-thin">
+            Thin border
+          </a>
+
+          <a class="btn btn-line-c btn-primary bdw-thick">
+            Thick border
+          </a>
+
+          <a class="btn btn-line-c btn-primary">
+            <span class="icon"><i class="ion ion-ios-chatbubbles"></i></span>
+            <span class="text">Chat</span>
+          </a>
+
+          <a class="btn btn-line-c btn-dark btn-x-lg">
+            <span class="text text-uppercase text-spaced">Read more</span>
+            <span class="icon"><i class="ion ion-md-arrow-forward"></i></span>
+          </a>
+        </div>
+      </div>
+
+      <p>Color variants :</p>
+      <div class="preview-wrapper">
+        <div class="btns-list ">
+          <!-- Colors -->
+          <a class="btn btn-line-c btn-primary">Primary</a>
+          <a class="btn btn-line-c btn-secondary">Secondary</a>
+          <a class="btn btn-line-c btn-success">Success</a>
+          <a class="btn btn-line-c btn-danger">Danger</a>
+          <a class="btn btn-line-c btn-warning">Warning</a>
+          <a class="btn btn-line-c btn-info">Info</a>
+          <a class="btn btn-line-c btn-light">Light</a>
+          <a class="btn btn-line-c btn-dark">Dark</a>
+        </div>
+      </div>
+
+      <!-- ################################################ -->
+      <h3 id="btn-line-d">.btn-line-d</h3>
+      <hr>
+
+      <p>Sample use cases :</p>
+      <div class="preview-wrapper">
+        <div class="btns-list ">
+          <!-- Usage and customization -->
+          <a class="btn btn-line-d btn-primary">Button</a>
+
+          <button class="btn btn-line-d btn-secondary " type="button">
+            <span class="text">Play</span>
+            <span class="icon"><i class="ion ion-ios-play"></i></span>
+          </button>
+
+          <a class="btn btn-line-d btn-danger bdw-thin">
+            Thin border
+          </a>
+
+          <a class="btn btn-line-d btn-primary bdw-thick">
+            Thick border
+          </a>
+
+          <a class="btn btn-line-d btn-primary">
+            <span class="icon"><i class="ion ion-ios-chatbubbles"></i></span>
+            <span class="text">Chat</span>
+          </a>
+
+          <a class="btn btn-line-d btn-dark btn-x-lg">
+            <span class="text text-uppercase text-spaced">Read more</span>
+            <span class="icon"><i class="ion ion-md-arrow-forward"></i></span>
+          </a>
+        </div>
+      </div>
+
+      <p>Color variants :</p>
+      <div class="preview-wrapper">
+        <div class="btns-list ">
+          <!-- Colors -->
+          <a class="btn btn-line-d btn-primary">Primary</a>
+          <a class="btn btn-line-d btn-secondary">Secondary</a>
+          <a class="btn btn-line-d btn-success">Success</a>
+          <a class="btn btn-line-d btn-danger">Danger</a>
+          <a class="btn btn-line-d btn-warning">Warning</a>
+          <a class="btn btn-line-d btn-info">Info</a>
+          <a class="btn btn-line-d btn-light">Light</a>
+          <a class="btn btn-line-d btn-dark">Dark</a>
+        </div>
+      </div>
+
+      <!-- ################################################ -->
+      <h3 id="btn-line-e">.btn-line-e</h3>
+      <hr>
+
+      <p>Sample use cases :</p>
+      <div class="preview-wrapper">
+        <div class="btns-list ">
+          <!-- Usage and customization -->
+          <a class="btn btn-line-e btn-primary">Button</a>
+
+          <a class="btn btn-line-e btn-danger bdw-thin">
+            Thin border
+          </a>
+
+          <a class="btn btn-line-e btn-primary bdw-thick">
+            Thick border
+          </a>
+        </div>
+      </div>
+
+      <p>Color variants :</p>
+      <div class="preview-wrapper">
+        <div class="btns-list ">
+          <!-- Colors -->
+          <a class="btn btn-line-e btn-primary">Primary</a>
+          <a class="btn btn-line-e btn-secondary">Secondary</a>
+          <a class="btn btn-line-e btn-success">Success</a>
+          <a class="btn btn-line-e btn-danger">Danger</a>
+          <a class="btn btn-line-e btn-warning">Warning</a>
+          <a class="btn btn-line-e btn-info">Info</a>
+          <a class="btn btn-line-e btn-light">Light</a>
+          <a class="btn btn-line-e btn-dark">Dark</a>
+        </div>
+      </div>
+
+      <!-- ################################################ -->
+      <h3 id="btn-line-f">.btn-line-f</h3>
+      <hr>
+
+      <p>Sample use cases :</p>
+      <div class="preview-wrapper">
+        <div class="btns-list ">
+          <!-- Usage and customization -->
+          <a class="btn btn-line-f btn-primary">Button</a>
+
+          <a class="btn btn-line-f btn-danger bdw-thin">
+            Thin border
+          </a>
+
+          <a class="btn btn-line-f btn-primary bdw-thick">
+            Thick border
+          </a>
+        </div>
+      </div>
+
+      <p>Color variants :</p>
+      <div class="preview-wrapper">
+        <div class="btns-list ">
+          <!-- Colors -->
+          <a class="btn btn-line-f btn-primary">Primary</a>
+          <a class="btn btn-line-f btn-secondary">Secondary</a>
+          <a class="btn btn-line-f btn-success">Success</a>
+          <a class="btn btn-line-f btn-danger">Danger</a>
+          <a class="btn btn-line-f btn-warning">Warning</a>
+          <a class="btn btn-line-f btn-info">Info</a>
+          <a class="btn btn-line-f btn-light">Light</a>
+          <a class="btn btn-line-f btn-dark">Dark</a>
+        </div>
+      </div>
+
+      <!-- ################################################ -->
+      <h3 id="btn-line-g">.btn-line-g</h3>
+      <hr>
+
+      <p>Sample use cases :</p>
+      <div class="preview-wrapper">
+        <div class="btns-list ">
+          <!-- Usage and customization -->
+          <a class="btn btn-line-g btn-primary">Button</a>
+
+          <button class="btn btn-line-g btn-secondary " type="button">
+            <span class="text">Play</span>
+            <span class="icon"><i class="ion ion-ios-play"></i></span>
+          </button>
+
+          <a class="btn btn-line-g btn-danger bdw-thin">
+            Thin border
+          </a>
+
+          <a class="btn btn-line-g btn-primary bdw-thick">
+            Thick border
+          </a>
+
+          <a class="btn btn-line-g btn-primary">
+            <span class="icon"><i class="ion ion-ios-chatbubbles"></i></span>
+            <span class="text">Chat</span>
+          </a>
+
+          <a class="btn btn-line-g btn-dark btn-x-lg">
+            <span class="text text-uppercase text-spaced">Read more</span>
+            <span class="icon"><i class="ion ion-md-arrow-forward"></i></span>
+          </a>
+        </div>
+      </div>
+
+      <p>Color variants :</p>
+      <div class="preview-wrapper">
+        <div class="btns-list ">
+          <!-- Colors -->
+          <a class="btn btn-line-g btn-primary">Primary</a>
+          <a class="btn btn-line-g btn-secondary">Secondary</a>
+          <a class="btn btn-line-g btn-success">Success</a>
+          <a class="btn btn-line-g btn-danger">Danger</a>
+          <a class="btn btn-line-g btn-warning">Warning</a>
+          <a class="btn btn-line-g btn-info">Info</a>
+          <a class="btn btn-line-g btn-light">Light</a>
+          <a class="btn btn-line-g btn-dark">Dark</a>
+        </div>
+      </div>
+
+      <!-- ################################################ -->
+      <h3 id="btn-line-h">.btn-line-h</h3>
+      <hr>
+
+      <p>Sample use cases :</p>
+      <div class="preview-wrapper">
+        <div class="btns-list ">
+          <!-- Usage and customization -->
+          <a class="btn btn-line-h btn-primary">Button</a>
+
+          <button class="btn btn-line-h btn-secondary " type="button">
+            <span class="text">Play</span>
+            <span class="icon"><i class="ion ion-ios-play"></i></span>
+          </button>
+
+          <a class="btn btn-line-h btn-danger bdw-thin">
+            Thin border
+          </a>
+
+          <a class="btn btn-line-h btn-primary bdw-thick">
+            Thick border
+          </a>
+
+          <a class="btn btn-line-h btn-primary">
+            <span class="icon"><i class="ion ion-ios-chatbubbles"></i></span>
+            <span class="text">Chat</span>
+          </a>
+
+          <a class="btn btn-line-h btn-dark btn-x-lg">
+            <span class="text text-uppercase text-spaced">Read more</span>
+            <span class="icon"><i class="ion ion-md-arrow-forward"></i></span>
+          </a>
+        </div>
+      </div>
+
+      <p>Color variants :</p>
+      <div class="preview-wrapper">
+        <div class="btns-list ">
+          <!-- Colors -->
+          <a class="btn btn-line-h btn-primary">Primary</a>
+          <a class="btn btn-line-h btn-secondary">Secondary</a>
+          <a class="btn btn-line-h btn-success">Success</a>
+          <a class="btn btn-line-h btn-danger">Danger</a>
+          <a class="btn btn-line-h btn-warning">Warning</a>
+          <a class="btn btn-line-h btn-info">Info</a>
+          <a class="btn btn-line-h btn-light">Light</a>
+          <a class="btn btn-line-h btn-dark">Dark</a>
+        </div>
+      </div>
+
+      <!-- ################################################ -->
+      <h3 id="btn-line-i">.btn-line-i</h3>
+      <hr>
+
+      <p>Sample use cases :</p>
+      <div class="preview-wrapper">
+        <div class="btns-list ">
+          <!-- Usage and customization -->
+          <a class="btn btn-line-i btn-primary">Button</a>
+
+          <button class="btn btn-line-i btn-secondary " type="button">
+            <span class="text">Play</span>
+            <span class="icon"><i class="ion ion-ios-play"></i></span>
+          </button>
+
+          <a class="btn btn-line-i btn-danger bdw-thin">
+            Thin border
+          </a>
+
+          <a class="btn btn-line-i btn-primary bdw-thick">
+            Thick border
+          </a>
+
+          <a class="btn btn-line-i btn-primary">
+            <span class="icon"><i class="ion ion-ios-chatbubbles"></i></span>
+            <span class="text">Chat</span>
+          </a>
+
+          <a class="btn btn-line-i btn-dark btn-x-lg">
+            <span class="text text-uppercase text-spaced">Read more</span>
+            <span class="icon"><i class="ion ion-md-arrow-forward"></i></span>
+          </a>
+        </div>
+      </div>
+
+      <p>Color variants :</p>
+      <div class="preview-wrapper">
+        <div class="btns-list ">
+          <!-- Colors -->
+          <a class="btn btn-line-i btn-primary">Primary</a>
+          <a class="btn btn-line-i btn-secondary">Secondary</a>
+          <a class="btn btn-line-i btn-success">Success</a>
+          <a class="btn btn-line-i btn-danger">Danger</a>
+          <a class="btn btn-line-i btn-warning">Warning</a>
+          <a class="btn btn-line-i btn-info">Info</a>
+          <a class="btn btn-line-i btn-light">Light</a>
+          <a class="btn btn-line-i btn-dark">Dark</a>
+        </div>
+      </div>
+
+      <!-- ################################################ -->
+      <h3 id="btn-line-j">.btn-line-j</h3>
+      <hr>
+
+      <p>Sample use cases :</p>
+      <div class="preview-wrapper">
+        <div class="btns-list ">
+          <!-- Usage and customization -->
+          <a class="btn btn-line-j btn-primary">Button</a>
+
+          <button class="btn btn-line-j btn-secondary " type="button">
+            <span class="text">Play</span>
+            <span class="icon"><i class="ion ion-ios-play"></i></span>
+          </button>
+
+          <a class="btn btn-line-j btn-danger bdw-thin">
+            Thin border
+          </a>
+
+          <a class="btn btn-line-j btn-primary bdw-thick">
+            Thick border
+          </a>
+
+          <a class="btn btn-line-j btn-primary">
+            <span class="icon"><i class="ion ion-ios-chatbubbles"></i></span>
+            <span class="text">Chat</span>
+          </a>
+
+          <a class="btn btn-line-j btn-dark btn-x-lg">
+            <span class="text text-uppercase text-spaced">Read more</span>
+            <span class="icon"><i class="ion ion-md-arrow-forward"></i></span>
+          </a>
+        </div>
+      </div>
+
+      <p>Color variants :</p>
+      <div class="preview-wrapper">
+        <div class="btns-list ">
+          <!-- Colors -->
+          <a class="btn btn-line-j btn-primary">Primary</a>
+          <a class="btn btn-line-j btn-secondary">Secondary</a>
+          <a class="btn btn-line-j btn-success">Success</a>
+          <a class="btn btn-line-j btn-danger">Danger</a>
+          <a class="btn btn-line-j btn-warning">Warning</a>
+          <a class="btn btn-line-j btn-info">Info</a>
+          <a class="btn btn-line-j btn-light">Light</a>
+          <a class="btn btn-line-j btn-dark">Dark</a>
+        </div>
+      </div>
+
+      <!-- ################################################ -->
+      <h3 id="btn-line-k">.btn-line-k</h3>
+      <hr>
+
+      <p>Sample use cases :</p>
+      <div class="preview-wrapper">
+        <div class="btns-list ">
+          <!-- Usage and customization -->
+          <a class="btn btn-line-k btn-primary">
+            <span class="text">Button</span>
+          </a>
+
+          <button class="btn btn-line-k btn-secondary " type="button">
+            <span class="text">Play</span>
+            <span class="icon"><i class="ion ion-ios-play"></i></span>
+          </button>
+
+          <a class="btn btn-line-k btn-danger bdw-thin">
+            <span class="text">Thin border</span>
+          </a>
+
+          <a class="btn btn-line-k btn-primary bdw-thick">
+            <span class="text">Thick border</span>
+          </a>
+
+          <a class="btn btn-line-k btn-primary">
+            <span class="icon"><i class="ion ion-ios-chatbubbles"></i></span>
+            <span class="text">Chat</span>
+          </a>
+
+          <a class="btn btn-line-k btn-dark btn-x-lg">
+            <span class="text text-uppercase text-spaced">Read more</span>
+            <span class="icon"><i class="ion ion-md-arrow-forward"></i></span>
+          </a>
+        </div>
+      </div>
+
+      <p>Color variants :</p>
+      <div class="preview-wrapper">
+        <div class="btns-list ">
+          <!-- Colors -->
+          <a class="btn btn-line-k btn-primary">
+            <span class="text">Primary</span>
+          </a>
+          <a class="btn btn-line-k btn-secondary">
+            <span class="text">Secondary</span>
+          </a>
+          <a class="btn btn-line-k btn-success">
+            <span class="text">Success</span>
+          </a>
+          <a class="btn btn-line-k btn-danger">
+            <span class="text">Danger</span>
+          </a>
+          <a class="btn btn-line-k btn-warning">
+            <span class="text">Warning</span>
+          </a>
+          <a class="btn btn-line-k btn-info">
+            <span class="text">Info</span>
+          </a>
+          <a class="btn btn-line-k btn-light">
+            <span class="text">Light</span>
+          </a>
+          <a class="btn btn-line-k btn-dark">
+            <span class="text">Dark</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <nav class="sidebar-right">
+    <div class="sidebar-menu-b sidebar-reduced-off">
+      <div class="nav-header">
+        <h3 class="nav-title">
+          <span class="title">Buttons</span>
+        </h3>
+      </div>
+
+      <div class="nav-content">
+
+      </div>
+
+      <div class="nav-body flex-column">
+        <div class="nav-group">
+          <ul class="nav">
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <span class="text">Line buttons</span>
+
+                <span class="action">
+                  <span class="icon-action icon-small"><i class="ion ion-ios-arrow-down"></i></span>
+                </span>
+              </a>
+              <ul class="nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#overview">
+                    <span class="text">Overview</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#usage">
+                    <span class="text">Usage</span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#variants">
+                <span class="text">Variants</span>
+
+                <span class="action">
+                  <span class="icon-action icon-small"><i class="ion ion-ios-arrow-down"></i></span>
+                </span>
+              </a>
+              <ul class="nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#btn-line-a">
+                    <span class="text">btn-line-a</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#btn-line-b">
+                    <span class="text">btn-line-b</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#btn-line-c">
+                    <span class="text">btn-line-c</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#btn-line-d">
+                    <span class="text">btn-line-d</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#btn-line-e">
+                    <span class="text">btn-line-e</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#btn-line-f">
+                    <span class="text">btn-line-f</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#btn-line-g">
+                    <span class="text">btn-line-g</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#btn-line-h">
+                    <span class="text">btn-line-h</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#btn-line-i">
+                    <span class="text">btn-line-i</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#btn-line-j">
+                    <span class="text">btn-line-j</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#btn-line-k">
+                    <span class="text">btn-line-k</span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+
+          </ul>
+        </div>
+
+      </div>
+
+    </div>
+  </nav>
+
+</body>
+
+<!-- All Javascript plugins goes here -->
+<script src="../js/clipboard.min.js"></script>
+<script src="../js/prism.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+
+<!-- Javascript main files -->
+<script src="../js/main.js"></script>
+
+</html>

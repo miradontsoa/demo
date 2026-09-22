@@ -1,0 +1,81 @@
+/*-------------------
+Sample CSS overwriting main.css rules
+
+[Table of contents]
+    0 Set default color 
+    1 Typography
+    2 Fullscreen menu
+    3 Content layout
+    4 Page cover scroll animation
+[Colors]
+    Black : #1d1d1d;
+    White : #FFFFFF;
+*/
+/* 0 Set default color */
+body {
+  color: #4d4d4d;
+  background: #ffffff; }
+
+/* 1 Typography */
+.h-title, .i-title, .s-title, .item-title {
+  font-weight: bold; }
+
+.text-stroke {
+  -webkit-text-stroke: 2px #4d4d4d;
+  color: transparent; }
+
+.section-page .section-header p,
+.section-page .section-content p {
+  font-family: "Proxima Nova", "Noto Sans", "Segoe UI", "Opensans", "Roboto", "Helvetica", -apple-system, system-ui, BlinkMacSystemFont, sans-serif;
+  max-width: 40rem; }
+
+.bg-level-1 {
+  background: #f1f2f3; }
+
+.bg-level-2 {
+  background: #eaeaea; }
+
+/* 2 Fullscreen menu */
+.navfull-menu {
+  background: #ffffff;
+  color: #4d4d4d; }
+  .navfull-menu .nav-menu a {
+    -webkit-text-stroke: 2px #4d4d4d;
+    color: transparent; }
+    .navfull-menu .nav-menu a:hover {
+      color: #4d4d4d; }
+
+/* 3 Content layout */
+/* Title style */
+@media screen and (min-width: 992px) {
+  .section-header .h-content {
+    padding-left: 0rem; }
+    .section-header .h-content:before {
+      display: none; }
+    .section-header .h-content h2 {
+      font-size: 5rem; } }
+
+/* content size */
+.width-medium {
+  max-width: 55rem;
+  width: 100%; }
+
+@media screen and (min-width: 992px) {
+  .section-header .mt-btn {
+    margin-top: 1rem; } }
+
+/* 4 Page cover scroll animation */
+.page-cover::before {
+  position: absolute;
+  z-index: 1;
+  content: "";
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.5;
+  background: #0d0d0d;
+  transition: 0.6s; }
+
+.page-cover.scrolled::before {
+  opacity: 0.95; }

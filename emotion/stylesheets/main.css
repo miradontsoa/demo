@@ -1,0 +1,477 @@
+/*-----------------------------------------------------------------
+[Legal Notice]
+
+Copyright (c) HighHay/Mivfx
+Before using this template, you should agree with themeforest licenses terms.
+http://themeforest.net/licenses
+-------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+[Table of contents]
+/** CSS Reference
+    0. Base Style
+        0.button Buttons
+        0.color Color bg-XX text-XX
+	1. Link and logo at top / .header-top
+	2. Dot navigation at right / #fp-nav, #fp-nav.right
+	3. Quick links at right / .quick-link
+		3.1 quick link position / .quick-link .count-X (where X=1,2,3,4,5)
+		3.2 Links
+	4. Page nav / .page-nav
+	5. Page cover / .page-cover
+		5.1. page cover background image,color (overriden by data-bgcolor or data-image-src atributes) / .page-cover .cover-bg
+		5.2 Page cover  background mask (overriden by data-bgcolor or data-image-src atributes) / .page-cover .cover-bg-mask
+	6. Main page / .page-main
+		6.0 Page footer with scroll down button / .p-footer
+		6.1 Page general params / .page-cent, .page
+		6.3 Page and slide animation / .page.transition , .slide.transition
+		6.4 Clock countdown / .pane-when .clock
+		6.5 Registration form / .page-register
+		6.6 About us / .page-about
+		6.7 Contact, Message / .page-contact
+	7. Video background / .video-container
+
+	Hooks for responsiveness (mobile friendly) can be found in "main_responsive.css" file
+
+**/
+/*---------- 
+[Colors]
+    text color : #FFFFFF, #FFF
+    blue : #5677FC
+    transluscent white : rgba(255, 255, 255, 0.15) / #fff;
+*/
+/* 0. Base Style  */
+/* 0.0 Tag/Classes Initailization */
+html {
+  /* HTML tag init */
+  color: #fff;
+  font-size: 1em;
+  line-height: 1.4;
+  background: #fff; }
+
+::-moz-selection {
+  background: #fff;
+  text-shadow: none; }
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0; }
+
+audio,
+canvas,
+img,
+svg,
+video {
+  vertical-align: middle; }
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0; }
+
+textarea {
+  resize: vertical; }
+
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0; }
+
+body {
+  font-family: 'OpenSans';
+  background: #fff;
+  margin: 0;
+  padding: 0; }
+
+ul, li {
+  list-style: none outside none;
+  margin: 0; }
+
+iframe {
+  border: none; }
+
+.pos-rel {
+  position: relative; }
+
+.pos-abs {
+  position: absolute; }
+
+.pos-fix {
+  position: fixed; }
+
+.full-width {
+  width: 100%;
+  max-width: 1440px; }
+
+.full-height {
+  height: 100%; }
+
+.full-size {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0; }
+
+.my-button {
+  text-transform: uppercase;
+  font-size: 1rem;
+  padding: 1em;
+  /* padding-top: 0.8rem; */
+  padding-bottom: 0.8rem;
+  display: inline-block;
+  box-sizing: border-box;
+  margin: 0; }
+
+.center-vh {
+  /*
+      height: 100%;
+      width: 100%; 
+  */
+  /* width needed for Firefox */
+  /* old flexbox - Webkit and Firefox. For backwards compatibility */
+  display: -webkit-box;
+  display: -moz-box;
+  /* middle-aged flexbox. Needed for IE 10 */
+  display: -ms-flexbox;
+  /* new flexbox. Chrome (prefix), Opera, upcoming browsers without */
+  display: -webkit-flex;
+  display: flex;
+  /* old flexbox: box-* */
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  /* middle flexbox: flex-* */
+  -ms-flex-align: center;
+  /* new flexbox: various property names */
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center; }
+
+.pos-top {
+  top: 0; }
+
+.pos-left {
+  left: 0; }
+
+.pos-right {
+  right: 0; }
+
+.pos-bottom {
+  bottom: 0; }
+
+.relh100 {
+  position: relative;
+  height: 100%; }
+
+/* Make page full width so reset foundation restriction on max-width*/
+.row {
+  /*    width: 100%;*/
+  max-width: 100%; }
+
+ul, li {
+  list-style: none outside none;
+  margin: 0; }
+
+.full-width {
+  width: 100%;
+  max-width: 100%;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.fullscreen-width {
+  width: 100%;
+  max-width: 100%; }
+
+.table {
+  display: table;
+  height: inherit;
+  margin: auto; }
+
+.table-cell {
+  display: table-cell;
+  /*    height: inherit;*/
+  vertical-align: middle; }
+
+.align-center {
+  text-align: center; }
+
+.align-left {
+  text-align: left; }
+
+.align-right {
+  text-align: right; }
+
+.align-justify {
+  text-align: justify; }
+
+/*
+.mask{
+    position: relative;
+}
+*/
+/** 0. color Color */
+.mask:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  content: ' ';
+  opacity: 0.8;
+  /*    z-index: 10;*/ }
+
+.title.bg-red,
+.bg-red,
+.mask-red:before {
+  background: #e51c23; }
+
+.small-col-20 {
+  width: 20%; }
+
+.box-shadow {
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), 0 2px 2px rgba(0, 0, 0, 0.2), 0 0 4px 1px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), 0 2px 2px rgba(0, 0, 0, 0.2), 0 0 4px 1px rgba(0, 0, 0, 0.1);
+  -ms-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), 0 2px 2px rgba(0, 0, 0, 0.2), 0 0 4px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), 0 2px 2px rgba(0, 0, 0, 0.2), 0 0 4px 1px rgba(0, 0, 0, 0.1); }
+
+/* Viewport visibility animation  */
+.hidden {
+  opacity: 0;
+  -webkit-transition: 0.6s;
+  -ms-transition: 0.6s;
+  transition: 0.6s; }
+
+.visible {
+  opacity: 1;
+  -ms-transition: 0.6s;
+  -webkit-transition: 0.6s;
+  transition: 0.6s; }
+
+.invisible {
+  display: none !important; }
+
+.s-visible-medium-up {
+  opacity: 0; }
+
+strong,
+.bold {
+  font-weight: bold; }
+
+.column, .columns {
+  padding: 0; }
+
+.row .row {
+  margin: 0; }
+
+/* 0.1 Helper classes */
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+.hidden {
+  display: none !important;
+  visibility: hidden; }
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px; }
+
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto; }
+
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+.invisible {
+  visibility: hidden; }
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */ }
+
+.clearfix:after {
+  clear: both; }
+
+/* 1. Header, Sidebar and Menu */
+/* 1.1 Header */
+/* 1.2 Menu */
+/* 1.3 Sidebar navigation left */
+/* 1.3 Dot/bar Navigation at rigth */
+#fp-nav.right {
+  top: 0;
+  right: 0px;
+  margin-right: 48px;
+  /* 56px total*/
+  position: absolute; }
+
+#fp-nav ul {
+  margin-top: 56px; }
+
+#fp-nav ul li, .fp-slidesNav ul li {
+  height: 7px; }
+
+#fp-nav span, .fp-slidesNav span {
+  border-color: #fff;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  width: 10px;
+  height: 10px; }
+
+#fp-nav ul li a.active span,
+#fp-nav ul li a:hover span,
+#fp-nav ul li a.active:hover span,
+#fp-nav ul li a span {
+  background: #fff;
+  width: 24px;
+  border-radius: 0;
+  height: 2px;
+  left: auto;
+  right: 0;
+  top: 0;
+  margin-top: 0;
+  transition: 0.3s; }
+
+#fp-nav ul li a span:before {
+  position: absolute;
+  content: "";
+  top: -6px;
+  left: -2px;
+  right: -2px;
+  bottom: -6px; }
+
+#fp-nav ul li a:hover span {
+  width: 48px; }
+
+#fp-nav ul li a.active span,
+#fp-nav ul li a.active:hover span {
+  width: 96px; }
+
+/* 2. main content / .main */
+.main {
+  height: 100%; }
+
+/* 2.1 Cover */
+.page-cover {
+  width: 100%;
+  position: fixed;
+  height: 100%;
+  z-index: 0;
+  /*  Page cover background image,color */ }
+  .page-cover .cover-bg {
+    background: url(../img/bg-default.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    z-index: -3; }
+
+/* Page cover  background mask */
+.page-cover .cover-bg.bg-color {
+  background-image: none;
+  z-index: -3; }
+
+.page-cover .cover-bg.cover-bg-mask {
+  background: rgba(0, 0, 0, 0.12);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: 0;
+  transition: 2s; }
+
+/* background slide */
+.page-cover .vegas-timer {
+  display: none; }
+
+/*  particles.js container  */
+#particles-js {
+  width: 100%;
+  height: 100%;
+  background-color: #b61924;
+  background-image: url("");
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat; }
+
+.video-container {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -2; }
+
+.video-container video {
+  height: 724px;
+  width: 1287px;
+  margin-top: -42px;
+  margin-left: 0px; }
+
+.video-container iframe {
+  width: 120%;
+  height: 120%;
+  margin-left: -10%;
+  margin-top: -2%; }
+
+.show-for-medium-up {
+  display: none; }
+
+/* particles fixes  */
+.page,
+.page-main {
+  pointer-events: none; }
+
+.page .content *,
+.page .p-footer *,
+.page .s-fixed-content * {
+  pointer-events: all; }
+
+/* 2.2 Pages */
+/* 2.2.1 Home Page */
+/* 2.2.2 About Page */
+/* 2.2.3 Item list / Works / Products / Services / Posts Pages  */
+/* 2.2.4 Item detail / Work / Product / Service Page  */
+/* 2.2.5 Contact Page  */
+/* 3 Footer */
+/* 4. Responsiveness */

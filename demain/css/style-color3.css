@@ -1,0 +1,193 @@
+/* Font customization */
+
+.quick-link .title,
+.p-footer .text,
+.p-footer .arrow-d,
+.page-cent .content,
+.page-cent .p-title h3,
+.page-cent .p-title h2,
+.page-cent .text,
+.page h3,
+.page h4,
+.page p,
+.page .form input,
+.page .form label,
+.page .form button,
+.page .form textarea,
+.page-contact a ,
+.page-contact .socialnet a{
+	font-family: 'Opensans';
+	letter-spacing: -0.01em;
+	color: #222222;
+}
+.header-top .menu a,
+.page h2,
+.page-footer{
+	font-family: 'Opensans';
+	letter-spacing: -0.01em;
+}
+.page h2{
+	color: #e91e63;
+}
+
+.page .form button{
+	color: #fff;
+}
+.quick-link a ,
+.header-top .menu a:hover,
+.page-contact .p-title .buttons,
+.p-footer .arrow-d {
+	background: rgba(255, 255, 255, 0.15);
+}
+
+
+
+/* Color */
+.title.bg-blue,
+.bg-blue,
+.mask-blue:before,
+.quick-link a:hover:after,
+.quick-link a.marked,
+.header-top.material .menu a:hover,
+.page .form button{
+	background: #e91e63;
+}
+
+/* Header menu */
+.header-top.material .menu a,
+.header-top .menu a{
+	color: #fff;
+}
+.header-top .menu a:hover{
+	color: #fff;
+}
+.header-top .menu a:first-child:after  {
+	background: #fff;
+}
+
+/* Cover BG Color */
+.cover-bg-mask{
+	background: #F5F5F5;
+	background: url('../img/bg_gradient_color.jpg') no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+/* Panel content color*/
+/* clickable button */
+.page-click .p-button .icon a {
+	color: #e91e63;
+}
+.page-click:after{
+	background: #222222;
+}
+.page-click.line-right:after{
+	background: #e91e63;
+}
+.page-click.line-left:after{
+	background: #e91e63;
+}
+.page-click .p-button{
+/*	background: rgba(34, 34, 34, 0.1);*/
+	border-color: #e91e63;
+}
+.page-click .p-button:hover{
+/*	background: rgba(34, 34, 34, 0.15);*/
+}
+.page-click .p-button:after{
+	border-color: #e91e63;
+}
+/* Home */
+.page .clock .second {
+	box-shadow:  0px 0px 0px 2px #e91e63 ,0px 0px 0px 7px #e91e63 inset;
+}
+.page .content .clock .header,
+.page .clock .text,
+.page .clock .elem-center .digit,
+.page .clock .elem-right .digit,
+.page .clock .elem-left .digit{
+	font-family: 'Opensans';
+	letter-spacing: -0.01em;
+	color: #e91e63;
+}
+.page .clock .elem-center .digit,
+.page .clock .elem-right .digit,
+.page .clock .elem-left .digit
+{
+	letter-spacing: -0.05em;
+}
+.page-home .content h2 {
+	color: #e91e63;
+}
+.page-home .content h2 strong {
+}
+
+
+/* Titles Contact / register */
+.page .p-title .icon i ,
+.page-cent .p-title h3{
+	color: #e91e63;
+	font-weight: 100;
+}
+.page h4{
+	color: #e91e63;
+}
+
+/* Forms */
+.page .form label,
+.page .form button:hover{
+	color: #e91e63;
+}
+/* social network */
+.page-social .icon-list li:after{
+	border: 0px solid #e91e63;
+}
+.page-social .icon-list a{
+	color: #e91e63;
+	background: rgba(34, 34, 34,0.15);
+}
+.page .form .fields{
+	border-bottom-color: #e91e63;
+}
+.page .form textarea{
+	border-color: #e91e63;
+}
+
+/* Panel Background */
+/* Contact panelq */
+#p-contact{
+	background: #fff;
+}
+#p-message{
+	background: #fff;
+}
+#p-contact-to-home{
+	background: #fff;
+}
+
+/* Home panels */
+#p-home-to-contact{
+	background: #e0e0e0;
+	background: #fff;
+}
+#p-home{
+	background: #fff;
+}
+#p-home-to-register{
+	background: #e0e0e0;
+	background: #fff;
+}
+
+/* register panels */
+#p-register-to-home{
+	background: #fff;
+}
+#p-register{
+	background: rgba(0, 0, 0, 0.8);
+	background: #fff;
+}
+#p-social{
+	background: rgba(0, 0, 0, 0.5);
+	background: #fff;
+}

@@ -1,0 +1,86 @@
+/* Alternative colors */
+/* Alternative colors */
+/* menu */
+.main-menu,
+.top-menu-links {
+  background: rgba(0, 0, 0, 0.9); }
+  @media (min-width: 601px) {
+    .main-menu,
+    .top-menu-links {
+      background: none; } }
+
+.top-menu-links .links li.cta a:hover {
+  color: #E91E63; }
+
+.main-menu ul li.active .icon,
+.main-menu ul li a:hover {
+  color: #E91E63; }
+
+/* main page */
+.section .content .c-columns {
+  /* feature list */ }
+  .section .content .c-columns .c-logo:after {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: -32px;
+    background: #E91E63;
+    z-index: -1;
+    border: none; }
+  .section .content .c-columns .c-logo .arrow-circ-btn:before {
+    background: #fff; }
+  .section .content .c-columns .c-logo .arrow-circ-btn:focus, .section .content .c-columns .c-logo .arrow-circ-btn:hover {
+    color: #E91E63; }
+  .section .content .c-columns .wrapper .arrow-circ-btn:focus,
+  .section .content .c-columns .wrapper .arrow-circ-btn:hover {
+    color: #E91E63; }
+  .section .content .c-columns .item-desc a {
+    color: #E91E63; }
+  .section .content .c-columns .circ-btn:hover:before {
+    border-color: #E91E63;
+    border-top-color: transparent; }
+  .section .content .c-columns .c-features-list li h3 {
+    color: #E91E63; }
+  .section .content .c-columns .c-features-list li:before {
+    background: #E91E63; }
+  .section .content .c-columns .swiper-pagination-bullet:hover,
+  .section .content .c-columns .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background: #E91E63; }
+  .section .content .c-columns .swiper-pagination-bullet:hover:before,
+  .section .content .c-columns .swiper-pagination-bullet.swiper-pagination-bullet-active:before {
+    border-color: #E91E63; }
+  .section .content .c-columns .wrapper .items-nav-container .items-button a:after {
+    background: #E91E63; }
+
+/* footer */
+/* Buttons */
+.circ-btn {
+  color: #fff; }
+
+@media (min-width: 601px) {
+  .circ-btn {
+    color: #fff; } }
+.magic-btn {
+  color: #E91E63; }
+
+.rect-btn:focus,
+.rect-btn:hover {
+  border-color: #E91E63; }
+
+.arrow-circ-btn .arrow-icon:after {
+  border-color: #E91E63; }
+
+.arrow-circ-btn .arrow-icon:before {
+  border-color: #E91E63;
+  border-left-color: transparent; }
+
+.arrow-circ-btn:hover .arrow-icon:after {
+  border-color: #E91E63; }
+
+.arrow-circ-btn:focus .arrow-icon:before, .arrow-circ-btn:hover .arrow-icon:before {
+  border-color: #fff;
+  border-left-color: transparent; }
+
+/* Fonts */
+
+/*# sourceMappingURL=style-color2.css.map */

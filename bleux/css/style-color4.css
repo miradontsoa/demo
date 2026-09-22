@@ -1,0 +1,138 @@
+/* page bg */
+.page-bg {
+  background: -webkit-gradient(linear, right top, left top, from(#037FD5), to(#03c5d5));
+  background: linear-gradient(to left, #037FD5, #03c5d5); }
+
+/* sections bg */
+.section-cover-full.mask-primary:before {
+  background: rgba(0, 0, 0, 0.35); }
+
+.section-cover-half.mask-primary:before {
+  background: rgba(0, 0, 0, 0.35); }
+
+.bg-primary {
+  background: #5c5c5c !important; }
+
+.bg-primary-light {
+  background: #636363 !important; }
+
+.bg-primary-dark {
+  background: #353535 !important; }
+
+/* page header */
+.page-header-alpha {
+  background: #353535; }
+
+.page-header-alpha .all-menu-wrapper {
+  background: #353535; }
+
+/* typo */
+.text-primary {
+  color: #5c5c5c !important; }
+
+.text-secondary {
+  color: #EE8021 !important; }
+  .text-secondary:before {
+    border-color: #EE8021 !important; }
+
+.text-gradient-primary {
+  background: -webkit-gradient(linear, right top, left top, from(#D81539), to(#EE8021));
+  background: linear-gradient(to left, #D81539, #EE8021);
+  background-size: cover;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent; }
+
+.text-gradient-secondary {
+  background: -webkit-gradient(linear, left top, right top, from(#EE8021), to(#dd7936));
+  background: linear-gradient(to right, #EE8021, #dd7936);
+  background-size: cover;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent; }
+
+a {
+  color: #EE8021; }
+  a:hover {
+    color: #eec421; }
+
+/* buttons */
+.btn-primary {
+  background: #636363; }
+  .btn-primary:hover {
+    background: #636363;
+    border-color: #636363; }
+
+.btn-secondary {
+  background: #EE8021; }
+  .btn-secondary:hover {
+    background: #eec421;
+    border-color: #eec421; }
+
+.bg-gradient-primary {
+  background: -webkit-gradient(linear, right top, left top, from(#D81539), to(#EE8021));
+  background: linear-gradient(to left, #D81539, #EE8021); }
+  .bg-gradient-primary.btn:hover {
+    background: -webkit-gradient(linear, right top, left top, from(#D81539), to(#EE8021));
+    background: linear-gradient(to left, #D81539, #EE8021);
+    opacity: 0.8; }
+
+.bg-gradient-secondary {
+  background: -webkit-gradient(linear, left top, right top, from(#EE8021), to(#dd7936));
+  background: linear-gradient(to right, #EE8021, #dd7936); }
+
+/* page content */
+.media .media-body:before {
+  border-color: #EE8021; }
+
+.section.bg-bright .section-title h2 {
+  color: #EE8021; }
+
+.form-container-subscribe {
+  border-color: #EE8021; }
+
+.section .material-wrapper {
+  color: #5c5c5c; }
+
+.section-content ul.list-secondary > li:before {
+  color: #EE8021; }
+
+/* slider */
+.carousel-swiper-hash .items-pagination .swiper-pagination-bullet-active {
+  background: -webkit-gradient(linear, right top, left top, from(#D81539), to(#EE8021));
+  background: linear-gradient(to left, #D81539, #EE8021); }
+
+.carousel-swiper-review .items-pagination .swiper-pagination-bullet-active {
+  background: #5c5c5c; }
+
+/* price list */
+/* primary */
+.price-item-alpha.price-item-primary .item-price {
+  background: #5c5c5c; }
+
+.price-item-beta.price-item-primary .item-name,
+.price-item-beta.price-item-primary .item-features li.ok .icon,
+.price-item-alpha.price-item-primary .item-features li.ok .icon,
+.price-item-alpha.price-item-primary .item-name {
+  color: #5c5c5c; }
+
+/* secondary */
+.price-item-alpha.price-item-secondary .item-price {
+  background: #EE8021; }
+
+.price-item-beta.price-item-secondary .item-name,
+.price-item-beta.price-item-secondary .item-features li.ok .icon,
+.price-item-alpha.price-item-secondary .item-features li.ok .icon,
+.price-item-alpha.price-item-secondary .item-name {
+  color: #EE8021; }
+
+/* featured */
+.price-item-beta.price-item-primary.featured,
+.price-item-alpha.price-item-primary.featured {
+  background: #5c5c5c; }
+
+.price-item-beta.price-item-primary.featured .item-price,
+.price-item-alpha.price-item-primary.featured .item-price {
+  color: #5c5c5c; }

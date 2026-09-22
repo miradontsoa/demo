@@ -1,0 +1,149 @@
+/* page bg */
+.page-bg {
+  background: -webkit-gradient(linear, right top, left top, from(#037FD5), to(#03c5d5));
+  background: linear-gradient(to left, #037FD5, #03c5d5); }
+
+/* sections bg */
+.section-cover-full.mask-primary:before {
+  background: rgba(24, 24, 24, 0.85); }
+
+.section-cover-half.mask-primary:before {
+  background: rgba(24, 24, 24, 0.5); }
+
+.bg-primary {
+  background: #181818 !important; }
+
+.bg-primary-light {
+  background: #0a0a0a !important; }
+
+.bg-primary-dark {
+  background: #202020 !important; }
+
+/* page header */
+.page-header-alpha {
+  background: #202020; }
+
+.page-header-alpha .all-menu-wrapper {
+  background: #202020; }
+
+/* typo */
+.text-primary {
+  color: #181818 !important; }
+
+.text-secondary {
+  color: #f02703 !important; }
+  .text-secondary:before {
+    border-color: #f02703 !important; }
+
+.text-gradient-primary {
+  background: -webkit-gradient(linear, right top, left top, from(#037FD5), to(#f0032a));
+  background: linear-gradient(to left, #037FD5, #f0032a);
+  background-size: cover;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent; }
+
+.text-gradient-secondary {
+  background: -webkit-gradient(linear, right top, left top, from(#f02703), to(#f0032a));
+  background: linear-gradient(to left, #f02703, #f0032a);
+  background-size: cover;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent; }
+
+a {
+  color: #f02703; }
+  a:hover {
+    color: #f07603; }
+
+/* buttons */
+.btn-primary {
+  background: #0a0a0a; }
+  .btn-primary:hover {
+    background: #0a0a0a;
+    border-color: #0a0a0a; }
+
+.btn-secondary {
+  background: #f02703; }
+  .btn-secondary:hover {
+    background: #f07603;
+    border-color: #f07603; }
+
+.btn-primary-white {
+  background: #ffffff;
+  color: #f02703; }
+  .btn-primary-white:active, .btn-primary-white:focus, .btn-primary-white:hover {
+    background: rgba(255, 255, 255, 0.8);
+    color: #181818;
+    border-color: #0a0a0a; }
+
+.bg-gradient-primary {
+  background: -webkit-gradient(linear, right top, left top, from(#037FD5), to(#f0032a));
+  background: linear-gradient(to left, #037FD5, #f0032a); }
+  .bg-gradient-primary.btn:hover {
+    background: -webkit-gradient(linear, right top, left top, from(#037FD5), to(#f0032a));
+    background: linear-gradient(to left, #037FD5, #f0032a);
+    opacity: 0.8; }
+
+.bg-gradient-secondary {
+  background: -webkit-gradient(linear, right top, left top, from(#f02703), to(#f0032a));
+  background: linear-gradient(to left, #f02703, #f0032a); }
+
+/* page content */
+.media .media-body:before {
+  border-color: #f02703; }
+
+.section.bg-bright .section-title h2 {
+  color: #f02703; }
+
+.form-container-subscribe {
+  border-color: #f02703; }
+
+.section .material-wrapper {
+  color: #181818; }
+
+.section-content ul.list-secondary > li:before {
+  color: #f02703; }
+
+/* slider */
+.carousel-swiper-hash .items-pagination .swiper-pagination-bullet-active {
+  background: -webkit-gradient(linear, right top, left top, from(#f02703), to(#f0032a));
+  background: linear-gradient(to left, #f02703, #f0032a); }
+
+.carousel-swiper-review .items-pagination .swiper-pagination-bullet-active {
+  background: #181818; }
+
+.carousel-swiper-review:before {
+  color: rgba(255, 255, 255, 0.2); }
+
+/* price list */
+/* primary */
+.price-item-alpha.price-item-primary .item-price {
+  background: #181818; }
+
+.price-item-beta.price-item-primary .item-name,
+.price-item-beta.price-item-primary .item-features li.ok .icon,
+.price-item-alpha.price-item-primary .item-features li.ok .icon,
+.price-item-alpha.price-item-primary .item-name {
+  color: #181818; }
+
+/* secondary */
+.price-item-alpha.price-item-secondary .item-price {
+  background: #f02703; }
+
+.price-item-beta.price-item-secondary .item-name,
+.price-item-beta.price-item-secondary .item-features li.ok .icon,
+.price-item-alpha.price-item-secondary .item-features li.ok .icon,
+.price-item-alpha.price-item-secondary .item-name {
+  color: #f02703; }
+
+/* featured */
+.price-item-beta.price-item-primary.featured,
+.price-item-alpha.price-item-primary.featured {
+  background: #181818; }
+
+.price-item-beta.price-item-primary.featured .item-price,
+.price-item-alpha.price-item-primary.featured .item-price {
+  color: #181818; }

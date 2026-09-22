@@ -1,0 +1,171 @@
+/*-------------------
+Sample CSS overwriting main.css rules
+
+[Table of contents]
+    0 Set default color 
+    1 Typography
+    2 Fullscreen menu
+    3 Content layout
+    4 Page cover scroll animation
+[Colors]
+    Black : #1d1d1d;
+    White : #FFFFFF;
+*/
+/* 0 Set default color */
+body {
+  color: #4d4d4d;
+  background: #ffffff; }
+
+/* 1 Typography */
+/* 1 Typography */
+.font-title {
+  font-family: "Jost*", "Montserrat", "Open Sans", sans-serif; }
+
+.section-page .section-header p,
+.section-page .section-content p {
+  font-family: "Source Sans Pro", "Proxima Nova", "Noto Sans", "Segoe UI", "Opensans", "Roboto", "Helvetica", -apple-system, system-ui, BlinkMacSystemFont, sans-serif;
+  max-width: 40rem; }
+
+.slide-a .s-header .title {
+  font-family: "Jost*", "Montserrat", "Open Sans", sans-serif; }
+
+.item-service-a .item-header .icon,
+.item-service-a .item-header .title,
+.item-grid-a .item-header .title {
+  font-family: "Jost*", "Montserrat", "Open Sans", sans-serif; }
+
+.text-stroke {
+  -webkit-text-stroke: 2px #4d4d4d;
+  color: transparent; }
+
+.text-white .text-stroke {
+  -webkit-text-stroke: 2px #ffffff;
+  color: transparent; }
+
+.text-stroke-white {
+  -webkit-text-stroke: 2px #ffffff;
+  color: transparent; }
+
+.section-page .section-header p,
+.section-page .section-content p {
+  font-family: "Source Sans Pro", "Proxima Nova", "Noto Sans", "Segoe UI", "Opensans", "Roboto", "Helvetica", -apple-system, system-ui, BlinkMacSystemFont, sans-serif;
+  max-width: 40rem; }
+
+.bg-level-1 {
+  background: #f1f2f3; }
+
+.bg-level-2 {
+  background: #eaeaea; }
+
+/* 2 Menu */
+/* Fullscreen */
+.navfull-menu {
+  background: #ffffff;
+  color: #4d4d4d;
+  z-index: 20; }
+  @media screen and (min-width: 992px) {
+    .navfull-menu {
+      top: 64px; } }
+  .navfull-menu .nav-menu a {
+    color: #4d4d4d; }
+    .navfull-menu .nav-menu a::before {
+      border-color: rgba(77, 77, 77, 0); }
+    .navfull-menu .nav-menu a::after {
+      background: rgba(77, 77, 77, 0.1); }
+    .navfull-menu .nav-menu a:hover {
+      color: #4d4d4d; }
+      .navfull-menu .nav-menu a:hover::before {
+        border-color: rgba(77, 77, 77, 0.1); }
+
+.navbar-sidebar {
+  color: #999999; }
+
+/* 3 Content layout */
+/* Title style */
+@media screen and (min-width: 992px) {
+  .section-header .h-content {
+    padding-left: 0rem; }
+    .section-header .h-content:before {
+      display: none; }
+    .section-header .h-content h2 {
+      font-size: 5rem; } }
+
+/* Item list */
+.item-feature-a .item-title, .item-feature-a h3 {
+  font-family: "Jost*", "Montserrat", "Open Sans", sans-serif;
+  font-weight: 500; }
+
+.item-feature-a.item-bg {
+  background: #f4f5f6; }
+
+.item-feature-b .item-title, .item-feature-b h3 {
+  font-family: "Jost*", "Montserrat", "Open Sans", sans-serif;
+  font-weight: 500; }
+
+/* footer */
+.section-footer-b .f-text {
+  color: rgba(77, 77, 77, 0.5); }
+  .section-footer-b .f-text a {
+    color: #4d4d4d; }
+
+.section-footer-b .footer-separator {
+  border-color: rgba(77, 77, 77, 0.1); }
+
+/* content size */
+.width-medium {
+  max-width: 55rem;
+  width: 100%; }
+
+@media screen and (min-width: 992px) {
+  .section-header .mt-btn {
+    margin-top: 1rem; } }
+
+/* borders */
+.navbar-top .bd-left,
+.navbar-top .bd-right,
+.navbar-top.bd-bottom,
+.navbar-sidebar {
+  border-color: rgba(77, 77, 77, 0.1); }
+
+.content-white .navbar-top .bd-left,
+.content-white .navbar-top .bd-right,
+.content-white .navbar-top.bd-bottom,
+.content-white .navbar-sidebar {
+  border-color: rgba(255, 255, 255, 0.1); }
+
+.slide-a .s-header {
+  border-color: rgba(77, 77, 77, 0.1); }
+
+.btn-line-a {
+  border-color: rgba(77, 77, 77, 0.1); }
+
+.item-grid-a .item-header,
+.item-pricing-a .item-header,
+.item-service-a .item-header {
+  border-color: rgba(77, 77, 77, 0.1); }
+
+.form-control-outline,
+input[type=text],
+input[type=password],
+input[type=email] {
+  border-color: rgba(77, 77, 77, 0.2);
+  background: rgba(77, 77, 77, 0.05); }
+
+.slider-a .slider-arrow .btn {
+  color: #ffffff;
+  border-color: rgba(255, 255, 255, 0.1); }
+
+/* section home */
+.header-home .home-square .h-wrapper {
+  background-image: url("../img/bg-default-1.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover; }
+
+/* pricing */
+.item-pricing-a.featured::before {
+  background: white; }
+
+/* 5. page cover */
+.page-cover {
+  background: #f4f5f6; }

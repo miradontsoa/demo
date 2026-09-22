@@ -1,0 +1,108 @@
+/*-------------------
+Sample CSS overwriting main.css rules
+
+[Table of contents]
+    1 Typography
+    2 Content layout
+    3 Page cover scroll animation
+[Colors]
+    Black : #0d0d0d;
+[Typography]
+    font-family :
+    Geometric : "Glacial Indifference", "Montserrat"
+*/
+/* 1 Typography */
+.font-title {
+  font-family: "Jost*", "Montserrat", "Open Sans", sans-serif; }
+
+.section-page .section-header p,
+.section-page .section-content p {
+  font-family: "Source Sans Pro", "Proxima Nova", "Noto Sans", "Segoe UI", "Opensans", "Roboto", "Helvetica", -apple-system, system-ui, BlinkMacSystemFont, sans-serif;
+  max-width: 40rem; }
+
+.slide-a .s-header .title {
+  font-family: "Jost*", "Montserrat", "Open Sans", sans-serif; }
+
+.item-service-a .item-header .icon,
+.item-service-a .item-header .title,
+.item-grid-a .item-header .title {
+  font-family: "Jost*", "Montserrat", "Open Sans", sans-serif; }
+
+/* 2 Content layout */
+/* Home section */
+.header-home .home-two-desc .h-title.title-border {
+  padding-bottom: 0.025em;
+  font-weight: bold; }
+
+/* Title style */
+@media screen and (min-width: 992px) {
+  .section-header .h-content {
+    padding-left: 0rem; }
+    .section-header .h-content:before {
+      display: none; }
+    .section-header .h-content h2 {
+      font-size: 5rem; } }
+
+/* Item list */
+.item-feature-a .item-title, .item-feature-a h3 {
+  font-family: "Jost*", "Montserrat", "Open Sans", sans-serif;
+  font-weight: 500; }
+
+.item-feature-b .item-title, .item-feature-b h3 {
+  font-family: "Jost*", "Montserrat", "Open Sans", sans-serif;
+  font-weight: 500; }
+
+/* content width */
+.width-medium {
+  max-width: 55rem;
+  width: 100%; }
+
+.text-wrapper {
+  position: relative;
+  padding-left: 3rem;
+  border-left: 1px solid rgba(255, 255, 255, 0.2); }
+
+@media screen and (min-width: 992px) {
+  .section-header .mt-btn {
+    margin-top: 1rem; } }
+
+/* 3 Page cover scroll animation / .page-cover */
+/* 4 scrollbar fp nav */
+/* fp nav */
+#fp-nav.right {
+  bottom: 0;
+  top: 0;
+  width: 0px;
+  right: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+#fp-nav ul {
+  margin-left: 64px;
+  margin-top: 24px; }
+
+#fp-nav ul li {
+  height: 8px;
+  width: 8px;
+  margin-top: 8px;
+  margin-bottom: 8px; }
+  #fp-nav ul li a span {
+    background: rgba(255, 255, 255, 0.1);
+    opacity: 1; }
+
+#fp-nav ul li a span,
+#fp-nav ul li a:hover span,
+#fp-nav ul li a.active span,
+#fp-nav ul li:hover a.active span {
+  height: 8px;
+  width: 8px;
+  border-radius: 8px; }
+
+#fp-nav ul li a span, .fp-slidesNav ul li a span {
+  left: 0;
+  top: 0; }
+
+/* 5. Footer */
+.section-footer-a .footer-right {
+  right: 8px; }

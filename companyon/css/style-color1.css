@@ -1,0 +1,224 @@
+/*-----------------------------------------------------------------
+[Legal Notice]
+
+Copyright (c) Miradontsoa
+Website Template by miradontsoa
+http://highhay.com
+http://miradontsoa.com
+
+IMPORTANT : This is an overwritting CSS rules of the default layout of the template (main.css).
+
+-------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+[Table of contents]
+/** CSS Reference
+    0. Initializer
+    1. Sidebar page-header / .page-header-alpha
+        1.1 Main menu / .navbar-mainmenu
+    2. content
+        2.1 Media (.media-panel)
+        2.2 List (.service-list)
+        2.3 Slider (.gallery-slider)
+        2.4 article (.article-page)
+    3. input, btn, components (btn, label, ...)
+        3.1 Button (.btn, .btn-normal, .btn-arrow)
+        3.2 label (.label-img, .label-primary)
+        3.3 form (.form-control-line)
+    4 Fullpage dot nav / #fp-nav
+**/
+/*------------------------------------------------------------------
+[colors]
+    red : rgb(190, 40, 40)
+    red accent : #811b1b
+    dark black : #1d1d1d
+    black : #3d3d3d
+    sidebar: #F0F0F0;
+**/
+.text-black {
+  color: #1d1d1d !important; }
+
+.text-primary {
+  color: #ff9800 !important; }
+
+.text-secondary {
+  color: #71839e !important; }
+
+.text-white {
+  color: #ffffff !important; }
+
+.text-black {
+  color: #1d1d1d !important; }
+
+/* 0. Initializer*/
+/* 0.1 HTML tag initializer*/
+a {
+  color: #be2828; }
+
+/* 0.2 Bootstrap Helper */
+.text-primary {
+  color: #be2828 !important; }
+
+/* 0.3 Template helper */
+.body-page {
+  color: #1d1d1d;
+  background: #ffffff; }
+
+.body-item {
+  color: #1d1d1d;
+  background: #ffffff; }
+
+.bg-primary {
+  background-color: #be2828 !important; }
+
+.display-title {
+  color: #be2828; }
+
+/* 1. Sidebar page-header / .page-header-alpha */
+/* 1.1 navbar brand / .navbar-brand */
+.page-header-alpha .navbar-brand {
+  align-items: flex-start;
+  text-align: left; }
+
+.page-header-alpha .navbar-brand a {
+  color: #1d1d1d; }
+
+.page-header-alpha .navbar-brand .logo-text .line.sub,
+.page-header-alpha .navbar-brand .text .line.sub {
+  color: #8b8b8b; }
+
+/* 1.2 Main menu /  .navbar-wrapper, .navbar-mainmenu */
+.page-header-alpha .navbar-wrapper {
+  background: #F0F0F0; }
+  .page-header-alpha .navbar-wrapper:before {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    left: auto; }
+
+.page-header-alpha .navbar-mainmenu:before {
+  border-color: #be2828;
+  left: 0;
+  right: 0;
+  border-bottom: none; }
+
+.page-header-alpha .navbar-mainmenu .nav-item {
+  text-align: left; }
+  .page-header-alpha .navbar-mainmenu .nav-item.active a {
+    color: #be2828; }
+
+.page-header-alpha .navbar-mainmenu a {
+  color: #505050; }
+  .page-header-alpha .navbar-mainmenu a:hover {
+    color: #be2828; }
+
+/* 1.3 menu icon / .menu-icon */
+.menu-icon {
+  background: #be2828; }
+
+/* 2. content */
+/* 2.1 Media (.media-panel, .media-full)*/
+.media-panel .logo-wrapper {
+  color: #ffffff; }
+
+.media-panel .media-title h2 {
+  color: #ffffff; }
+
+.media-panel:hover .media-title h2 {
+  color: #be2828; }
+
+.media-panel:hover .media-img .icon {
+  color: #be2828; }
+
+.media-panel .media-title p {
+  color: #ffffff; }
+  @media (min-width: 960px) {
+    .media-panel .media-title p {
+      color: #1d1d1d; } }
+
+.media-panel.bordered:after {
+  border-color: #be2828; }
+
+.media-panel .media-body .btn:hover {
+  color: #be2828; }
+  .media-panel .media-body .btn:hover .text {
+    opacity: 1; }
+
+.media-full {
+  color: #ffffff; }
+
+.media-full .border-left:after,
+.media-full .border-right:after {
+  background: #be2828; }
+
+/* 2.2 List (.service-list) */
+.service-list .item .media-body h4:before {
+  border-color: #be2828; }
+
+/* 2.3 Slider (.gallery-slider) */
+.gallery-slider .slide-wrapper .illustr:after {
+  background: #be2828; }
+
+.gallery-slider .slide-wrapper .legend h3 {
+  color: #ffffff; }
+
+/* 2.4 article / .article-page */
+.article-page .article-content h2 {
+  color: #be2828; }
+
+/* 3. input, btn, components (btn, label, ...*/
+/* 3.1 Button (.btn, .btn-normal, .btn-arrow) */
+.btn-normal {
+  background-color: #be2828;
+  color: #ffffff; }
+  .btn-normal:hover, .btn-normal:focus {
+    background-color: #811b1b;
+    border-color: transparent; }
+  .btn-normal.btn-white {
+    background: #ffffff;
+    color: #be2828; }
+    .btn-normal.btn-white:hover, .btn-normal.btn-white:focus {
+      background: rgba(255, 255, 255, 0.7);
+      color: #be2828;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.17), 0 0 2px rgba(0, 0, 0, 0.17); }
+
+.btn-arrow:hover, .btn-arrow:focus {
+  border-color: #811b1b; }
+
+.section-footer .btn-arrow {
+  color: #8b8b8b; }
+
+/* 3.2 label (.label-img, .label-primary) */
+.label-img,
+.label-primary {
+  background-color: #be2828; }
+
+/* 3.3 form (.form-control-line) */
+.form-control-line,
+.form-control-line.form-control-primary {
+  border-color: #be2828; }
+  .form-control-line:focus,
+  .form-control-line.form-control-primary:focus {
+    border-color: #811b1b; }
+
+/* 4 Fullpage dot nav / #fp-nav */
+#fp-nav ul li a span {
+  background-color: #be2828; }
+
+#fp-nav li .active span, .fp-slidesNav .active span {
+  background-color: #811b1b; }
+
+/* 5. background color behavior on scroling / .page-cover */
+.page-cover:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  opacity: 1;
+  transition: 0.3s; }
+
+.page-cover.scrolled:after {
+  background: white; }

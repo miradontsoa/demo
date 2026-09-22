@@ -1,0 +1,88 @@
+:root {
+  --light-color: #FFFFFF;
+  --light-color: #f5fcff;
+  --light-color-rgb: 255, 255, 255;
+  --dark-color: #0C0C0D;
+  --dark-color-rgb: 12, 12, 13;
+  --bg-color: var(--light-color);
+  --fg-color: var(--dark-color); }
+
+body {
+  background-color: var(--bg-color);
+  color: var(--fg-color); }
+
+.text-light {
+  color: var(--light-color) !important; }
+
+.text-dark {
+  color: var(--dark-color) !important; }
+
+.text-muted {
+  color: currentColor !important;
+  opacity: 0.7; }
+
+.text-muted-2 {
+  color: currentColor !important;
+  opacity: 0.5; }
+
+.border-fg {
+  border-color: var(--fg-color) !important; }
+
+.border-bg {
+  border-color: var(--bg-color) !important; }
+
+.navbar-top .navbar-brand {
+  color: var(--fg-color); }
+
+.navbar-top .navbar-nav .nav-link {
+  color: rgba(var(--dark-color-rgb), 0.7); }
+  .navbar-top .navbar-nav .nav-link:focus, .navbar-top .navbar-nav .nav-link:hover, .navbar-top .navbar-nav .nav-link.active {
+    color: var(--fg-color); }
+
+.navbar-top .dropdown-menu {
+  color: var(--fg-color);
+  background-color: rgba(var(--light-color-rgb), 0.2); }
+
+.navbar-top .dropdown-item {
+  color: var(--fg-color); }
+  .navbar-top .dropdown-item:hover, .navbar-top .dropdown-item:focus {
+    background-color: rgba(var(--dark-color-rgb), 0.1); }
+
+.navbar-top .navbar-toggler {
+  color: var(--fg-color); }
+
+.navbar-top .dropdown-divider {
+  border: none;
+  opacity: 0.1;
+  border-top: 1px solid var(--fg-color); }
+
+.navbar-top .navbar-menu-wrapper {
+  background: var(--bg-color); }
+  @media screen and (min-width: 992px) {
+    .navbar-top .navbar-menu-wrapper {
+      background-color: transparent; } }
+
+@media screen and (min-width: 992px) {
+  body.scrolled .navbar-top {
+    background-color: rgba(var(--light-color-rgb), 0.2); } }
+
+.card-pricing .card-body p, .card-pricing .card-body ul {
+  color: var(--fg-color); }
+
+.card-faq {
+  color: var(--fg-color); }
+
+.figure-a {
+  color: var(--bg-color); }
+
+.btn-light.btn-primary {
+  background: var(--bg-color);
+  filter: brightness(0.95); }
+
+.footer-page .nav-footer .nav-item a,
+.footer-page .nav-footer .nav-item .nav-link,
+.footer-page .nav-icons a {
+  color: var(--fg-color); }
+
+.footer-page .footer-secondary {
+  border-color: rgba(var(--dark-color-rgb), 0.2) !important; }

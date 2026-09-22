@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": ";AAKA,gCAAgC;EAC/B,WAAW,ECWJ,qCAAY;EDVnB,cAAc,EAAE,CAAC;;AAElB;qGACqG;EACpG,WAAW,ECMJ,qCAAY;EDLnB,WAAW,EAAE,IAAI;EACjB,cAAc,EAAE,CAAC",
+"sources": ["../sass/style-color3.scss","../sass/_variables.scss"],
+"names": [],
+"file": "style-color3.css"
+}

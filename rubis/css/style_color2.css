@@ -1,0 +1,44 @@
+/* Alternative colors */
+/* menu */
+.menu-icon .bars .bar1,
+.menu-icon .bars .bar2,
+.menu-icon .bars .bar3 {
+  background: #13e3c3; }
+
+/* main page */
+.section .content .c-wrapper .slide-nav-container .items-button a,
+.section .content .c-wrapper .items-nav-container .items-button a,
+.section .content .c-left .c-wrapper .h-icon,
+.section-contact .content .c-form .form .fields label,
+.site-footer .note .marked {
+  color: #13e3c3; }
+
+.section .content .items-slide .swiper-wrapper .swiper-slide .desc:before,
+.section .content .items-slide .swiper-wrapper .swiper-slide .desc:after,
+.section .content .c-wrapper .slide-nav-container .items-button:after, .section .content .c-wrapper .items-nav-container .items-button:after,
+.section-contact .contact-footer .social-cont .socials li:after {
+  background: #13e3c3; }
+
+.section-contact .content .c-form .form .fields input {
+  border-bottom-color: #13e3c3; }
+
+a,
+a:hover,
+a:focus {
+  color: #13e3c3; }
+
+/* Buttons */
+.magic-btn {
+  color: #13e3c3; }
+
+/* Nav dots */
+#fp-nav ul li a span.title {
+  color: #13e3c3; }
+
+body.left-light #fp-nav ul li a.active span,
+body.left-light #fp-nav ul li a.active:hover span,
+#fp-nav ul li a.active span,
+#fp-nav ul li a.active:hover span {
+  background: #13e3c3; }
+
+/*# sourceMappingURL=style_color2.css.map */

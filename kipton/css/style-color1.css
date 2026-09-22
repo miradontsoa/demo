@@ -1,0 +1,151 @@
+/* Alternative colors */
+/* Background mask */
+/* fonts */
+/* menu */
+.top-menu-links {
+  background: #e91e63; }
+  @media (min-width: 601px) {
+    .top-menu-links {
+      background: none; } }
+
+.top-menu-links .links li.cta a:hover {
+  color: #e91e63; }
+
+.main-menu ul li.active .icon,
+.main-menu ul li a:hover {
+  color: #e91e63; }
+
+.header-top .logo-wrapper .logo {
+  color: #2a2a2a;
+  background: rgba(255, 255, 255, 0.8); }
+  @media (min-width: 601px) {
+    .header-top .logo-wrapper .logo {
+      background: none; } }
+
+.menu-icon {
+  background: rgba(42, 42, 42, 0.8); }
+
+/* main page */
+.section .content .c-columns {
+  /* feature list */ }
+  .section .content .c-columns .c-logo {
+    background: #fff;
+    color: #2a2a2a; }
+    .section .content .c-columns .c-logo:after {
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: -32px;
+      background: #fff;
+      z-index: -1; }
+    .section .content .c-columns .c-logo p {
+      color: #5d5d5d; }
+    .section .content .c-columns .c-logo .icon {
+      color: #2a2a2a; }
+    .section .content .c-columns .c-logo .arrow-circ-btn {
+      color: #2a2a2a;
+      border-color: #2a2a2a; }
+      .section .content .c-columns .c-logo .arrow-circ-btn:before {
+        background: #2a2a2a; }
+      .section .content .c-columns .c-logo .arrow-circ-btn:focus, .section .content .c-columns .c-logo .arrow-circ-btn:hover {
+        color: #fff; }
+  .section .content .c-columns .wrapper .arrow-circ-btn:focus,
+  .section .content .c-columns .wrapper .arrow-circ-btn:hover {
+    color: #e91e63; }
+  .section .content .c-columns .item-desc a {
+    color: #e91e63; }
+  .section .content .c-columns .circ-btn:hover:before {
+    border-color: #e91e63;
+    border-top-color: transparent; }
+  .section .content .c-columns .c-features-list li h3 {
+    color: #e91e63; }
+  .section .content .c-columns .c-features-list li:before {
+    background: #e91e63; }
+  .section .content .c-columns .swiper-pagination-bullet:hover,
+  .section .content .c-columns .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background: #e91e63; }
+  .section .content .c-columns .swiper-pagination-bullet:hover:before,
+  .section .content .c-columns .swiper-pagination-bullet.swiper-pagination-bullet-active:before {
+    border-color: #e91e63; }
+  .section .content .c-columns .wrapper .items-nav-container .items-button a:after {
+    background: #e91e63; }
+
+@media (min-width: 801px) {
+  .section .content .c-columns .c-logo .top {
+    border-top: none; } }
+/* Contact form */
+.section-contact .content .c-form .form .fields input {
+  color: #2a2a2a;
+  border-bottom-color: #5d5d5d;
+  background: rgba(93, 93, 93, 0.1); }
+.section-contact .content .c-form .form .fields label {
+  color: #5d5d5d; }
+.section-contact .content .c-form .form .fields textarea {
+  color: #2a2a2a;
+  background: rgba(93, 93, 93, 0.2); }
+
+/* footer */
+.scrolldown a {
+  color: #2a2a2a; }
+  .scrolldown a:hover {
+    color: #e91e63; }
+
+@media (min-width: 601px) {
+  .site-footer {
+    background: rgba(255, 255, 255, 0.1); } }
+.site-footer .note .marked,
+.site-footer .note a {
+  color: #e91e63;
+  text-decoration: underline; }
+
+.scrolldown a:after {
+  background: #e91e63; }
+
+.site-footer .subscription .form .input {
+  border-color: #e91e63; }
+
+@media (min-width: 601px) {
+  .site-footer .note:before,
+  .site-footer .contact .socials li:after {
+    background: #fff; }
+
+  .site-footer .subscription,
+  .site-footer .note,
+  .site-footer .subscription .form label,
+  .site-footer .subscription .form .input,
+  .site-footer .subscription .title {
+    color: #fff; } }
+/* Buttons */
+.arrow-circ-btn:focus,
+.arrow-circ-btn:hover {
+  color: #e91e63; }
+
+@media (min-width: 601px) {
+  .circ-btn {
+    color: #fff; } }
+.magic-btn {
+  color: #e91e63; }
+
+.rect-btn:focus,
+.rect-btn:hover {
+  border-color: #e91e63; }
+
+.circ-btn:before {
+  border-color: #fff;
+  border-top-color: transparent; }
+
+.circ-btn:hover {
+  color: #fff; }
+
+/* Nav dots and Slider indication */
+#fp-nav ul li a span {
+  background: #ccc; }
+
+#fp-nav ul li a.active span,
+#fp-nav ul li a.active:hover span {
+  border-color: #e91e63;
+  background: #e91e63; }
+
+/* Fonts */
+
+/*# sourceMappingURL=style-color1.css.map */

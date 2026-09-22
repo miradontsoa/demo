@@ -1,0 +1,30 @@
+/* Alternative colors */
+/* home page */
+.section-home .content .c-text {
+  width: 100%;
+  max-width: 720px; }
+
+.section-home .content .c-text .h-img {
+  display: none; }
+
+.section-home .content .c-text::before {
+  display: none; }
+
+.section-home .content .c-text .header h2 {
+  color: #ffffff;
+  font-size: 32px; }
+  @media (min-width: 601px) {
+    .section-home .content .c-text .header h2 {
+      font-size: 60px; } }
+
+.section-home.active.anim .c-text .title-desc .t-wrapper .separator {
+  border-top: 1px solid #ffffff;
+  width: 100%; }
+
+.section-home .content .c-text.bg-white .desc p {
+  color: #ffffff; }
+
+.section-home .content .c-text.bg-white .home-btns .btn .txt {
+  color: #ffffff; }
+
+/*# sourceMappingURL=style-color2.css.map */

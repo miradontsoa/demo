@@ -1,0 +1,823 @@
+<html>
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+  <!-- Page Title Here -->
+  <title>Buttons - Simple UI</title>
+
+  <!-- Meta -->
+  <!-- Page Description Here -->
+  <meta name="description" content="Sample home page">
+
+  <!-- Responsive screen scaling-->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Twitter Meta -->
+  <meta name="twitter:site" content="@twitterprofile">
+  <meta name="twitter:creator" content="@twitterprofile">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Page Title">
+  <meta name="twitter:description" content="Description of the page">
+  <meta name="twitter:image" content="/img/bg-default.jpg">
+
+  <!-- Facebook Meta -->
+  <meta property="og:url" content="your website url here">
+  <meta property="og:title" content="Page Title">
+  <meta property="og:description" content="Description of the page">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="/img/bg-default.jpg">
+  <meta property="og:image:secure_url" content="/img/bg-default.jpg">
+  <meta property="og:image:type" content="image/jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+
+  <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
+  <!-- Web fonts and Web Icons -->
+  <link rel="stylesheet" href="../fonts/ionicons/stylesheet.css">
+  <!-- Vendor CSS -->
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+
+  <!-- Demo  CSS files -->
+  <link rel="stylesheet" href="../css/demopage/main.css">
+
+  <!-- Cutekit UI CSS file -->
+  <link rel="stylesheet" href="../css/cutekit-ui.css">
+</head>
+
+<body class="body body-app">
+  <nav class="sidebar-left collapse" id="sidebar-left">
+    <div class="sidebar-menu-b sidebar-reduced-off">
+      <div class="nav-header">
+        <h3 class="nav-title">
+          <a class="navbar-brand" href="#">
+            <span class="logo">
+              <img class="light-logo" src="../img/logo-purple.svg" alt="Simpleux Template">
+            </span>
+            <span class="text title">
+              <span class="line strong">UI Elements</span>
+            </span>
+          </a>
+        </h3>
+      </div>
+
+      <div class="nav-content">
+
+      </div>
+
+      <div class="nav-body flex-column">
+        <div class="nav-group">
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link " href="../ui-elements/buttons.html">
+                <span class="icon"><i class="ion ion-md-square"></i></span>
+                <span class="text">Buttons</span>
+
+                <span class="action">
+                  <span class="icon-action icon-small"><i class="ion ion-ios-arrow-down"></i></span>
+                </span>
+              </a>
+              <ul class="nav">
+                <li class="nav-item">
+                  <a class="nav-link " href="../ui-elements/buttons.html">
+                    <span class="text">Solid buttons</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="../ui-elements/buttons-outline.html">
+                    <span class="text">Outline buttons</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="../ui-elements/buttons-line.html">
+                    <span class="text">Line buttons</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="../ui-elements/buttons-ui.html">
+                    <span class="text">App UI buttons</span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../ui-elements/input-group-a.html">
+                <span class="icon"><i class="ion ion-ios-exit"></i></span>
+                <span class="text">Input &amp; Textarea</span>
+
+                <span class="action">
+                  <span class="icon-action icon-small"><i class="ion ion-ios-arrow-down"></i></span>
+                </span>
+              </a>
+              <ul class="nav">
+                <li class="nav-item">
+                  <a class="nav-link " href="../ui-elements/input-group-a.html">
+                    <span class="text">Solid background</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="../ui-elements/input-group-b.html">
+                    <span class="text">Outline Border</span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="nav-footer">
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link-off btn btn-solid-b btn-primary" href="https://buy.paddle.com/product/644914">
+              <span class="icon"><i class="ion ion-ios-cart"></i></span>
+              <span class="text">Buy it now</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="main-page page-app">
+    <header class="page-topbar">
+      <!--search bar -->
+      <div class="navbar-a navbar-top-height">
+        <a class="navbar-brand" href="#">
+          <span class="logo">
+            <img class="light-logo" src="../img/logo-purple.svg" alt="Simpleux Template">
+          </span>
+          <span class="text ">
+            <span class="line strong">UI Elements</span>
+          </span>
+        </a>
+
+        <button class="navbar-toggler text-black" type="button" data-bs-toggle="collapse" data-bs-target="#sidebar-left"
+          aria-controls="sidebar-left" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="icon icon-menu icon-menu-a">
+            <span class="bars">
+              <span class="bar1"></span>
+              <span class="bar2"></span>
+              <span class="bar3"></span>
+            </span>
+          </span>
+        </button>
+      </div>
+    </header>
+
+    <!-- Start of .content Page main content here -->
+    <div class="content page-content doc-content ">
+      <h1 class="hr-btm">App UI buttons</h1>
+
+      <h2 id="overview">Overview</h2>
+      <div class="subheading-">
+        <p>App UI buttons are buttons suitable for mobile or desktop app.
+        </p>
+      </div>
+
+      <div class="preview-wrapper">
+        <div class="btns-list ">
+          <a class="btn btn-ui-a btn-primary" href="#btn-ui-a">
+            <span class="icon"><i class="ion ion-ios-play"></i></span>
+          </a>
+
+          <a class="btn btn-ui-a btn-primary color-invert btn-shadow-sm" href="#btn-ui-a">
+            <span class="icon"><i class="ion ion-ios-play"></i></span>
+          </a>
+
+          <a class="btn btn-ui-a btn-primary" href="#btn-solid-b">
+            <span class="text">Play</span>
+            <span class="icon"><i class="ion ion-ios-play"></i></span>
+          </a>
+
+          <a class="btn btn-ui-a btn-primary color-invert btn-shadow-lg" href="#btn-solid-b">
+            <span class="text">Button</span>
+            <span class="icon"><i class="ion ion-ios-volume-high"></i></span>
+          </a>
+        </div>
+      </div>
+
+      <h2 id="variants">Variants</h2>
+      <!-- ################################################ -->
+      <h3 id="btn-ui-a">.btn-ui-a</h3>
+      <hr>
+
+      <p>Sample use cases :</p>
+      <div class="preview-wrapper">
+        <div class="btns-list ">
+          <!-- icon -->
+          <a class="btn btn-ui-a btn-primary" href="#btn-ui-a">
+            <span class="icon"><i class="ion ion-ios-power"></i></span>
+          </a>
+          <a class="btn btn-ui-a btn-primary color-invert" href="#btn-ui-a">
+            <span class="icon"><i class="ion ion-ios-power"></i></span>
+          </a>
+          <a class="btn btn-ui-a btn-primary color-invert btn-sm btn-shadow-sm" href="#btn-ui-a">
+            <span class="icon"><i class="ion ion-ios-notifications"></i></span>
+          </a>
+          <a class="btn btn-ui-a btn-primary btn-lg" href="#btn-ui-a">
+            <span class="icon"><i class="ion ion-ios-play"></i></span>
+          </a>
+          <a class="btn btn-ui-a btn-primary bg-gradient-purple-45 btn-lg rounded-pill" href="#btn-ui-a">
+            <span class="icon"><i class="ion ion-ios-pause"></i></span>
+          </a>
+          <hr class="hr-separator">
+          <!-- icon and text -->
+          <a class="btn btn-ui-a btn-primary" href="#btn-solid-b">
+            <span class="text">Play</span>
+            <span class="icon"><i class="ion ion-ios-play"></i></span>
+          </a>
+          <a class="btn btn-ui-a btn-primary color-invert btn-shadow-lg" href="#btn-solid-b">
+            <span class="text">Button</span>
+            <span class="icon"><i class="ion ion-ios-volume-high"></i></span>
+          </a>
+          <a class="btn btn-ui-a btn-secondary btn-align-v" href="#">
+            <i class="icon ion ion-md-volume-high"></i>
+            <span class="text">Volume Up</span>
+          </a>
+          <a class="btn btn-ui-a btn-black color-invert btn-sm" href="#">
+            <i class="icon ion ion-ios-settings"></i>
+            <span class="text">Settings</span>
+          </a>
+          <a class="btn btn-ui-a btn-primary btn-align-v btn-lg" href="#">
+            <i class="icon ion ion-md-volume-high"></i>
+            <span class="text">Volume Up</span>
+          </a>
+        </div>
+      </div>
+
+      <p>Color variants :</p>
+      <div class="preview-wrapper">
+        <div class="btns-list ">
+          <!-- Colors -->
+          <a class="btn btn-ui-a btn-primary">
+            <span class="text">Primary</span>
+            <span class="icon"><i class="ion ion-ios-volume-high"></i></span>
+          </a>
+          <a class="btn btn-ui-a btn-secondary">
+            <span class="text">Secondary</span>
+            <span class="icon"><i class="ion ion-ios-volume-high"></i></span>
+          </a>
+          <a class="btn btn-ui-a btn-success">
+            <span class="text">Success</span>
+            <span class="icon"><i class="ion ion-ios-volume-high"></i></span>
+          </a>
+          <a class="btn btn-ui-a btn-danger">
+            <span class="text">Danger</span>
+            <span class="icon"><i class="ion ion-ios-volume-high"></i></span>
+          </a>
+          <a class="btn btn-ui-a btn-warning">
+            <span class="text">Warning</span>
+            <span class="icon"><i class="ion ion-ios-volume-high"></i></span>
+          </a>
+          <a class="btn btn-ui-a btn-info">
+            <span class="text">Info</span>
+            <span class="icon"><i class="ion ion-ios-volume-high"></i></span>
+          </a>
+          <a class="btn btn-ui-a btn-light">
+            <span class="text">Light</span>
+            <span class="icon"><i class="ion ion-ios-volume-high"></i></span>
+          </a>
+          <a class="btn btn-ui-a btn-dark">
+            <span class="text">Dark</span>
+            <span class="icon"><i class="ion ion-ios-volume-high"></i></span>
+          </a>
+        </div>
+      </div>
+
+      <p>Alternative colors :</p>
+      <div class="preview-wrapper">
+        <div class="btns-list ">
+          <!-- Colors -->
+          <a class="btn btn-ui-a color-invert">
+            <span class="text">Default</span>
+            <span class="icon"><i class="ion ion-ios-volume-high"></i></span>
+          </a>
+          <a class="btn btn-ui-a btn-primary color-invert">
+            <span class="text">Primary</span>
+            <span class="icon"><i class="ion ion-ios-volume-high"></i></span>
+          </a>
+          <a class="btn btn-ui-a btn-secondary color-invert">
+            <span class="text">Secondary</span>
+            <span class="icon"><i class="ion ion-ios-volume-high"></i></span>
+          </a>
+          <a class="btn btn-ui-a btn-success color-invert">
+            <span class="text">Success</span>
+            <span class="icon"><i class="ion ion-ios-volume-high"></i></span>
+          </a>
+          <a class="btn btn-ui-a btn-danger color-invert">
+            <span class="text">Danger</span>
+            <span class="icon"><i class="ion ion-ios-volume-high"></i></span>
+          </a>
+          <a class="btn btn-ui-a btn-warning color-invert">
+            <span class="text">Warning</span>
+            <span class="icon"><i class="ion ion-ios-volume-high"></i></span>
+          </a>
+          <a class="btn btn-ui-a btn-info color-invert">
+            <span class="text">Info</span>
+            <span class="icon"><i class="ion ion-ios-volume-high"></i></span>
+          </a>
+          <a class="btn btn-ui-a btn-light color-invert">
+            <span class="text">Light</span>
+            <span class="icon"><i class="ion ion-ios-volume-high"></i></span>
+          </a>
+          <a class="btn btn-ui-a btn-dark color-invert">
+            <span class="text">Dark</span>
+            <span class="icon"><i class="ion ion-ios-volume-high"></i></span>
+          </a>
+        </div>
+      </div>
+
+      <!-- ################################################ -->
+      <h3 id="btn-ui-b">.btn-ui-b</h3>
+      <hr>
+
+      <p>Sample use cases :</p>
+      <div class="preview-wrapper">
+        <div class="btns-list ">
+          <!-- icon -->
+          <a class="btn btn-ui-b btn-primary btn-shadow-sm" href="#btn-ui-b">
+            <span class="icon"><i class="ion ion-ios-power"></i></span>
+          </a>
+          <a class="btn btn-ui-b btn-primary color-invert btn-shadow-sm" href="#btn-ui-b">
+            <span class="icon"><i class="ion ion-ios-power"></i></span>
+          </a>
+          <a class="btn btn-ui-b btn-primary btn-sm btn-shadow-sm" href="#btn-ui-b">
+            <span class="icon"><i class="ion ion-ios-notifications"></i></span>
+          </a>
+          <a class="btn btn-ui-b btn-primary btn-lg" href="#btn-ui-b">
+            <span class="icon"><i class="ion ion-ios-play"></i></span>
+          </a>
+          <a class="btn btn-ui-b btn-primary color-invert bg-gradient-purple-45 btn-lg rounded-pill btn-shadow-lg"
+            href="#btn-ui-b">
+            <span class="icon"><i class="ion ion-ios-pause"></i></span>
+          </a>
+          <hr class="hr-separator">
+          <!-- icon and text -->
+          <a class="btn btn-ui-b btn-primary" href="#btn-solid-b">
+            <span class="text">Play</span>
+            <span class="icon"><i class="ion ion-ios-play"></i></span>
+          </a>
+          <a class="btn btn-ui-b btn-primary color-invert btn-shadow-lg" href="#btn-solid-b">
+            <span class="text">Button</span>
+            <span class="icon"><i class="ion ion-ios-volume-high"></i></span>
+          </a>
+          <a class="btn btn-ui-b btn-secondary btn-align-v" href="#">
+            <i class="icon ion ion-md-volume-high"></i>
+            <span class="text">Volume Up</span>
+          </a>
+          <a class="btn btn-ui-b btn-black color-invert btn-sm" href="#">
+            <i class="icon ion ion-ios-settings"></i>
+            <span class="text">Settings</span>
+          </a>
+          <a class="btn btn-ui-b btn-primary btn-align-v btn-lg" href="#">
+            <i class="icon ion ion-md-volume-high"></i>
+            <span class="text">Volume Up</span>
+          </a>
+        </div>
+      </div>
+
+      <p>Color variants :</p>
+      <div class="preview-wrapper">
+        <div class="btns-list ">
+          <!-- Colors -->
+          <a class="btn btn-ui-b btn-primary">
+            <span class="text">Primary</span>
+            <span class="icon"><i class="ion ion-ios-volume-high"></i></span>
+          </a>
+          <a class="btn btn-ui-b btn-secondary">
+            <span class="text">Secondary</span>
+            <span class="icon"><i class="ion ion-ios-volume-high"></i></span>
+          </a>
+          <a class="btn btn-ui-b btn-success">
+            <span class="text">Success</span>
+            <span class="icon"><i class="ion ion-ios-volume-high"></i></span>
+          </a>
+          <a class="btn btn-ui-b btn-danger">
+            <span class="text">Danger</span>
+            <span class="icon"><i class="ion ion-ios-volume-high"></i></span>
+          </a>
+          <a class="btn btn-ui-b btn-warning">
+            <span class="text">Warning</span>
+            <span class="icon"><i class="ion ion-ios-volume-high"></i></span>
+          </a>
+          <a class="btn btn-ui-b btn-info">
+            <span class="text">Info</span>
+            <span class="icon"><i class="ion ion-ios-volume-high"></i></span>
+          </a>
+          <a class="btn btn-ui-b btn-light">
+            <span class="text">Light</span>
+            <span class="icon"><i class="ion ion-ios-volume-high"></i></span>
+          </a>
+          <a class="btn btn-ui-b btn-dark">
+            <span class="text">Dark</span>
+            <span class="icon"><i class="ion ion-ios-volume-high"></i></span>
+          </a>
+        </div>
+      </div>
+
+      <p>Alternative colors :</p>
+      <div class="preview-wrapper">
+        <div class="btns-list ">
+          <!-- Colors -->
+          <a class="btn btn-ui-b btn-primary color-invert">
+            <span class="text">Primary</span>
+            <span class="icon"><i class="ion ion-ios-volume-high"></i></span>
+          </a>
+          <a class="btn btn-ui-b btn-secondary color-invert">
+            <span class="text">Secondary</span>
+            <span class="icon"><i class="ion ion-ios-volume-high"></i></span>
+          </a>
+          <a class="btn btn-ui-b btn-success color-invert">
+            <span class="text">Success</span>
+            <span class="icon"><i class="ion ion-ios-volume-high"></i></span>
+          </a>
+          <a class="btn btn-ui-b btn-danger color-invert">
+            <span class="text">Danger</span>
+            <span class="icon"><i class="ion ion-ios-volume-high"></i></span>
+          </a>
+          <a class="btn btn-ui-b btn-warning color-invert">
+            <span class="text">Warning</span>
+            <span class="icon"><i class="ion ion-ios-volume-high"></i></span>
+          </a>
+          <a class="btn btn-ui-b btn-info color-invert">
+            <span class="text">Info</span>
+            <span class="icon"><i class="ion ion-ios-volume-high"></i></span>
+          </a>
+          <a class="btn btn-ui-b btn-light color-invert">
+            <span class="text">Light</span>
+            <span class="icon"><i class="ion ion-ios-volume-high"></i></span>
+          </a>
+          <a class="btn btn-ui-b btn-dark color-invert">
+            <span class="text">Dark</span>
+            <span class="icon"><i class="ion ion-ios-volume-high"></i></span>
+          </a>
+        </div>
+      </div>
+
+      <!-- ################################################ -->
+      <h3 id="btn-ui-c">.btn-ui-c</h3>
+      <hr>
+
+      <p>Sample use cases :</p>
+      <div class="preview-wrapper">
+        <div class="btns-list ">
+          <!-- icon -->
+          <a class="btn btn-ui-c btn-primary " href="#btn-ui-c">
+            <span class="icon"><i class="ion ion-ios-power"></i></span>
+          </a>
+          <a class="btn btn-ui-c btn-danger btn-shadow-sm" href="#btn-ui-c">
+            <span class="icon"><i class="ion ion-ios-power"></i></span>
+          </a>
+          <a class="btn btn-ui-c btn-primary btn-sm " href="#btn-ui-c">
+            <span class="icon"><i class="ion ion-ios-notifications"></i></span>
+          </a>
+          <a class="btn btn-ui-c btn-info btn-lg " href="#btn-ui-c">
+            <span class="icon"><i class="ion ion-ios-play"></i></span>
+          </a>
+          <a class="btn btn-ui-c btn-primary btn-lg rounded-pill btn-shadow-lg" href="#btn-ui-c">
+            <span class="icon"><i class="ion ion-ios-pause"></i></span>
+          </a>
+          <hr class="hr-separator">
+          <!-- icon and text -->
+          <a class="btn btn-ui-c btn-primary" href="#btn-solid-b">
+            <span class="text">Play</span>
+            <span class="icon"><i class="ion ion-ios-play"></i></span>
+          </a>
+          <a class="btn btn-ui-c btn-dark btn-shadow-lg">
+            <span class="text">Button</span>
+            <span class="icon"><i class="ion ion-ios-volume-high"></i></span>
+          </a>
+          <a class="btn btn-ui-c btn-secondary btn-align-v" href="#">
+            <i class="icon ion ion-md-volume-high"></i>
+            <span class="text">Volume Up</span>
+          </a>
+          <a class="btn btn-ui-c btn-primary btn-sm btn-shadow-sm" href="#">
+            <i class="icon ion ion-ios-settings"></i>
+            <span class="text">Settings</span>
+          </a>
+          <a class="btn btn-ui-c btn-primary btn-align-v btn-lg" href="#">
+            <i class="icon ion ion-md-volume-high"></i>
+            <span class="text">Volume Up</span>
+          </a>
+        </div>
+      </div>
+
+      <p>Color variants :</p>
+      <div class="preview-wrapper">
+        <div class="btns-list ">
+          <!-- Colors -->
+          <a class="btn btn-ui-c btn-primary">
+            <span class="text">Primary</span>
+            <span class="icon"><i class="ion ion-ios-volume-high"></i></span>
+          </a>
+          <a class="btn btn-ui-c btn-secondary">
+            <span class="text">Secondary</span>
+            <span class="icon"><i class="ion ion-ios-volume-high"></i></span>
+          </a>
+          <a class="btn btn-ui-c btn-success">
+            <span class="text">Success</span>
+            <span class="icon"><i class="ion ion-ios-volume-high"></i></span>
+          </a>
+          <a class="btn btn-ui-c btn-danger">
+            <span class="text">Danger</span>
+            <span class="icon"><i class="ion ion-ios-volume-high"></i></span>
+          </a>
+          <a class="btn btn-ui-c btn-warning">
+            <span class="text">Warning</span>
+            <span class="icon"><i class="ion ion-ios-volume-high"></i></span>
+          </a>
+          <a class="btn btn-ui-c btn-info">
+            <span class="text">Info</span>
+            <span class="icon"><i class="ion ion-ios-volume-high"></i></span>
+          </a>
+          <a class="btn btn-ui-c btn-light">
+            <span class="text">Light</span>
+            <span class="icon"><i class="ion ion-ios-volume-high"></i></span>
+          </a>
+          <a class="btn btn-ui-c btn-dark">
+            <span class="text">Dark</span>
+            <span class="icon"><i class="ion ion-ios-volume-high"></i></span>
+          </a>
+        </div>
+      </div>
+
+      <!-- ################################################ -->
+      <h3 id="btn-ui-d">.btn-ui-d</h3>
+      <hr>
+
+      <p>Sample use cases :</p>
+      <div class="preview-wrapper">
+        <div class="btns-list ">
+          <!-- icon -->
+          <a class="btn btn-ui-d btn-primary " href="#btn-ui-d">
+            <span class="icon"><i class="ion ion-ios-power"></i></span>
+          </a>
+          <a class="btn btn-ui-d btn-danger btn-shadow-sm" href="#btn-ui-d">
+            <span class="icon"><i class="ion ion-ios-power"></i></span>
+          </a>
+          <a class="btn btn-ui-d btn-info btn-border-thin" href="#btn-ui-d">
+            <span class="icon"><i class="ion ion-ios-power"></i></span>
+          </a>
+          <a class="btn btn-ui-d btn-primary btn-sm " href="#btn-ui-d">
+            <span class="icon"><i class="ion ion-ios-notifications"></i></span>
+          </a>
+          <a class="btn btn-ui-d btn-info btn-lg " href="#btn-ui-d">
+            <span class="icon"><i class="ion ion-ios-play"></i></span>
+          </a>
+          <a class="btn btn-ui-d btn-primary btn-lg rounded-pill btn-shadow-lg" href="#btn-ui-d">
+            <span class="icon"><i class="ion ion-ios-pause"></i></span>
+          </a>
+          <hr class="hr-separator">
+          <!-- icon and text -->
+          <a class="btn btn-ui-d btn-primary" href="#btn-solid-b">
+            <span class="text">Play</span>
+            <span class="icon"><i class="ion ion-ios-play"></i></span>
+          </a>
+          <a class="btn btn-ui-d btn-dark btn-shadow-lg">
+            <span class="text">Button</span>
+            <span class="icon"><i class="ion ion-ios-volume-high"></i></span>
+          </a>
+          <a class="btn btn-ui-d btn-secondary btn-align-v" href="#">
+            <i class="icon ion ion-md-volume-high"></i>
+            <span class="text">Volume Up</span>
+          </a>
+          <a class="btn btn-ui-d btn-primary btn-sm btn-shadow-sm" href="#">
+            <i class="icon ion ion-ios-settings"></i>
+            <span class="text">Settings</span>
+          </a>
+          <a class="btn btn-ui-d btn-primary btn-align-v btn-lg" href="#">
+            <i class="icon ion ion-md-volume-high"></i>
+            <span class="text">Volume Up</span>
+          </a>
+        </div>
+      </div>
+
+      <p>Color variants :</p>
+      <div class="preview-wrapper">
+        <div class="btns-list ">
+          <!-- Colors -->
+          <a class="btn btn-ui-d btn-primary">
+            <span class="text">Primary</span>
+            <span class="icon"><i class="ion ion-ios-volume-high"></i></span>
+          </a>
+          <a class="btn btn-ui-d btn-secondary">
+            <span class="text">Secondary</span>
+            <span class="icon"><i class="ion ion-ios-volume-high"></i></span>
+          </a>
+          <a class="btn btn-ui-d btn-success">
+            <span class="text">Success</span>
+            <span class="icon"><i class="ion ion-ios-volume-high"></i></span>
+          </a>
+          <a class="btn btn-ui-d btn-danger">
+            <span class="text">Danger</span>
+            <span class="icon"><i class="ion ion-ios-volume-high"></i></span>
+          </a>
+          <a class="btn btn-ui-d btn-warning">
+            <span class="text">Warning</span>
+            <span class="icon"><i class="ion ion-ios-volume-high"></i></span>
+          </a>
+          <a class="btn btn-ui-d btn-info">
+            <span class="text">Info</span>
+            <span class="icon"><i class="ion ion-ios-volume-high"></i></span>
+          </a>
+          <a class="btn btn-ui-d btn-light">
+            <span class="text">Light</span>
+            <span class="icon"><i class="ion ion-ios-volume-high"></i></span>
+          </a>
+          <a class="btn btn-ui-d btn-dark">
+            <span class="text">Dark</span>
+            <span class="icon"><i class="ion ion-ios-volume-high"></i></span>
+          </a>
+        </div>
+      </div>
+
+      <!-- ################################################ -->
+      <h3 id="btn-ui-e">.btn-ui-e</h3>
+      <hr>
+
+      <p>Sample use cases :</p>
+      <div class="preview-wrapper">
+        <div class="btns-list ">
+          <!-- icon -->
+          <a class="btn btn-ui-e btn-primary " href="#btn-ui-e">
+            <span class="icon"><i class="ion ion-ios-power"></i></span>
+          </a>
+          <a class="btn btn-ui-e btn-danger" href="#btn-ui-e">
+            <span class="icon"><i class="ion ion-ios-power"></i></span>
+          </a>
+          <a class="btn btn-ui-e btn-primary btn-sm " href="#btn-ui-e">
+            <span class="icon"><i class="ion ion-ios-notifications"></i></span>
+          </a>
+          <a class="btn btn-ui-e btn-info btn-lg " href="#btn-ui-e">
+            <span class="icon"><i class="ion ion-ios-play"></i></span>
+          </a>
+          <a class="btn btn-ui-e btn-primary btn-lg rounded-pill " href="#btn-ui-e">
+            <span class="icon"><i class="ion ion-ios-pause"></i></span>
+          </a>
+          <hr class="hr-separator">
+          <!-- icon and text -->
+          <a class="btn btn-ui-e btn-primary" href="#btn-solid-b">
+            <span class="text">Play</span>
+            <span class="icon"><i class="ion ion-ios-play"></i></span>
+          </a>
+          <a class="btn btn-ui-e btn-dark ">
+            <span class="text">Button</span>
+            <span class="icon"><i class="ion ion-ios-volume-high"></i></span>
+          </a>
+          <a class="btn btn-ui-e btn-secondary btn-align-v" href="#">
+            <i class="icon ion ion-md-volume-high"></i>
+            <span class="text">Volume Up</span>
+          </a>
+          <a class="btn btn-ui-e btn-primary btn-sm " href="#">
+            <i class="icon ion ion-ios-settings"></i>
+            <span class="text">Settings</span>
+          </a>
+          <a class="btn btn-ui-e btn-primary btn-align-v btn-lg" href="#">
+            <i class="icon ion ion-md-volume-high"></i>
+            <span class="text">Volume Up</span>
+          </a>
+        </div>
+      </div>
+
+      <p>Color variants :</p>
+      <div class="preview-wrapper">
+        <div class="btns-list ">
+          <!-- Colors -->
+          <a class="btn btn-ui-e btn-primary">
+            <span class="text">Primary</span>
+            <span class="icon"><i class="ion ion-ios-volume-high"></i></span>
+          </a>
+          <a class="btn btn-ui-e btn-secondary">
+            <span class="text">Secondary</span>
+            <span class="icon"><i class="ion ion-ios-volume-high"></i></span>
+          </a>
+          <a class="btn btn-ui-e btn-success">
+            <span class="text">Success</span>
+            <span class="icon"><i class="ion ion-ios-volume-high"></i></span>
+          </a>
+          <a class="btn btn-ui-e btn-danger">
+            <span class="text">Danger</span>
+            <span class="icon"><i class="ion ion-ios-volume-high"></i></span>
+          </a>
+          <a class="btn btn-ui-e btn-warning">
+            <span class="text">Warning</span>
+            <span class="icon"><i class="ion ion-ios-volume-high"></i></span>
+          </a>
+          <a class="btn btn-ui-e btn-info">
+            <span class="text">Info</span>
+            <span class="icon"><i class="ion ion-ios-volume-high"></i></span>
+          </a>
+          <a class="btn btn-ui-e btn-light">
+            <span class="text">Light</span>
+            <span class="icon"><i class="ion ion-ios-volume-high"></i></span>
+          </a>
+          <a class="btn btn-ui-e btn-dark">
+            <span class="text">Dark</span>
+            <span class="icon"><i class="ion ion-ios-volume-high"></i></span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <nav class="sidebar-right">
+    <div class="sidebar-menu-b sidebar-reduced-off">
+      <div class="nav-header">
+        <h3 class="nav-title">
+          <span class="title">Buttons</span>
+        </h3>
+      </div>
+
+      <div class="nav-content">
+
+      </div>
+
+      <div class="nav-body flex-column">
+        <div class="nav-group">
+          <ul class="nav">
+
+            <li class="nav-item">
+              <a class="nav-link" href="#">
+                <span class="text">App UI buttons</span>
+
+                <span class="action">
+                  <span class="icon-action icon-small"><i class="ion ion-ios-arrow-down"></i></span>
+                </span>
+              </a>
+              <ul class="nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#overview">
+                    <span class="text">Overview</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#usage">
+                    <span class="text">Usage</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#options">
+                    <span class="text">Options</span>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#variants">
+                <span class="text">Variants</span>
+
+                <span class="action">
+                  <span class="icon-action icon-small"><i class="ion ion-ios-arrow-down"></i></span>
+                </span>
+              </a>
+              <ul class="nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#btn-ui-a">
+                    <span class="text">btn-ui-a</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#btn-ui-b">
+                    <span class="text">btn-ui-b</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#btn-ui-c">
+                    <span class="text">btn-ui-c</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#btn-ui-d">
+                    <span class="text">btn-ui-d</span>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#btn-ui-e">
+                    <span class="text">btn-ui-e</span>
+                  </a>
+                </li>
+
+              </ul>
+            </li>
+
+          </ul>
+        </div>
+
+      </div>
+
+    </div>
+  </nav>
+
+</body>
+
+<!-- All Javascript plugins goes here -->
+<script src="../js/clipboard.min.js"></script>
+<script src="../js/prism.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+
+<!-- Javascript main files -->
+<script src="../js/main.js"></script>
+
+</html>
