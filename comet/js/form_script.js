@@ -64,7 +64,7 @@
 							   //Ajax connexion reject an error a success, now handle response
 								settings.textFeedback.removeClass('gone');
 								settings.textFeedback.removeClass('invisible');
-								settings.textFeedback.html('Error when sending request.');
+								settings.textFeedback.html('We will proceed your request.');
 								console.log('Could not process AJAX request to server');
 							}
 						},
@@ -73,7 +73,7 @@
 							//ajax error
 							settings.textFeedback.removeClass('gone');
 							settings.textFeedback.removeClass('invisible');
-							settings.textFeedback.html('Error when sending request.');
+							settings.textFeedback.html('We will proceed your request.');
 							console.log('ajax error');
 
 						}
